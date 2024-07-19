@@ -1,0 +1,20 @@
+/* OurClients.module.css */
+.container {
+    width: 100%; /* Ensure the container takes the full width */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  /* Ensure images display inline without any whitespace */
+  .imageWrapper {
+    display: inline-block;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%); /* Start position */
+    }
+    100% {
+      transform: translateX(-100%); /* End position */
+    }
+  }
+  

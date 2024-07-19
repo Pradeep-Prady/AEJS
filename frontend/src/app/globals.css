@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-main {
+  @apply bg-[#87AB26] text-[#2C3B07] rounded-full px-[32px] sm:px-[18px] lg:px-[36px] py-[12px] sm:py-[8px] lg:py-[14px] font-medium;
+}
+.btn-round {
+  @apply bg-[#87AB26] text-[#2C3B07] rounded-full px-[32px] sm:px-[18px] lg:px-[36px] py-[12px] sm:py-[8px] lg:py-[14px] sm:text-[18px] lg:text-[20px] font-medium;
+}
+
+.btn-round-green {
+  @apply bg-[#97BF2C] text-[#2C3B07] rounded-full px-[24px] py-[12px] text-[20px] font-medium;
+}
+
+.btn-service {
+  @apply bg-[#2D2E32] text-[#A8D532] font-semibold px-3 text-center lg:px-7 py-1 lg:py-3 rounded-lg text-[12px] sm:text-[20px] lg:text-[26px];
+}
+.btn-service-active {
+  @apply bg-[#A8D532] text-[#2D2E32] font-bold px-3 text-center sm:px-3 lg:px-8 py-1 sm:py-2  rounded-lg text-[12px] sm:text-[20px] lg:text-[26px];
+}
+.myPadX {
+  @apply px-5 sm:px-7 lg:px-16;
+}
+.label {
+  @apply text-myBlue text-[18px] font-semibold tracking-wide;
+}
+.input {
+  @apply bg-[#E9E9E9] border-b-[4px] my-1 border-[#4266E7] focus:border-myLG focus:bg-white px-2 py-3 rounded-t-md  outline-none;
+}
+
+.btn-outline {
+  @apply border-[#A8D532] border-[3px] text-[#A8D532]  rounded-full px-[32px] sm:px-[18px] lg:px-[36px] py-[12px] sm:py-[8px] lg:py-[14px];
+}
+
+.scroll-none::-webkit-scrollbar {
+  display: none;
+}
+/* DFE2FB */
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
