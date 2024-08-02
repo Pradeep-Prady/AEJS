@@ -5,25 +5,26 @@ import certificate2 from "/public/assets/about/certificate (2).png";
 import certificate3 from "/public/assets/about/certificate (3).png";
 import certificate4 from "/public/assets/about/certificate (4).png";
 
-import isc from '/public/assets/about/isc.jpg'
-import startup from '/public/assets/about/startup.jpg'
+import isc from "/public/assets/about/isc.jpg";
+import startup from "/public/assets/about/startup.jpg";
 
 import Image from "next/image";
-import { certificatesFAQsData } from "../_data/general";
+import { certificatesData, certificatesFAQsData } from "../_data/general";
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 const Certificates = () => {
-   
   const [expandedFaq, setExpandedFaq] = useState(certificatesFAQsData[0].id);
- 
+
   const toggleFaq = (id) => {
     setExpandedFaq((prev) => (prev === id ? null : id));
   };
   return (
     <div className={`w-full h-auto md:grid grid-cols-2 myPadX `}>
       <div className={`w-full h-full flex items-center gap-5 p-5`}>
-        <div className={`w-full h-full flex flex-col gap-10 items-center justify-center`}>
-        <Image
+        <div
+          className={`w-full h-full flex flex-col gap-10 items-center justify-center`}
+        >
+          <Image
             className="md:w-[300px] md:h-[400px]"
             width={300}
             height={500}
@@ -44,8 +45,6 @@ const Certificates = () => {
             src={certificate3.src}
             alt="certificate3"
           /> */}
-
-
         </div>
         <div className={`w-full h-full flex flex-col gap-10 justify-center`}>
           {/* <Image
@@ -62,14 +61,14 @@ const Certificates = () => {
             src={certificate2.src}
             alt="certificate2"
           /> */}
-
-<Image
+{/* 
+          <Image
             className="md:w-[300px] md:h-[200px]"
             width={300}
             height={200}
             src={startup.src}
             alt="certificate2"
-          /> 
+          /> */}
         </div>
       </div>
 
@@ -80,13 +79,15 @@ const Certificates = () => {
           Why Choose Us?
         </h1>
 
-        {/* {
-          certificatesData?.map((certificate) => (
-            
-          ))
-        } */}
+        {certificatesData?.map((certificate) => (
+          <div>
+            <h2 className="text-[18px] w-11/12 font-semibold my-1">
+              {certificate.mainContent}
+            </h2>
+          </div>
+        ))}
 
-        {certificatesFAQsData?.map((faq) => (
+        {/* {certificatesFAQsData?.map((faq) => (
           <div
             className={`border-b-2 py-2 border-[rgb(47,84,206,0.5)]`}
             key={faq.id}
@@ -110,7 +111,7 @@ const Certificates = () => {
               </div>
             )}
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );
