@@ -4,6 +4,10 @@ import certificate1 from "/public/assets/about/certificate (1).png";
 import certificate2 from "/public/assets/about/certificate (2).png";
 import certificate3 from "/public/assets/about/certificate (3).png";
 import certificate4 from "/public/assets/about/certificate (4).png";
+
+import isc from '/public/assets/about/isc.jpg'
+import startup from '/public/assets/about/startup.jpg'
+
 import Image from "next/image";
 import { certificatesFAQsData } from "../_data/general";
 import { FaPlus } from "react-icons/fa6";
@@ -18,8 +22,15 @@ const Certificates = () => {
   return (
     <div className={`w-full h-auto md:grid grid-cols-2 myPadX `}>
       <div className={`w-full h-full flex items-center gap-5 p-5`}>
-        <div className={`w-full h-full flex flex-col gap-10 items-start`}>
-          <Image
+        <div className={`w-full h-full flex flex-col gap-10 items-center justify-center`}>
+        <Image
+            className="md:w-[300px] md:h-[400px]"
+            width={300}
+            height={500}
+            src={isc.src}
+            alt="certificate1"
+          />
+          {/* <Image
             className="md:w-[300px] md:h-[200px]"
             width={300}
             height={200}
@@ -32,10 +43,12 @@ const Certificates = () => {
             height={200}
             src={certificate3.src}
             alt="certificate3"
-          />
+          /> */}
+
+
         </div>
-        <div className={`w-full h-full flex flex-col gap-10 justify-end`}>
-          <Image
+        <div className={`w-full h-full flex flex-col gap-10 justify-center`}>
+          {/* <Image
             className="md:w-[300px] md:h-[200px]"
             width={300}
             height={200}
@@ -48,7 +61,15 @@ const Certificates = () => {
             height={200}
             src={certificate2.src}
             alt="certificate2"
-          />
+          /> */}
+
+<Image
+            className="md:w-[300px] md:h-[200px]"
+            width={300}
+            height={200}
+            src={startup.src}
+            alt="certificate2"
+          /> 
         </div>
       </div>
 

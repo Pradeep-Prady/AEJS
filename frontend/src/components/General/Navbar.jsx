@@ -30,15 +30,19 @@ const Navbar = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
-        className="hidden bg-white sticky z-50 top-0  lg:flex justify-between items-center myPadX py-2 h-[13%]"
+        className="hidden bg-white sticky z-50 top-0  lg:flex justify-between items-center myPadX py-5 h-[13%]"
       >
+        <Link href="/">
         <Image
           src={logo}
           alt="logo"
           width={200}
           height={150}
-          className="h-[50px]"
+          // fill
+          className="h-[50px] scale-[3] md:scale-[3] relative"
         />
+        
+        </Link>
         <ul className="flex items-center gap-5">
           {navBarData?.map((item) => (
             <li
@@ -108,7 +112,7 @@ const Navbar = () => {
         </div>
       </nav>
       {openNav && (
-        <div className="fixed w-full h-screen  left-0 top-0 bottom-0 overflow-y-scroll scroll-none bg-white z-40 py-5 px-5  md:px-10">
+        <div className="fixed w-full h-screen  left-0 top-0 bottom-0 overflow-y-scroll scroll-none bg-white z-40 py-4 px-5  md:px-10">
           <div className="flex justify-between items-center ">
             <Image
               className="w-[120px] sm:w-[200px] height-[150px] lg:height-[300px]"

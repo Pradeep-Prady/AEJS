@@ -15,7 +15,9 @@ const SubServiceItem = ({ items, title, params }) => {
          border-black pb-2"
             key={item.id}
           >
-            <div
+
+            <div className="w-2/12">
+               <div
               className={`w-[75px] px-3 py-5 rounded-md ${
                 item?.id === params ? "bg-[#A8D532]" : "bg-white"
               }  h-[80px] flex items-center justify-center`}
@@ -23,15 +25,19 @@ const SubServiceItem = ({ items, title, params }) => {
               <Image
                 className="w-full h-auto"
                 src={item.icon.src}
-                width={65}
+                width={75}
                 height={75}
                 alt={item.title}
               />
             </div>
+            </div>
+            <div className="10/12">
 
             <h3 className="text-[18px] text-primary font-semibold">
               {item.title}
             </h3>
+              </div>
+
           </Link>
         ))}
       </div>

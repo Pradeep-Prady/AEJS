@@ -25,6 +25,8 @@ import unskilled_labour from "/public/assets/Manpower Consultancy/icons/unskille
 
 // House Cleaning
 
+import house_cleaning from "/public/assets/House Cleaning/icons/House cleaning.svg";
+
 import deep_cleaning from "/public/assets/House Cleaning/icons/deep-cleaning.svg";
 
 export const navBarData = [
@@ -261,7 +263,7 @@ export const mainContentData = [
       "We Provide Security, Detective, and Manpower services in Coimbatore",
     subTitle: "Peace of mind. Guaranteed.",
     content:
-      "We Secure Your World. We Find the Truth. We Provide the People. At AEJS Info Services, we offer a comprehensive suite of services designed to give you complete peace of mind.",
+      "AEJSINFO stands as a one-stop shop for all your needs in Coimbatore since the company was established to provide various services that cater to all the client's needs. The services offered range from the provision of reliable and comprehensive security solutions to investigation services, or manpower consulting services.",
     datas: [
       {
         title: "Security Solutions",

@@ -3,6 +3,7 @@ import Security from "/public/assets/general/Security.png";
 import Detective from "/public/assets/general/Detective.png";
 import Manpower from "/public/assets/general/Manpower.png";
 import Cleaning from "/public/assets/House Cleaning/icons/deep-cleaning.svg";
+import house_cleaning from "/public/assets/House Cleaning/icons/House cleaning.svg";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -71,7 +72,7 @@ const ServicesIconCard = ({ service }) => {
           <div className="h-[150px]">
                <Image
             className={"w-[150px]  scale-105"}
-            src={Cleaning.src}
+            src={house_cleaning.src}
             width={150}
             height={150}
             alt="ServiceIcon"

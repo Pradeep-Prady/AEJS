@@ -7,8 +7,7 @@ import OurClients from "./_components/OurClients";
 import TrustUs from "./_components/TrustUs";
 import Map from "./_components/Map";
 import { mainContentData } from "./_data/general";
-import Navbar from "@/components/General/Navbar";
-import { Footer } from "@/components/General/Footer";
+ 
 import Values from "./_components/Values";
 import Certificates from "./_components/Certificates";
 import MainNavbar from "@/components/General/MainNavbar";

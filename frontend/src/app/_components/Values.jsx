@@ -3,25 +3,25 @@ import Image from "next/image";
 const Values = () => {
   const values = [
     {
-      name: " Commitment to Integrity",
+      name: "Commitment to Integrity",
       image:
         "https://www.dilate.com.au/wp-content/uploads/2023/12/bespoke-comprehensive-digital-strategies.svg",
       content:
-        "  At our security agency in Coimbatore, honesty is our core value. Our detective services and surveillance room operations are based on being truthful and transparent. We conduct all investigations discreetly, providing accurate and reliable information. Every team member, from security guards to fire safety experts, follows high standards of honesty, ensuring our clients trust us completely.",
+        "It is important to note that in AEJSINFO, we uphold the attribute of corporate integrity high when working. As such, the quality policy fully supports and acts on each of the following cardinal principles; The members of our team remain committed to professionalism because we want our clients to be able to turn to us for reliable and uncomplicated service.",
     },
     {
-      name: "   Striving for Excellence",
+      name: "Striving for Excellence ",
       image:
         "https://www.dilate.com.au/wp-content/uploads/2023/12/results-driven-and-performance-focused.svg",
       content:
-        "   We aim to provide the best in all our services. Our armed PSOs, security supervisors, and gunmen are well-trained professionals dedicated to keeping environments safe. Our bouncers and ASOs handle situations skillfully and professionally, ensuring our clients' safety. We continuously train our team to stay updated with the latest security practices, making sure we meet and exceed our clients' expectations.",
+        "Quality is not an aim, but a standard at Dunmore. Since we have been providing our services for more than 15 years, we are always in pursuit of perfection and the best results. This team is capable of handling each of these challenges with the utmost professionalism hence offering the best services all the time.",
     },
     {
       name: "Embracing Innovation",
       image:
         "https://www.dilate.com.au/wp-content/uploads/2023/12/in-house-creative-production.svg",
       content:
-        "Innovation is key to our security services. Our surveillance room usesthe latest technology for real-time monitoring and quick response to security threats. We use advanced tools and techniques in our fire safety and security services to offer complete protection. By staying innovative, we make sure our security measures are effective and can adapt to new threats, providing our clients with the best and most reliable security solutions.",
+        "It goes without saying that in the modern world, the idea of leadership implies the use of state-of-art technologies and ideas. At AEJSINFO, our priority is to use the latest security systems and solutions in the line of our services hence availing security services in the market with the highest level of protection.",
     },
   ];
   return (
