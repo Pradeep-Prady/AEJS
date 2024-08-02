@@ -12,7 +12,7 @@ import Image from "next/image";
 import { certificatesData, certificatesFAQsData } from "../_data/general";
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
-const Certificates = () => {
+const Certificates = ({certificate}) => {
   const [expandedFaq, setExpandedFaq] = useState(certificatesFAQsData[0].id);
 
   const toggleFaq = (id) => {
@@ -61,14 +61,14 @@ const Certificates = () => {
             src={certificate2.src}
             alt="certificate2"
           /> */}
-{/* 
+
           <Image
             className="md:w-[300px] md:h-[200px]"
             width={300}
             height={200}
             src={startup.src}
             alt="certificate2"
-          /> */}
+          />
         </div>
       </div>
 
@@ -79,13 +79,31 @@ const Certificates = () => {
           Why Choose Us?
         </h1>
 
-        {certificatesData?.map((certificate) => (
+       
           <div>
             <h2 className="text-[18px] w-11/12 font-semibold my-1">
-              {certificate.mainContent}
+              {certificatesData[certificate]?.mainContent}
             </h2>
           </div>
+
+          {certificatesData[certificate]?.contents?.map((cert) => (
+
+            <div key={cert.title}>
+                 <h2 className="text-[16px] w-11/12 font-semibold my-1">
+                {cert.title}
+              </h2>
+              <div className={`ps-5 my-2`}>
+                <p>{cert.data}</p>
+              </div>
+              </div>
+
         ))}
+
+<div>
+            <h2 className="text-[18px] mt-3 w-11/12 font-semibold my-1">
+              {certificatesData[certificate]?.subContent}
+            </h2>
+          </div>
 
         {/* {certificatesFAQsData?.map((faq) => (
           <div

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "/public/assets/general/logo.png";
+import logo from "/public/assets/general/logo.svg";
 import { LuPhone } from "react-icons/lu";
 import { MdOutlineMail } from "react-icons/md";
 import { GrLocation } from "react-icons/gr";
@@ -20,7 +20,7 @@ export const Footer = () => {
       <div className="   w-full  lg:flex gap-10   items-start  py-5">
         <div className="w-full lg:w-[20%] flex flex-col items-start justify-start">
           <Image
-            className={`w-auto h-[70px] md:h-[80px] lg:h-[100px]`}
+            className={`w-auto h-[70px] scale-125 md:h-[80px] lg:h-[100px]`}
             alt="logo"
             src={logo}
           />
@@ -125,7 +125,7 @@ export const Footer = () => {
                   <LuPhone className="text-myBlue text-[20px] md:text-[20px]" />
                 </div>
                 <h6 className="  w-9/12 md:text-[16px]  ">
-                  +91 99619 81196
+                +91 9944580798,    +91 9500475798
                 </h6>
               </div>
 
@@ -143,8 +143,7 @@ export const Footer = () => {
                   <GrLocation className="text-myBlue text-[20px] md:text-[20px]" />
                 </div>
                 <h6 className="  w-9/12 md:text-[16px]   ">
-                  27 F1, PM Samy Colony,Viswanathapuram, Rathinapuri,Coimbatore
-                  - 641 027.
+                No 97 , 5 th Street Extn , Gandhipuram , Coimbatore - 641012
                 </h6>
               </div>
 

@@ -12,6 +12,13 @@ import service_bouncer from "/public/assets/security services/icons/Bouncer.png"
 //
 
 import ArmedPsoImg from "/public/assets/security services/armed-pso/ArmedPso.jpg";
+import SecurityGuardImg from "/public/assets/security services/armed-pso/SecurityGuard.jpg";
+import ASOImg from "/public/assets/security services/armed-pso/ASO.jpg";
+import SecuritySupervisorImg from "/public/assets/security services/armed-pso/SecuritySupervisor.jpg";
+import GunmanImg from "/public/assets/security services/armed-pso/Gunman.jpg";
+import BouncerImg from "/public/assets/security services/armed-pso/Bouncer.jpg";
+import FireSafteyExpertImg from "/public/assets/security services/armed-pso/FireSafteyExpert.jpg";
+import SurvilanceRoomImg from "/public/assets/security services/armed-pso/SurvilanceRoom.jpg";
 
 // Detactive Services Icons
 
@@ -62,7 +69,7 @@ export const navBarData = [
         id: "nbd_3_2",
         title: "Security Guard",
         path: "/security-services/security-guard",
-        image: serviceImage4,
+        image: SecurityGuardImg,
         icon: service_security_guard,
       },
       {
@@ -70,42 +77,42 @@ export const navBarData = [
         title: "Security Supervisor",
         path: "/security-services/security-supervisor",
         icon: service_security_supervisor,
-        image: serviceImage4,
+        image: SecuritySupervisorImg,
       },
       {
         id: "nbd_3_4",
         title: "Gunman",
         path: "/security-services/gunman",
         icon: service_gunman,
-        image: serviceImage4,
+        image: GunmanImg,
       },
       {
         id: "nbd_3_5",
         title: "ASO",
         path: "/security-services/aso",
         icon: service_armed_security_officer,
-        image: serviceImage4,
+        image: ASOImg,
       },
       {
         id: "nbd_3_6",
         title: "Bouncer",
         path: "/security-services/bouncer",
         icon: service_bouncer,
-        image: serviceImage4,
+        image: BouncerImg,
       },
       {
         id: "nbd_3_7",
         title: "Fire Safety Expert",
         path: "/security-services/fire-safety-expert",
         icon: service_fire_safety_expert,
-        image: serviceImage4,
+        image: FireSafteyExpertImg,
       },
       {
         id: "nbd_3_8",
         title: "Surveillance Room",
         path: "/security-services/surveillance-room",
         icon: service_surveillance_room,
-        image: serviceImage4,
+        image: SurvilanceRoomImg,
       },
     ],
   },

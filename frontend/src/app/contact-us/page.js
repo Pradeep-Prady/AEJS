@@ -79,8 +79,8 @@ const Page = () => {
               </h1>
 
               <p className="md:text-[17px] font-medium">
-                27 F1, PM Samy Colony,Viswanathapuram, Rathinapuri,Coimbatore -
-                641 027.{" "}
+              No 97 , 5 th Street Extn , Gandhipuram , Coimbatore - 641012
+
               </p>
             </div>
             <div className="w-full py-3 px-2 sm:px-5  bg-gray-100 ">
@@ -88,8 +88,8 @@ const Page = () => {
                 Mobile
               </h1>
 
-              <p className="md:text-[17px] font-medium">+91 3456789034</p>
-              <p className="md:text-[17px] font-medium">+91 3456789087</p>
+              <p className="md:text-[17px] font-medium">+91 9944580798</p>
+              <p className="md:text-[17px] font-medium">+91 9500475798</p>
             </div>
 
             <div className="w-full py-3 px-2 sm:px-5  bg-gray-100 p-5">

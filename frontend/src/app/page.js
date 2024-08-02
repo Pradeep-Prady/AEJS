@@ -72,7 +72,7 @@ export default function Home({ params }) {
             side="md:left"
           />
           <OurClients />
-          <Certificates />
+          <Certificates certificate={0} />
           <TrustUs />
           <Solutions
             bgImage={currentImages[1]}

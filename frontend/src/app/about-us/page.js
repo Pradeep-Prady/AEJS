@@ -19,7 +19,7 @@ const page = () => {
 
       <MainNavbar>
         <MainContent  side={"order-1"} data={mainContentData[1]} read={false} />
-        {/* <Certificates /> */}
+        <Certificates certificate={1}/>
         <CoreValues />
         <VisionMission />
         <OurClients />
