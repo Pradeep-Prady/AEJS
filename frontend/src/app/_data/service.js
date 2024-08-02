@@ -1,5 +1,9 @@
 import securityBg from "/public/assets/security services/security-bg.png";
 import serviceImage4 from "/public/assets/security services/service-image.png";
+
+import ArmedPsoImg from "/public/assets/security services/armed-pso/ArmedPso.jpg";
+
+
 import serviceImage3 from "/public/assets/security services/service-image-3.png";
 import armedpso_banner from "/public/assets/security services/armed-pso/banner.png";
 
@@ -81,7 +85,7 @@ export const services = [
         id: "armed-pso",
         title: "Armed PSO in Coimbatore",
         path: "/security-services/armed-pso",
-        image: serviceImage4,
+        image: ArmedPsoImg,
         subTitle: "Security services",
         banner: armedpso_banner,
 

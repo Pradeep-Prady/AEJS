@@ -6,7 +6,7 @@ import Link from "next/link";
  
 const ServiceCard = ({ subItem, className, size  }) => {
 
-  console.log()
+  console.log(subItem,"subItem")
   // width={50} height={50}
   return (
     <Link
@@ -17,7 +17,7 @@ const ServiceCard = ({ subItem, className, size  }) => {
     >
       <div
         className="w-full h-full bg-cover flex flex-col justify-end p-3 bg-no-repeat"
-        style={{ backgroundImage: `url(${subItem.image?.src ?? service.src})` }}
+        style={{ backgroundImage: `url(${subItem.image.src})` }}
       >
         <div className="w-full flex">
         <div className="bg-white w-[55px] p-1 h-[55px] rounded-md flex items-center justify-center">

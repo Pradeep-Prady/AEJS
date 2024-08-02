@@ -80,6 +80,12 @@ const Certificates = () => {
           Why Choose Us?
         </h1>
 
+        {/* {
+          certificatesData?.map((certificate) => (
+            
+          ))
+        } */}
+
         {certificatesFAQsData?.map((faq) => (
           <div
             className={`border-b-2 py-2 border-[rgb(47,84,206,0.5)]`}

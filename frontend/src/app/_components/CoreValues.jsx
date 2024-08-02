@@ -28,7 +28,7 @@ const CoreValues = () => {
         {coreValues.slice(0, 3).map((core, index) => (
           <motion.div
             key={core.id}
-            className="bg-[#D0FF55] flex justify-center items-center w-[180px] h-[180px] rotate-45 rounded-md"
+            className="bg-[#D0FF55] flex justify-center items-center w-[200px] h-[200px] rotate-45 rounded-md"
             initial={{ y: 300, opacity: 0 }} // Initial animation state
             animate={inView ? { y: 0, opacity: 1, rotate: 45 } : {}} // Animation target state when in view
             exit={{ y: -300, opacity: 0 }} // Exit animation state
@@ -56,7 +56,7 @@ const CoreValues = () => {
         {coreValues.slice(3, 5).map((core, index) => (
           <motion.div
             key={core.id}
-            className="bg-[#D0FF55] flex justify-center items-center w-[180px] h-[180px] rotate-45 rounded-md"
+            className="bg-[#D0FF55] flex justify-center items-center w-[200px] h-[200px] rotate-45 rounded-md"
             initial={{ y: -300, opacity: 0 }} // Initial animation state
             animate={inView ? { y: 0, opacity: 1, rotate: 45 } : {}} // Animation target state when in view
             exit={{ y: 300, opacity: 0 }} // Exit animation state

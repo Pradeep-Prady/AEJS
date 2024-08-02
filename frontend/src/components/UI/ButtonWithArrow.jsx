@@ -14,7 +14,7 @@ const ButtonWithArrow = ({
     <div
       className={`w-full flex flex-col sm:flex sm:flex-row items-center justify-center gap-2 md:gap-5 md:my-7 ${className}`}
     >
-      {read && (
+      {/* {read && (
         <Link
           href={link}
           className={`${
@@ -26,7 +26,7 @@ const ButtonWithArrow = ({
           </span>
           <FaArrowRight className="ml-1 sm:ml-2" />
         </Link>
-      )}
+      )} */}
 
       {book && (
         <Link

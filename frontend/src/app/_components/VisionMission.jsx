@@ -19,8 +19,8 @@ const VisionMission = () => {
           Vision{" "}
         </h2>
         <p className="text-center w-full md:w-7/12">
-          To be a trusted leader in security and investigations, creating a
-          safer and more secure world for our clients and communities.{" "}
+        To be the best security services provider organization in Coimbatore by being the benchmark for safety, trust, and client satisfaction. 
+
         </p>
       </div>
 
@@ -37,9 +37,8 @@ const VisionMission = () => {
          <p className="text-center w-full md:w-7/12">
 
 
-          We provide comprehensive security solutions and investigative services
-          with integrity, excellence, and unwavering commitment to client safety
-          and peace of mind.
+         Our mission is to offer our clientele the best security services for their property and person's safety as well as be their source of comfort. Our mission is to perform our activities with utmost professionalism and integrity by providing our services meeting and/or exceeding customers' expectations and expectations, with the help of innovation and feedback. 
+
         </p>
       </div>
       <div></div>

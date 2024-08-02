@@ -8,6 +8,11 @@ import service_surveillance_room from "/public/assets/security services/icons/Su
 import service_fire_safety_expert from "/public/assets/security services/icons/FireSafetyExpert.png";
 import service_armed_security_officer from "/public/assets/security services/icons/Armed Security officer.png";
 import service_bouncer from "/public/assets/security services/icons/Bouncer.png";
+
+//
+
+import ArmedPsoImg from "/public/assets/security services/armed-pso/ArmedPso.jpg";
+
 // Detactive Services Icons
 
 import detective_agencies_for_cyber_crime from "/public/assets/Detective Services/icons/detective-agencies-for-cyber-crime.svg";
@@ -51,7 +56,7 @@ export const navBarData = [
         title: "Armed PSO",
         path: "/security-services/armed-pso",
         icon: service_armed_pso,
-        image: serviceImage4,
+        image: ArmedPsoImg,
       },
       {
         id: "nbd_3_2",
@@ -266,19 +271,21 @@ export const mainContentData = [
       "AEJSINFO stands as a one-stop shop for all your needs in Coimbatore since the company was established to provide various services that cater to all the client's needs. The services offered range from the provision of reliable and comprehensive security solutions to investigation services, or manpower consulting services.",
     datas: [
       {
-        title: "Security Solutions",
-        description:
-          "Our highly trained security guards, security consultants, and cybersecurity experts work together to keep you safe – from physical threats to digital breaches.",
+        title: "Security Solutions ",
+        description: "for residential, commercial, and industrial properties.",
       },
       {
-        title: "Investigative Expertise",
+        title: "Detective Services",
         description:
-          "Our discreet and experienced detectives handle a wide range of investigations, uncovering the truth in matters of infidelity, fraud, missing persons, and more.  We also offer advanced digital forensics capabilities.",
+          "for matrimonial screening, corporate investigations, and more.",
       },
       {
-        title: "Manpower Services",
-        description:
-          "Need temporary or permanent staffing solutions?  We connect you with qualified personnel for a variety of needs, ensuring you have the right people in the right place.",
+        title: "Manpower Consultancy ",
+        description: "to connect you with the right personnel.",
+      },
+      {
+        title: "Housekeeping Services",
+        description: "to maintain clean and orderly environments.",
       },
     ],
   },
@@ -286,24 +293,90 @@ export const mainContentData = [
     title: "Who We Are?",
     subTitle: "Your Trusted Partner for Security, Investigations, and People..",
     content:
-      "We Secure Your World. We Find the Truth. We Provide the People. At AEJS Info Services, we offer a comprehensive suite of services designed to give you complete peace of mind.",
+      "AEJSINFO is one of the most reputable security companies situated in Coimbatore for the last 15 years that provides a full range of services to satisfy all your security requirements. Being consistent with quality standards and ensuring customer satisfaction has made us the most sought-after organization by clients in different fields.",
     datas: [
       {
         title: "Security Solutions",
         description:
-          "Our highly trained security guards, security consultants, and cybersecurity experts work together to keep you safe – from physical threats to digital breaches.",
+          "Through our state-of-the-art security solutions for homes, offices, businesses, and factories - you can be assured that your property is safe all the time. ",
       },
       {
-        title: "Investigative Expertise",
+        title: "Detective Services",
         description:
-          "Our discreet and experienced detectives handle a wide range of investigations, uncovering the truth in matters of infidelity, fraud, missing persons, and more.  We also offer advanced digital forensics capabilities.",
+          "Our expert investigators conduct investigations for various situations such as pre-marriage screening, corporate investigation, and fraud investigation among others.",
       },
       {
-        title: "Manpower Services",
+        title: "Manpower Consultancy",
         description:
-          "Need temporary or permanent staffing solutions?  We connect you with qualified personnel for a variety of needs, ensuring you have the right people in the right place.",
+          "In this respect, we provide professional manpower solutions and services that enable business organizations to source suitable and qualified personnel to manage their security and other human resource requirements. ",
+      },
+      {
+        title: "Housekeeping Services",
+        description:
+          "Our commitment and services entail cleaning servants and collecting all dirt in both individual homes and offices or business premises.",
       },
     ],
+  },
+];
+
+export const certificatesData = [
+  {
+    id: "cd_1",
+    mainContent:
+      "There should be no doubt that by selecting AEJSINFO, one selects a company with a well-founded reputation. Here's why we're the preferred security service provider in Coimbatore",
+    contents: [
+      {
+        title: "Experienced Team",
+        data: "Our team consists of professionals who have been working in the security industry for the last 15 years, thus, we have got the necessary knowledge and experience to guarantee the excellent results. ",
+      },
+      {
+        title: "24/7 Availability",
+        data: "Due to this we know that security needs might occur at any time and this is why we offer our services at any time of the day and any day of the year.",
+      },
+      {
+        title: "Advanced Technology",
+        data: "Employing the best of state of art security solution is our major strength where our clients are always on the receiving end of state of the art security systems solutions",
+      },
+      {
+        title: "Comprehensive Services",
+        data: "From security solutions and detective services to manpower consultancy and housekeeping being some of the services we provide, are unique to the need you have.",
+      },
+      {
+        title: "Customer Satisfaction",
+        data: "Guarantee of the customer's satisfaction is seen in our individualized, adequate, and timely work.",
+      },
+    ],
+    subContent:
+      "When a client turns to AEJSINFO for security, what he or she receives is not a service, but assurance. Choose our services to protect your best assets, with the knowledge and passion that can only come from would-be professionals with a string of years in practicing and excellence oriented. ",
+  },
+  {
+    id: "cd_2",
+    mainContent:
+      "There should be no doubt that by selecting AEJSINFO, one selects a company with a well-founded reputation. Here's why we're the preferred security service provider in Coimbatore",
+    contents: [
+      {
+        title: "Experienced Team",
+        data: "Our team consists of professionals who have been working in the security industry for the last 15 years, thus, we have got the necessary knowledge and experience to guarantee the excellent results. ",
+      },
+      {
+        title: "24/7 Availability",
+        data: "Due to this we know that security needs might occur at any time and this is why we offer our services at any time of the day and any day of the year.",
+      },
+      {
+        title: "Advanced Technology",
+        data: "Employing the best of state of art security solution is our major strength where our clients are always on the receiving end of state of the art security systems solutions",
+      },
+      {
+        title: "Comprehensive Services",
+        data: "From security solutions and detective services to manpower consultancy and housekeeping being some of the services we provide, are unique to the need you have.",
+      },
+      {
+        title: "Customer Satisfaction",
+        data: "Guarantee of the customer's satisfaction is seen in our individualized, adequate, and timely work.",
+      },
+    ],
+    subContent:
+      "When a client turns to AEJSINFO for security, what he or she receives is not a service, but assurance. Choose our services to protect your best assets, with the knowledge and passion that can only come from would-be professionals with a string of years in practicing and excellence oriented. ",
   },
 ];
 
@@ -336,31 +409,35 @@ export const certificatesFAQsData = [
 export const coreValues = [
   {
     id: "cv_1",
-    title: "Integrity1",
-    description: "Acting with honesty and transparency in all dealings.",
+    title: "Integrity",
+    description:
+      "Upholding the highest ethical standards in all our operations.",
   },
   {
     id: "cv_2",
 
-    title: "Integrity2",
-    description: "Acting with honesty and transparency in all dealings.",
+    title: "Reliability",
+    description: "Providing consistent, dependable services 24/7, every day.",
   },
   {
     id: "cv_3",
 
-    title: "Integrity3",
-    description: "Acting with honesty and transparency in all dealings.",
+    title: "Innovation",
+    description:
+      "Leveraging cutting-edge technology for advanced security solutions.",
   },
   {
     id: "cv_4",
 
-    title: "Integrity4",
-    description: "Acting with honesty and transparency in all dealings.",
+    title: "Customer Focus",
+    description:
+      "Prioritizing client needs with personalized, exceptional service.",
   },
   {
     id: "cv_5",
 
-    title: "Integrity5",
-    description: "Acting with honesty and transparency in all dealings.",
+    title: "Professionalism",
+    description:
+      " Delivering services with efficiency, respect, and expertise.",
   },
 ];
