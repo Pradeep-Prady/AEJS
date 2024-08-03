@@ -22,7 +22,7 @@ export default function Main({ children }) {
           <div className="w-full h-screen poppins">{children}</div>
         </QueryClientProvider>
       </div>
-
+{/* 
       {!showConfetti && (
         <Celebrate onCountdownComplete={handleCountdownComplete} />
       )}
@@ -31,7 +31,7 @@ export default function Main({ children }) {
           <ContinuousConfetti />
           <FireworksConfetti />
         </>
-      )}
+      )} */}
     </>
   );
 }

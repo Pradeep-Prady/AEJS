@@ -4,7 +4,7 @@ import confetti from "canvas-confetti";
 const ContinuousConfetti = () => {
   useEffect(() => {
     const end = Date.now() + 15 * 1000; // Run for 15 seconds
-    const colors = ["#bb0000", "#ffffff"];
+    const colors = ["#2645ab", "#89c63f"];
 
     (function frame() {
       confetti({
