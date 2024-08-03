@@ -5,7 +5,7 @@ import MainContent from "@/components/General/MainContent";
 import ServiceCard from "../_components/ServiceCard";
 import Heading from "@/components/UI/Heading";
 import Contact from "@/components/UI/Contact";
-import bgImage1 from "/public/assets/security services/bgImage1.png";
+import bgImage1 from "/public/assets/security services/bgImage1.webp";
 import bgImage2 from "/public/assets/security services/bgImage2.png";
 import layer1 from "/public/assets/security services/solutions-2.png";
 import layer2 from "/public/assets/security services/solutions-3.png";

@@ -4,7 +4,7 @@ import ButtonWithArrow from "@/components/UI/ButtonWithArrow";
 const Solutions = ({ layer, bgImage, className, height, side }) => {
   return (
     <div
-      className={`w-full  ${height} my-20 relative z-0  flex items-center`}
+      className={`w-full  ${height} my-20 relative z-0 bg-cover bg-no-repeat flex items-center `}
       style={{ backgroundImage: `url(${bgImage.src})` }}
     >
       {/* <div
@@ -12,8 +12,10 @@ const Solutions = ({ layer, bgImage, className, height, side }) => {
         style={{ backgroundImage:  `url(${layer.src})` }}
       > */}
         {side === "left" ? (
-          <div className="w-ful md:w-4/6 flex flex-col items-center justify-center">
-            <h2 className="text-[18px] sm:text-[28px] lg:text-[38px] text-myWhite font-semibold">
+
+          <div className="w-full flex items-center justify-end"> 
+          <div className="w-full md:w-3/6 flex flex-col items-center justify-center">
+            {/* <h2 className="text-[18px] sm:text-[28px] lg:text-[38px] text-myWhite font-semibold">
               Unveiling Security Solutions
             </h2>
             <div className="mt-5">
@@ -27,21 +29,43 @@ const Solutions = ({ layer, bgImage, className, height, side }) => {
                 Diverse Industries We Serve
               </h5>
               <ButtonWithArrow text={`Read More`} />
-            </div>
-          </div>
-        ) : (
-          <div className="w-full md:w-4/6 flex flex-col items-center justify-center">
-            <div className="mt-5 ">
-              <h5 className="text-myLW text-[24px] sm:text-[24px] lg:text-[38px] font-semibold py-2">
-                The Right People
+            </div> */}
+
+<div className="mt-5 ">
+              <h5 className="text-myLW text-[24px] sm:text-[24px] lg:text-[38px] font-semibold ">
+               TOTAL <span className="font-black"> PROTECTION</span>  
               </h5>
-              <h5 className="text-myLW text-[24px] sm:text-[24px] lg:text-[38px] font-semibold py-2">
+              <h5 className="text-myLW text-[24px] sm:text-[24px] lg:text-[38px] font-semibold ">
                 {" "}
-                The Right Solutions.
+                TOTAL <span className="font-black"> SECURITY</span>  
+
               </h5>
 
-              <h5 className="text-myLW  mb-2 text-[24px] sm:text-[24px] lg:text-[38px] font-semibold py-2">
-                Get Started Today.
+              <h5 className="text-myLW  mb-1 text-[24px] sm:text-[24px] lg:text-[38px] font-semibold ">
+              TOTAL <span className="font-black"> PEACE OF MIND</span>  
+
+              </h5>
+
+              <ButtonWithArrow text={`Read More`} />
+            </div>
+            </div>
+
+          </div>
+        ) : (
+          <div className="w-full md:w-2/6 flex flex-col items-center justify-center">
+            <div className="mt-5 ">
+              <h5 className="text-myLW text-[24px] sm:text-[24px] lg:text-[38px] font-semibold ">
+               TOTAL <span className="font-black"> PROTECTION</span>  
+              </h5>
+              <h5 className="text-myLW text-[24px] sm:text-[24px] lg:text-[38px] font-semibold ">
+                {" "}
+                TOTAL <span className="font-black"> SECURITY</span>  
+
+              </h5>
+
+              <h5 className="text-myLW  mb-1 text-[24px] sm:text-[24px] lg:text-[38px] font-semibold ">
+              TOTAL <span className="font-black"> PEACE OF MIND</span>  
+
               </h5>
 
               <ButtonWithArrow text={`Read More`} />

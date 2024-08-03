@@ -25,12 +25,10 @@ export const Footer = () => {
             src={logo}
           />
           <p className=" leading-7 text-justify">
-            {" "}
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur in voluptatibus excepturi totam minima quo illo corporis
-            itaque neque impedit labore eum necessitatibus cupiditate ab debitis
-            laboriosam dolorem ipsa ut quam ducimus eaque quae, reiciendis eos?
-            Nostrum
+            AEJS Info: Your trusted partner for security services in Coimbatore.
+            We offer professional detective services and reliable manpower
+            solutions, ensuring safety and peace of mind for businesses and
+            individuals.
           </p>
 
           <div className={`flex  w-full gap-5 text-[22px] my-5`}>
@@ -51,10 +49,7 @@ export const Footer = () => {
           <div className="w-full   sm:flex gap- items-start justify-end">
             <div className="md:w-[40%] flex flex-col gap-2">
               {navBarData[1]?.subMenu?.map((item) => (
-                <Link
-                  href={item.path}
-                  className="  md:text-[16px]   my-1 "
-                >
+                <Link href={item.path} className="  md:text-[16px]   my-1 ">
                   {item.title}
                 </Link>
               ))}
@@ -62,19 +57,13 @@ export const Footer = () => {
 
             <div className="md:w-[60%]  my-2 md:my-0 flex flex-col gap-2">
               {navBarData[2]?.subMenu?.map((item) => (
-                <Link
-                  href={item.path}
-                  className="  md:text-[16px]   my-1 "
-                >
+                <Link href={item.path} className="  md:text-[16px]   my-1 ">
                   {item.title}
                 </Link>
               ))}
 
               {navBarData[3]?.subMenu?.map((item) => (
-                <Link
-                  href={item.path}
-                  className=" md:text-[16px]  my-1 "
-                >
+                <Link href={item.path} className=" md:text-[16px]  my-1 ">
                   {item.title}
                 </Link>
               ))}
@@ -90,24 +79,15 @@ export const Footer = () => {
               </h2>
             </div>
             <div className=" my-[10px] flex flex-col gap-2">
-              <Link
-                href={"/about-us"}
-                className="  md:text-[16px]     "
-              >
+              <Link href={"/about-us"} className="  md:text-[16px]     ">
                 About Us
               </Link>
 
-              <Link
-                href={"/career"}
-                className="  md:text-[16px]   "
-              >
+              <Link href={"/career"} className="  md:text-[16px]   ">
                 {" "}
                 Career{" "}
               </Link>
-              <Link
-                href={"/contact-us"}
-                className="  md:text-[16px]    "
-              >
+              <Link href={"/contact-us"} className="  md:text-[16px]    ">
                 {" "}
                 Contact Us
               </Link>
@@ -125,7 +105,7 @@ export const Footer = () => {
                   <LuPhone className="text-myBlue text-[20px] md:text-[20px]" />
                 </div>
                 <h6 className="  w-9/12 md:text-[16px]  ">
-                +91 9944580798,    +91 9500475798
+                  +91 9944580798, +91 9500475798
                 </h6>
               </div>
 
@@ -143,7 +123,7 @@ export const Footer = () => {
                   <GrLocation className="text-myBlue text-[20px] md:text-[20px]" />
                 </div>
                 <h6 className="  w-9/12 md:text-[16px]   ">
-                No 97 , 5 th Street Extn , Gandhipuram , Coimbatore - 641012
+                  No 97 , 5 th Street Extn , Gandhipuram , Coimbatore - 641012
                 </h6>
               </div>
 

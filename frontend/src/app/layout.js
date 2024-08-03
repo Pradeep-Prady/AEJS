@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export const metadata = {
-  title: '...',
-  description: '...',
+  title: 'Security Services in Coimbatore',
+  description: '',
   keywords: "keyword1, kkeuy2"
 }
  

@@ -78,7 +78,7 @@ const Navbar = () => {
           {/* <div className="bg-myBlue w-[40px] h-[40px] cursor-pointer   rounded-full flex items-center justify-center">
 <BiSolidPhoneCall className="text-[28px] text-white " />
             </div> */}
-          <a href="tel:9961981196">
+          <a href="tel:9944580798">
             <div className="bg-myBlue w-[40px h-[40px rounded-3xl px-4 py-2 flex items-center justify-center">
               {/* <BiSolidPhoneCall className="text-[28px] text-white" />
                */}
@@ -99,7 +99,7 @@ const Navbar = () => {
         />
 
         <div className=" flex items-center gap-3">
-          <a href="tel:9961981196">
+          <a href="tel:9944580798">
             <div className="bg-myBlue  rounded-3xl p-2 flex items-center justify-center">
               <BiSolidPhoneCall className="text-[20px] text-white" />
               {/* <p className="text-[14px] sm:text-[16px] text-white">Call Now </p> */}
@@ -168,7 +168,7 @@ const Navbar = () => {
               </div>
             ))}
             <div className="relative w-full flex items-start justify-start">
-              <a href="tel:9961981196">
+              <a href="tel:9944580798">
                 <div className="bg-myBlue  rounded-md px-7 py-2 flex items-center justify-center">
                   <p className="text-[14px] sm:text-[16px] text-white">
                     Call Now{" "}

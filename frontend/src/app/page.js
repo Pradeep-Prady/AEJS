@@ -12,8 +12,8 @@ import Values from "./_components/Values";
 import Certificates from "./_components/Certificates";
 import MainNavbar from "@/components/General/MainNavbar";
 
-import bgImage1 from "/public/assets/security services/bgImage1.png";
-import bgImage2 from "/public/assets/security services/bgImage2.png";
+import bgImage1 from "/public/assets/security services/banner2.webp";
+import bgImage2 from "/public/assets/security services/bgImage1.webp";
 import bgImage3 from "/public/assets/security services/bgImage3.jpg";
 import layer1 from "/public/assets/security services/solutions-2.png";
 import layer2 from "/public/assets/security services/solutions-3.png";
@@ -68,8 +68,10 @@ export default function Home({ params }) {
             bgImage={bgImage1}
             layer={layer1}
             className="left-0"
-            height="h-[320px] md:h-[300px] lg:h-[500px]"
-            side="md:left"
+            fill
+            width={"w-full"}
+            height="h-[320px] md:h-[300px] lg:h-[350px]"
+            side="left"
           />
           <OurClients />
           <Certificates certificate={0} />
@@ -78,7 +80,7 @@ export default function Home({ params }) {
             bgImage={currentImages[1]}
             layer={layer2}
             className="right-0"
-            height="h-[320px] md:h-[400px]"
+            height="h-[320px] md:h-[350px]"
             side="right"
           />
           <Map />

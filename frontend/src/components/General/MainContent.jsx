@@ -3,7 +3,8 @@
 import React from "react";
 import vectorYellow from "/public/assets/home/Vector-yellow.png";
 import vectorBlue from "/public/assets/home/Vector-blue.png";
-import guard1 from "/public/assets/home/guard-1.png";
+import guard1 from "/public/assets/home/SECURITYHOMPAGE.jpg";
+
 import guard2 from "/public/assets/home/guard-2.png";
 import { PiDotOutlineFill } from "react-icons/pi";
 import Image from "next/image";
@@ -58,7 +59,7 @@ const MainContent = ({ link ="/" , right = false, data, read }) => {
           className="absolute top-5 sm:top-10 lg:top-20 w-[70%] sm:w-[55%] lg:w-[65%] h-auto"
         >
           <Image
-            className="w-full h-auto"
+            className="w-full h-auto rounded-xl"
             width={500}
             height={400}
             src={guard1.src}
