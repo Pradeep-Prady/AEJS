@@ -23,7 +23,7 @@ export default function Main({ children }) {
         </QueryClientProvider>
       </div>
 
-      {!showConfetti && (
+      {/* {!showConfetti && (
         <Celebrate onCountdownComplete={handleCountdownComplete} />
       )}
       {showConfetti && (
@@ -31,7 +31,7 @@ export default function Main({ children }) {
           <ContinuousConfetti />
           <FireworksConfetti />
         </>
-      )}
+      )} */}
     </>
   );
 }

@@ -6,6 +6,7 @@ import ButtonWithArrow from "@/components/UI/ButtonWithArrow";
 export const Hero = () => {
   return (
     <div
+    id="focusElement"
       style={{ backgroundImage: `url(${heroBanner.src})` }}
       className="h-[90vh] sm:h-[90vh] z-0 bg-cover relative bg-bottom bg-no-repeat flex flex-col items-center justify-center text-txtPrime"
     >

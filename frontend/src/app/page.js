@@ -7,7 +7,6 @@ import OurClients from "./_components/OurClients";
 import TrustUs from "./_components/TrustUs";
 import Map from "./_components/Map";
 import { mainContentData } from "./_data/general";
- 
 import Values from "./_components/Values";
 import Certificates from "./_components/Certificates";
 import MainNavbar from "@/components/General/MainNavbar";
@@ -25,6 +24,13 @@ export default function Home({ params }) {
 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
+
+    // Scroll to the element with ID 'focusElement' when the component mounts
+    const element = document.getElementById("focusElement");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -40,7 +46,7 @@ export default function Home({ params }) {
         return "md";
       }
     }
-    return "md"; 
+    return "md";
   }
 
   function handleResize() {
@@ -60,7 +66,7 @@ export default function Home({ params }) {
     <>
       <MainNavbar>
         <div className="w-full h-auto">
-          <Hero />
+          <Hero  />
           <Values />
           <MainContent link="/about-us" data={mainContentData[0]} />
           <OurServices />
@@ -84,6 +90,10 @@ export default function Home({ params }) {
             side="right"
           />
           <Map />
+          {/* Add ID to the div you want to focus on */}
+          <div id="focusElement">
+            {/* Content of the focus element */}
+          </div>
         </div>
       </MainNavbar>
     </>
