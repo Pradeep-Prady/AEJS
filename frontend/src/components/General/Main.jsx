@@ -16,7 +16,7 @@ export default function Main({ children }) {
   return (
     <>
       <div
-        className="w-full h-screen  z-0 relative"
+        className="w-full h-auto  z-0 relative"
       >
         <QueryClientProvider client={queryClient}>
           <div className="w-full h-screen poppins">{children}</div>
