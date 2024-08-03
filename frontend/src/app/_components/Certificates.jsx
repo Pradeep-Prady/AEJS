@@ -25,7 +25,7 @@ const Certificates = ({certificate}) => {
           className={`w-full h-full flex flex-col gap-10 items-center justify-center`}
         >
           <Image
-            className="md:w-[300px] md:h-[400px]"
+            className="md:w-[300px] md:h-[400px] shadow-xl"
             width={300}
             height={500}
             src={isc.src}
@@ -63,7 +63,7 @@ const Certificates = ({certificate}) => {
           /> */}
 
           <Image
-            className="md:w-[300px] md:h-[200px]"
+            className="md:w-[300px] md:h-[200px] shadow-xl"
             width={300}
             height={200}
             src={startup.src}

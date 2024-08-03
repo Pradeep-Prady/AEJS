@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 .btn-main {
   @apply bg-[#87AB26] text-[#2C3B07] rounded-full px-[32px] sm:px-[18px] lg:px-[36px] py-[12px] sm:py-[8px] lg:py-[14px] font-medium;
 }
@@ -44,4 +46,9 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.font-Varela {
+  font-family: "Varela Round", sans-serif;
 }

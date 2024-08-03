@@ -50,7 +50,7 @@ export default function Home({ params }) {
   const imageSources = {
     xs: [bgImage1, bgImage3],
     sm: [bgImage1, bgImage3],
-    md: [bgImage1, bgImage2],
+    md: [bgImage1, bgImage1],
   };
 
   // Ensure screenSize is valid
@@ -65,7 +65,7 @@ export default function Home({ params }) {
           <MainContent link="/about-us" data={mainContentData[0]} />
           <OurServices />
           <Solutions
-            bgImage={bgImage1}
+            bgImage={bgImage2}
             layer={layer1}
             className="left-0"
             fill

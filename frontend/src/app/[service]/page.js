@@ -6,7 +6,7 @@ import ServiceCard from "../_components/ServiceCard";
 import Heading from "@/components/UI/Heading";
 import Contact from "@/components/UI/Contact";
 import bgImage1 from "/public/assets/security services/bgImage1.webp";
-import bgImage2 from "/public/assets/security services/bgImage2.png";
+import bgImage2 from "/public/assets/security services/banner2.webp";
 import layer1 from "/public/assets/security services/solutions-2.png";
 import layer2 from "/public/assets/security services/solutions-3.png";
 import ServicesIconCard from "../_components/ServicesIconCard";
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }) {
     description: service
       ? `Details about ${service.name}`
       : "Service details not found",
-      keywords: "keyword1, kkeuy2"
+    keywords: "keyword1, kkeuy2",
   };
 }
 
