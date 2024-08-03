@@ -24,11 +24,8 @@ export const Footer = () => {
             alt="logo"
             src={logo}
           />
-          <p className=" leading-7 text-justify">
-            AEJS Info: Your trusted partner for security services in Coimbatore.
-            We offer professional detective services and reliable manpower
-            solutions, ensuring safety and peace of mind for businesses and
-            individuals.
+          <p className=" leading-7 ">
+          AEJSINFO stands as a one-stop for all your needs in Coimbatore since the company was established to provide various services that cater to all the client's needs. The services offered range from the provision of reliable and comprehensive security solutions to investigation services, or manpower consulting services.
           </p>
 
           <div className={`flex  w-full gap-5 text-[22px] my-5`}>
@@ -100,30 +97,50 @@ export const Footer = () => {
               </h2>
             </div>
             <div className=" my-[10px]">
-              <div className="flex items-center gap-2">
+              <div className="w-full flex items-center gap-2">
+
+                <div className="w-2/12 ">
                 <div className=" bg-myLG  w-[42px] h-[42px] flex items-center  justify-center rounded-full">
                   <LuPhone className="text-myBlue text-[20px] md:text-[20px]" />
                 </div>
-                <h6 className="  w-9/12 md:text-[16px]  ">
-                  +91 9944580798, +91 9500475798
+
+                  </div>
+
+              
+                <div className="w-10/12 flex items-start flex-col gap-2">
+ <h6 className="  w-9/12 md:text-[16px]  ">
+                  +91 9944580798
                 </h6>
+                <h6 className=" w-9/12  md:text-[16px]  ">
+              +91 9500475798
+                </h6>
+                  </div>
+               
               </div>
 
               <div className="flex items-center gap-2 my-5">
+              <div className="w-2/12 ">
+
                 <div className=" bg-myLG  w-[42px] h-[42px] flex items-center  justify-center rounded-full">
                   <MdOutlineMail className="text-myBlue text-[20px] md:text-[20px]" />
                 </div>
-                <h6 className="  w-9/12 md:text-[16px]  ">
-                  hr@aegisbusinessinfo.com
+                </div>
+
+                <h6 className="  w-10/12 md:text-[16px]  ">
+                aejsinfo@gmail.com
                 </h6>
               </div>
 
               <div className="flex items-start   gap-2 my-5">
+              <div className="w-2/12 ">
+
                 <div className=" bg-myLG  w-[42px] h-[42px] flex items-center  justify-center rounded-full">
                   <GrLocation className="text-myBlue text-[20px] md:text-[20px]" />
                 </div>
-                <h6 className="  w-9/12 md:text-[16px]   ">
-                  No 97 , 5 th Street Extn , Gandhipuram , Coimbatore - 641012
+                </div>
+
+                <h6 className="  w-10/12 md:text-[16px]   ">
+                  No 97 , 5 th Street Extn , Gandhipuram , Coimbatore - 641012
                 </h6>
               </div>
 

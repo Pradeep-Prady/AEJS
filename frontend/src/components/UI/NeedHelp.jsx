@@ -20,7 +20,7 @@ const NeedHelp = () => {
         <a href="tel:9944580798">
           <div className="bg-myGreen  my-5 px-4 py-2 rounded-full text-[24px] flex items-center justify-center">
             <BiSolidPhoneCall />
-            <p className="pl-1 ">+91 99619 81196</p>
+            <p className="pl-1 ">+91 99445 80798</p>
           </div>
         </a>
       </div>

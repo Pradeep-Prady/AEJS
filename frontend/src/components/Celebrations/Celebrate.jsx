@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import logo from "/public/assets/general/logo.svg"; // Ensure this path is correct
 import Image from "next/image";
 import bg from "/public/assets/general/background.png";
+import bg2 from "/public/assets/general/BG.jpg";
+
 
 import motion from "framer-motion"
 
@@ -35,16 +37,20 @@ const Celebrate = ({ onCountdownComplete }) => {
 
   return (
     <div className="w-full  bg-no-repeat  bg-cover  font-Varela fixed top-0 bottom-0 h-full z-50 flex flex-col items-center"
-    style={{ backgroundImage: `url(${bg.src})` }}
+    style={{ backgroundImage: `url(${bg2.src})` }}
     
     >
-      < div  className="w-full flex items-center justify-center">
+      < div  className="w-full  flex items-center justify-center">
         <Image width={300} className="w-[300px]  mt-50  scale-[2]" src={logo} alt="logo" />
       </ div>
+      <h2  className="text-6xl font-bold mt-10 mb-5 text-[#14286a]">Official Website Launch</h2>
+      <h2  className="text-3xl font-light text-center mt- mb-5 text-[#14286a]">3 - August - 2024</h2>
 
-      <h1 className="text-9xl mt-40">{count}</h1>
+      <h1 className="text-9xl mt-20 mb-10 text-[#14286a]">{count}</h1>
+
+
       <button
-        className="bg-blue-500 text-white px-4 py-2 mt-10"
+        className=" launch-btn "
         onClick={startCountdown}
       >
         Launch Now

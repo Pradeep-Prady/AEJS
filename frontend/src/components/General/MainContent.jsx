@@ -3,7 +3,9 @@
 import React from "react";
 import vectorYellow from "/public/assets/home/Vector-yellow.png";
 import vectorBlue from "/public/assets/home/Vector-blue.png";
-import guard1 from "/public/assets/home/SECURITYHOMPAGE.jpg";
+// import guard1 from "/public/assets/home/SECURITYHOMPAGE.jpg";
+import guard1 from "/public/assets/home/3.webp";
+
 
 import guard2 from "/public/assets/home/guard-2.png";
 import { PiDotOutlineFill } from "react-icons/pi";

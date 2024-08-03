@@ -12,6 +12,11 @@ import TestimonialsCard from './TestimonialsCard';
 const Slider = ({ lgChunkedTestimonials, smChunkedTestimonials }) => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
+
+  console.log(lgChunkedTestimonials,"lgChunkedTestimonials")
+
+
+
   useEffect(() => {
     const handleResize = () => {
       setIsSmallScreen(window.innerWidth < 768); // Adjust breakpoint as needed
@@ -46,8 +51,8 @@ const Slider = ({ lgChunkedTestimonials, smChunkedTestimonials }) => {
       {chunkedTestimonials.map((pair, index) => (
         <SwiperSlide key={index}>
           <div className="w-full grid lg:grid-cols-2 gap-5 lg:gap-10">
-            {pair.map((testimonial, innerIndex) => (
-              <TestimonialsCard key={innerIndex} />
+            {pair.map((testimonial,i) => (
+              <TestimonialsCard  testimonial={testimonial} key={i} />
             ))}
           </div>
         </SwiperSlide>

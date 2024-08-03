@@ -1,9 +1,6 @@
 import securityBg from "/public/assets/security services/security-bg.png";
 import serviceImage4 from "/public/assets/security services/service-image.png";
 
-import ArmedPsoImg from "/public/assets/security services/armed-pso/ArmedPso.jpg";
-
-
 import serviceImage3 from "/public/assets/security services/service-image-3.png";
 import armedpso_banner from "/public/assets/security services/armed-pso/banner.png";
 
@@ -20,6 +17,17 @@ import service_surveillance_room from "/public/assets/security services/icons/Su
 import service_fire_safety_expert from "/public/assets/security services/icons/FireSafetyExpert.png";
 import service_armed_security_officer from "/public/assets/security services/icons/Armed Security officer.png";
 import service_bouncer from "/public/assets/security services/icons/Bouncer.png";
+
+//
+
+import ArmedPsoImg from "/public/assets/security services/armed-pso/ArmedPso.jpg";
+import SecurityGuardImg from "/public/assets/security services/armed-pso/SecurityGuard.jpg";
+import ASOImg from "/public/assets/security services/armed-pso/ASO.jpg";
+import SecuritySupervisorImg from "/public/assets/security services/armed-pso/SecuritySupervisor.jpg";
+import GunmanImg from "/public/assets/security services/armed-pso/Gunman.jpg";
+import BouncerImg from "/public/assets/security services/armed-pso/Bouncer.jpg";
+import FireSafteyExpertImg from "/public/assets/security services/armed-pso/FireSafteyExpert.jpg";
+import SurvilanceRoomImg from "/public/assets/security services/armed-pso/SurvilanceRoom.jpg";
 
 // Detactive Services Icons
 
@@ -40,6 +48,23 @@ import unskilled_labour from "/public/assets/Manpower Consultancy/icons/unskille
 import house_cleaning from "/public/assets/House Cleaning/icons/House cleaning.svg";
 
 import deep_cleaning from "/public/assets/House Cleaning/icons/deep-cleaning.svg";
+
+
+//  Security Guard 
+
+import image1 from "/public/assets/security services/security-guard/1.webp";
+import image2 from "/public/assets/security services/security-guard/2.webp";
+import image3 from "/public/assets/security services/security-guard/3.webp";
+import image4 from "/public/assets/security services/security-guard/4.webp";
+
+
+// SecuritySupervisor
+
+ 
+import SecuritySupervisorimage1 from "/public/assets/security services/security-supervisor/1.webp";
+import SecuritySupervisorimage2 from "/public/assets/security services/security-supervisor/2.webp";
+import SecuritySupervisorimage3 from "/public/assets/security services/security-supervisor/3.webp";
+import SecuritySupervisorimage4 from "/public/assets/security services/security-supervisor/4.webp";
 
 export const services = [
   {
@@ -192,7 +217,7 @@ export const services = [
           "Security Personnel",
         ],
 
-        image: serviceImage4,
+        image: SecurityGuardImg,
         icon: service_security_guard,
 
         descriptions: [
@@ -268,17 +293,17 @@ export const services = [
         descriptionTwo:
           "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
-          armedpso_person_1,
-          armedpso_person_2,
-          armedpso_person_3,
-          armedpso_person_4,
+          image1,
+          image2,
+          image3,
+          image4,
         ],
       },
       {
         id: "security-supervisor",
         title: "Security Supervisor",
         path: "/security-services/security-supervisor",
-        image: serviceImage4,
+        image: SecuritySupervisorImg,
         icon: service_security_supervisor,
 
         metaTitle: "Security Supervisor",
@@ -374,10 +399,10 @@ export const services = [
         descriptionTwo:
           "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
-          armedpso_person_1,
-          armedpso_person_2,
-          armedpso_person_3,
-          armedpso_person_4,
+          SecuritySupervisorimage1,
+          SecuritySupervisorimage2,
+          SecuritySupervisorimage3,
+          SecuritySupervisorimage4,
         ],
       },
       {
@@ -394,7 +419,7 @@ export const services = [
         id: "gunman",
         title: "Gunman in Coimbatore",
         path: "/security-services/gunman",
-        image: serviceImage4,
+        image: GunmanImg,
         icon: service_gunman,
 
         subTitle: "Security services",
@@ -463,7 +488,7 @@ export const services = [
         id: "aso",
         title: "Assistant Security Officer (ASO) in Coimbatore",
         path: "/security-services/aso",
-        image: serviceImage4,
+        image: ASOImg,
         icon: service_armed_security_officer,
         subTitle: "Security services",
         banner: armedpso_banner,
@@ -549,7 +574,7 @@ export const services = [
         id: "bouncer",
         title: "Bouncer in Coimbatore",
         path: "/security-services/bouncer",
-        image: serviceImage4,
+        image: BouncerImg,
         icon: service_bouncer,
         subTitle: "Security services",
         banner: armedpso_banner,
@@ -637,7 +662,7 @@ export const services = [
         id: "fire-safety-expert",
         title: "Fire Safety Expert in Coimbatore",
         path: "/security-services/fire-safety-expert",
-        image: serviceImage4,
+        image: FireSafteyExpertImg,
         icon: service_fire_safety_expert,
         subTitle: "Security services",
         banner: armedpso_banner,
@@ -743,7 +768,7 @@ export const services = [
         id: "surveillance-room",
         title: "Surveillance Room",
         path: "/security-services/surveillance-room",
-        image: serviceImage4,
+        image: SurvilanceRoomImg,
         icon: service_surveillance_room,
         subTitle: "Security services",
         banner: armedpso_banner,
