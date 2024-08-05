@@ -49,18 +49,15 @@ import house_cleaning from "/public/assets/House Cleaning/icons/House cleaning.s
 
 import deep_cleaning from "/public/assets/House Cleaning/icons/deep-cleaning.svg";
 
-
-//  Security Guard 
+//  Security Guard
 
 import image1 from "/public/assets/security services/security-guard/1.webp";
 import image2 from "/public/assets/security services/security-guard/2.webp";
 import image3 from "/public/assets/security services/security-guard/3.webp";
 import image4 from "/public/assets/security services/security-guard/4.webp";
 
-
 // SecuritySupervisor
 
- 
 import SecuritySupervisorimage1 from "/public/assets/security services/security-supervisor/1.webp";
 import SecuritySupervisorimage2 from "/public/assets/security services/security-supervisor/2.webp";
 import SecuritySupervisorimage3 from "/public/assets/security services/security-supervisor/3.webp";
@@ -193,6 +190,32 @@ export const services = [
           armedpso_person_3,
           armedpso_person_4,
         ],
+
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+        ],
       },
       {
         id: "security-guard",
@@ -292,11 +315,31 @@ export const services = [
           "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
         descriptionTwo:
           "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
-        images: [
-          image1,
-          image2,
-          image3,
-          image4,
+        images: [image1, image2, image3, image4],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
       {
@@ -404,6 +447,31 @@ export const services = [
           SecuritySupervisorimage3,
           SecuritySupervisorimage4,
         ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+        ],
       },
       {
         metaTitle: "Gunman in Coimbatore",
@@ -464,10 +532,7 @@ export const services = [
             ],
           },
         ],
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
+
         images: [
           armedpso_person_1,
           armedpso_person_2,
@@ -550,17 +615,40 @@ export const services = [
             ],
           },
         ],
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
+
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
         ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+        ],
       },
+
       {
         metaTitle: "Bouncer in Coimbatore",
         metaDescription: "",
@@ -647,15 +735,37 @@ export const services = [
             ],
           },
         ],
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
+
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
       {
@@ -753,15 +863,37 @@ export const services = [
             ],
           },
         ],
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
+
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
       {
@@ -829,15 +961,37 @@ export const services = [
           },
         ],
 
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
     ],
@@ -958,15 +1112,36 @@ export const services = [
           },
         ],
 
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
 
@@ -1033,15 +1208,37 @@ export const services = [
           },
         ],
 
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
 
@@ -1111,15 +1308,36 @@ export const services = [
           },
         ],
 
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
 
@@ -1185,15 +1403,36 @@ export const services = [
           },
         ],
 
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
 
@@ -1250,15 +1489,37 @@ export const services = [
           },
         ],
 
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
 
@@ -1325,15 +1586,37 @@ export const services = [
           },
         ],
 
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
     ],
@@ -1422,15 +1705,36 @@ export const services = [
           "Ongoing Support and Guidance: Liberty is an ongoing support provider to both clients and candidates, providing support even after the candidates have been placed and the onboarding process is completed.",
         ],
 
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
       {
@@ -1477,15 +1781,36 @@ export const services = [
           "Insulation Workers: (Home builders, engineers, architects, and technicians) that complete the installation and management of insulation systems to improve energy efficiency and comfort..",
         ],
 
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
       {
@@ -1502,12 +1827,6 @@ export const services = [
         metaDescription: "",
         metaKeywords: [""],
 
-        descriptions: [
-          {
-            title: "",
-            content: ["", ""],
-          },
-        ],
         benefits: [
           "General Labourers: Affordable servants for various forms of labor, and from carrying out simple assignments in a household and the cleaning of the house to some of the most basic repairs around the home.",
           "Construction Helpers: Support experienced laborers in construction projects, in material handling and other duties that enable projects to proceed.",
@@ -1530,15 +1849,37 @@ export const services = [
           "Grounds Maintenance Workers: Managing, maintaining and preserving lawns, gardens, playgrounds, parks, sports fields or educational institutions",
           "Recycling Workers: Help to sort and handle refuse in the recycling plants that deals with recyclable products.Comprehensive Unskilled Labour Solutions",
         ],
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
+
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
     ],
@@ -1619,15 +1960,36 @@ export const services = [
           },
         ],
 
-        descriptionOne:
-          "If you're looking to ensure your safety and well-being are in good hands, this team has got you covered. From assessing potential threats to planning out top-notch security measures, they've got all the bases covered. In case of emergencies, you can trust them to respond promptly and effectively. Plus, they always keep a tight lid on things, making sure to handle everything with utmost professionalism for your peace of mind.",
-        descriptionTwo:
-          "In the realm of personal security, the primary role of a Personal Security Officer (PSO) is to ensure the safety and protection of their principal from potential threats. Whether working independently or as part of a cohesive team, a PSO is equipped to handle a variety of security scenarios. These highly skilled professionals extend their services to individuals and corporate figures, offering security coverage as needed, be it temporary or on a continuous basis. The core duty of our dedicated Personal Security Officer is to uphold a round-the-clock vigilance, shielding their clients from any forms of danger and swiftly mitigating any risks that may arise.",
         images: [
           armedpso_person_1,
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "Are first your security guards and investigators highly trained and experienced?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_2",
+
+            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_3",
+
+            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
+          {
+            id: "cfd_4",
+
+            qus: "Do you have a proven track record of success in the security and investigation industry?",
+            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+          },
         ],
       },
     ],

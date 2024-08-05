@@ -2,12 +2,10 @@ import React from "react";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import quotes from "/public/assets/general/quotes.png";
-import user from "/public/assets/testimonials/user.jpg";
 
 import Image from "next/image";
 
 const TestimonialsCard = ({testimonial}) => {
-  console.log(testimonial,"testimonial")
   return (
     <div className={`w-full my-7 md:my-10 p-5 rounded-xl bg-[#63636325]`}>
       <div className={`w-full flex`}>

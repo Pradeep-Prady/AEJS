@@ -13,10 +13,6 @@ const Slider = ({ lgChunkedTestimonials, smChunkedTestimonials }) => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
 
-  console.log(lgChunkedTestimonials,"lgChunkedTestimonials")
-
-
-
   useEffect(() => {
     const handleResize = () => {
       setIsSmallScreen(window.innerWidth < 768); // Adjust breakpoint as needed

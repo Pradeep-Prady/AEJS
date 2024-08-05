@@ -1,7 +1,6 @@
 import Career from "../model/careerModel.js";
 
 export const add = async (data) => {
-    console.log("data", data);
     const newCareer = await Career.create(data);
     return newCareer;
 }

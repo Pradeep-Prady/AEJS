@@ -6,8 +6,6 @@ import Link from "next/link";
  
 const ServiceCard = ({ subItem, className, size  }) => {
 
-  console.log(subItem,"subItem")
-  // width={50} height={50}
   return (
     <Link
       href={subItem?.path}

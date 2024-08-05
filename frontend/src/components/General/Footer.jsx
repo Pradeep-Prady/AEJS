@@ -45,22 +45,22 @@ export const Footer = () => {
 
           <div className="w-full   sm:flex gap- items-start justify-end">
             <div className="md:w-[40%] flex flex-col gap-2">
-              {navBarData[1]?.subMenu?.map((item) => (
-                <Link href={item.path} className="  md:text-[16px]   my-1 ">
+              {navBarData[1]?.subMenu?.map((item,i) => (
+                <Link href={item.path} key={i} className="  md:text-[16px]   my-1 ">
                   {item.title}
                 </Link>
               ))}
             </div>
 
             <div className="md:w-[60%]  my-2 md:my-0 flex flex-col gap-2">
-              {navBarData[2]?.subMenu?.map((item) => (
-                <Link href={item.path} className="  md:text-[16px]   my-1 ">
+              {navBarData[2]?.subMenu?.map((item,i) => (
+                <Link href={item.path} key={i} className="  md:text-[16px]   my-1 ">
                   {item.title}
                 </Link>
               ))}
 
-              {navBarData[3]?.subMenu?.map((item) => (
-                <Link href={item.path} className=" md:text-[16px]  my-1 ">
+              {navBarData[3]?.subMenu?.map((item,i) => (
+                <Link href={item.path} key={i} className=" md:text-[16px]  my-1 ">
                   {item.title}
                 </Link>
               ))}

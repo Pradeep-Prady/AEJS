@@ -68,8 +68,8 @@ export default async function SubService({ params }) {
 
                   {subService?.descriptions[0]?.content &&
                     subService?.descriptions[0]?.content?.length > 0 &&
-                    subService?.descriptions[0]?.content?.map((service) => (
-                      <p className="text-[18px] my-2 text-gray-500 tracking-wide">
+                    subService?.descriptions[0]?.content?.map((service,i) => (
+                      <p className="text-[18px] my-2 text-gray-500 tracking-wide" key={i}>
                         {service}
                       </p>
                     ))}
@@ -84,7 +84,6 @@ export default async function SubService({ params }) {
                       alt="subService_Image"
                       width={200}
                       height={200}
-                     
                     />
                   ))}
                 </div>
@@ -97,16 +96,16 @@ export default async function SubService({ params }) {
 
                 {subService?.descriptions &&
                   subService?.descriptions?.length > 1 &&
-                  subService?.descriptions.slice(1).map((serviceContent) => (
-                    <div className="my-3 px-5">
+                  subService?.descriptions.slice(1).map((serviceContent,i) => (
+                    <div className="my-3 px-5" key={i}>
                       <h1 className="text-[24px] font-semibold">
                         {serviceContent?.title}
                       </h1>
 
                       {serviceContent?.content &&
                         serviceContent?.content?.length > 0 &&
-                        serviceContent?.content?.map((service) => (
-                          <p className="text-[18px] my-2 text-gray-500 tracking-wide">
+                        serviceContent?.content?.map((service,i) => (
+                          <p className="text-[18px] my-2 text-gray-500 tracking-wide" key={i}>
                             {service}
                           </p>
                         ))}
@@ -119,8 +118,8 @@ export default async function SubService({ params }) {
                     </h2>
                     {subService?.benefits &&
                       subService?.benefits?.length > 0 &&
-                      subService?.benefits.map((service) => (
-                        <div className="text-[18px] flex items-start  my-3 text-gray-500 tracking-wide">
+                      subService?.benefits.map((service,i) => (
+                        <div className="text-[18px] flex items-start  my-3 text-gray-500 tracking-wide" key={i}>
                           <FaLongArrowAltRight className="mt-1 w-1/12 mr-2 text-[20px] text-black" />
                           <p className="w-11/12">{service}</p>
                         </div>
@@ -162,7 +161,7 @@ export default async function SubService({ params }) {
             </div>
           </div>
           <NeedHelp />
-          <FAQ service={service} />
+          <FAQ name={service?.name} faqs={subService?.faqDatas} />
           <ServicesIconCard service={service} />
           <Solutions
             bgImage={bgImage2}

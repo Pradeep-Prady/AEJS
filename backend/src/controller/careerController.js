@@ -6,21 +6,16 @@ import AppSuccess from "./../utils/response-handlers/app-success.js";
 
 // users
 export const createCareer = async (req, res, next) => {
-  console.log("req.body", req.body);
-
   let BASE_URL = `${req.protocol}://${req.get("host")}`;
   let url;
   // Add new images if there are any
   if (req?.file) {
-    console.log(req.file);
-    // let url = `${BASE_URL}/src/uploads/item/${file.originalname}`;
     url = `${BASE_URL}/src/uploads/resume/${req?.file.originalname}`;
   }
 
   req.body.resume = url;
   const { error } = careerCreateValidator.validate(req.body);
   if (error) {
-    console.log(error);
     return next(new AppError(error.details[0].message, BADREQUEST));
   }
 
@@ -28,8 +23,6 @@ export const createCareer = async (req, res, next) => {
     const newCareer = await add(req.body);
     return next(new AppSuccess(newCareer, "Career Registered", SUCCESS));
   } catch (error) {
-    console.log(error);
-
     return next(new AppError("Something went wrong", BADREQUEST));
   }
 };
@@ -60,12 +53,9 @@ export const getSingleCareer = async (req, res, next) => {
 
 export const deleteCareer = async (req, res, next) => {
   try {
-    console.log(req.params.id);
     const deletedContact = await deleteById(req.params.id);
-    console.log(deletedContact);
     return next(new AppSuccess(deletedContact, "Contact Deleted", SUCCESS));
   } catch (error) {
-    console.log(error)
     return next(new AppError("Something went wrong", BADREQUEST));
   }
 };

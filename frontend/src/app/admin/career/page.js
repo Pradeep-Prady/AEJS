@@ -28,8 +28,6 @@ const CareerList = () => {
     {
       onSuccess: (deletedId) => {
         // Update the UI by filtering out the deleted item
-        console.log(deletedId, "deletedId");
-        console.log(deletedId?.data?.data?._id);
         setData((prevData) =>
           prevData.filter((item) => item._id !== deletedId?.data?.data?._id)
         );

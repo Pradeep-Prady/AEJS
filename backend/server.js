@@ -9,7 +9,7 @@ connectDatabase(DB_URL);
 const port = process.env.PORT || 3004;
 const server = app.listen(port, () => {
   console.log(
-    "VJP API " +
+    "AEJS API " +
       process.env.NODE_ENV +
       " mode on PORT " +
       process.env.PORT +

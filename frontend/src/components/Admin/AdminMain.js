@@ -19,7 +19,6 @@ const AdminMain = ({ children, setIsLoggedIn, isLoggedIn }) => {
       onSuccess: (res) => {
         setIsLoggedIn(res.data?.data.admin);
 
-        console.log(res)
       },
       onError: (err) => {
         console.log(err);
