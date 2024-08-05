@@ -1,7 +1,6 @@
 import "./src/config/index.js";
 import connectDatabase from "./database.js";
 import app from "./app.js";
-import globalResponseController from "./src/utils/response-handlers/global-response-controller.js";
 
 const DB_URL = process.env.DATABASE_URI;
 
@@ -18,8 +17,6 @@ const server = app.listen(port, () => {
       new Date()
   );
 });
-
-app.use(globalResponseController);
 
 process.on("unhandledRejection", (err) => {
   console.error("Unhandled Rejection", err);

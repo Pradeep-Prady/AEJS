@@ -8,7 +8,7 @@ import career from "./src/route/career.js";
 import contact from "./src/route/contact.js";
 import admin from "./src/route/admin.js";
 import globalResponseController from "./src/utils/response-handlers/global-response-controller.js";
-import next from "next";
+ 
 
 dotenv.config();
 
