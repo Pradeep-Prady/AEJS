@@ -1,9 +1,9 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:8000/api/",
+  // baseURL: "http://localhost:8000/api/",
   // baseURL: "https://aejs.onrender.com/api/",
-  // baseURL: "http://api.aejsinfo.com:8001/api/",
+  baseURL: "https://aejsinfo.onrender.com/api/",
   // check
 
   withCredentials: true,
