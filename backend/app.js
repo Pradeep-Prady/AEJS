@@ -21,12 +21,12 @@ const allowedOrigins = [
   "http://localhost:8000",
   "https://aejs.vercel.app/",
   "http://127.0.0.1:3000",
-  
+  "https://www.aejsinfo.com",
 ];
 app.use(cookieParser());
 
 const corsOptions = {
-  // origin: "https://aejs.vercel.app", 
+  // origin: "https://aejs.vercel.app",
   origin: allowedOrigins,
   credentials: true, // Enable CORS with credentials
 };
