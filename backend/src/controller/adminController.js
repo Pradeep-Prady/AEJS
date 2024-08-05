@@ -81,11 +81,14 @@ export const getAdminProfile = async (req, res, next) => {
 };
 
 export const logoutAdmin = async (req, res, next) => {
+
+ 
+
   const options = {
     expires: new Date(Date.now()),
     httpOnly: true,
-    secure: process.env.NODE_ENV === "prod",  
-    sameSite: process.env.NODE_ENV === "prod" ? "None" : "Lax", // Adjust SameSite attribute based on environment
+    secure: process.env.NODE_ENV === "production", // Use secure cookies in production
+    sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax", // Adjust SameSite attribute based on environment
   };
 
   res.cookie("at", null, options);
