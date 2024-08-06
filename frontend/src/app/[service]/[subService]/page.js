@@ -61,7 +61,10 @@ export default async function SubService({ params }) {
                     {subService?.descriptionOne}
                   </p>
                 </div>  */}
-                <div className="my-3 p-5">
+
+                {
+                  subService?.descriptions &&  
+                  <div className="my-3 p-5">
                   <h1 className="text-[24px] font-semibold">
                     {subService?.descriptions[0]?.title}
                   </h1>
@@ -74,6 +77,8 @@ export default async function SubService({ params }) {
                       </p>
                     ))}
                 </div>
+                }
+                
 
                 <div className="my-3 p-5 w-12/12 grid grid-cols-2 gap-10">
                   {subService?.images.map((image) => (

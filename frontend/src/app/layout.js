@@ -40,6 +40,10 @@ export default function RootLayout({ children }) {
           content="4RhE729BjHbJDDlVgErYHpS0k3Y4Y4d6XUn3jn9ym3c"
         />
         <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+        <meta name="msvalidate.01" content="60C25435936D208FD7AD97985F3D6F3E" />
+        
+<meta name="yandex-verification" content="723e015616885af1" />
       </head>
       <body className={inter.className}>
         <Main>{children}</Main>
