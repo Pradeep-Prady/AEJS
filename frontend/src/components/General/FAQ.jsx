@@ -4,7 +4,7 @@ import { certificatesFAQsData } from "@/app/_data/general";
 import React, { useState } from "react";
 import { FaMinus, FaPlus } from "react-icons/fa6";
 
-const FAQ = ({ name ,faqs}) => {
+const FAQ = ({ name, faqs }) => {
   const [expandedFaq, setExpandedFaq] = useState(certificatesFAQsData[0].id);
 
   const toggleFaq = (id) => {
@@ -23,7 +23,7 @@ const FAQ = ({ name ,faqs}) => {
         <h1
           className={`text-myLG text-[22px] sm:text-[28px] lg:text-[38px] font-bold`}
         >
-          { name}
+          {name}
         </h1>
       </div>
       <div className={"   "}>
@@ -33,7 +33,10 @@ const FAQ = ({ name ,faqs}) => {
             key={faq.id}
           >
             <div className="flex justify-between items-start">
-              <h2 className="text-[18px] w-11/12 font-semibold my-1">
+              <h2
+                className="text-[18px] w-11/12 font-semibold my-1"
+                onClick={() => toggleFaq(faq.id)}
+              >
                 {faq.qus}
               </h2>
               <button
