@@ -194,26 +194,36 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What is an Armed PSO, and what are the services provided by them?",
+            ans: "The term Armed PSO refers to a high-skilled professional security officer carrying firearms for personal protection. The major functions in high-risk environments are safeguarding individuals from potential threats through risk assessment and emergency response.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the steps that I am to follow to obtain the Armed PSO security service from AEJS INFO in Coimbatore?",
+            ans: "You can reach directly to the telephone number that is being given below or through e-mail to hire the services of Armed PSO from AEJS INFO. The team will assess your security needs and clearly inform you if an armed PSO will be assigned to meet those needs.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How would you describe the qualifications and training of the Armed PSO at AEJS INFO?",
+            ans: "Armed PSO has been given a thorough training for weapons with respect to AEJS INFO, which is well-qualified and licensed and proficient in people's protection and crisis management.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "Is there any difference between an armed security guard and an Armed PSO provided by AEJS INFO?",
+            ans: "While both security guards with guns and Armed PSOs receive firearms training, Armed PSOs also undergo advanced training in personal protection. This makes them better suited for handling risky and demanding situations compared to regular security guards who focus mainly on patrolling.",
+          },
+          {
+            id: "cfd_5",
+            qus: "How does AEJS INFO ensure the safety and effectiveness of their Armed PSOs?",
+            ans: "AEJS INFO ensures that every armed PSO with whom we partner must be vetted for safety and competence, with ongoing training in safety protocols. Our PSOs are further trained on the latest security technology in the area of personal protection and emergency response.",
+          },
+          {
+            id: "cfd_6",
+            qus: "What should a person consider when hiring an Armed PSO for personal protection?",
+            ans: "This will include his level of training and qualifications, high-risk situation management experience, and if he can fit your exact security needs. AEJS INFO can help by elaborating on the consultation over the choice of Armed PSO to fit best with your requirement.",
           },
         ],
       },
@@ -319,26 +329,32 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "Which services does the security guards from AEJS INFO offer in Coimbatore?",
+            ans: "AEJS INFO security guards services involve site security, controlling access into the premises, monitoring, responding to emergencies, and patrol services. They are expected to oversee and deal with risks that affect residential, commercial, and industrial properties to minimize loss.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What steps do I need to follow to hire a security guard from AEJS INFO in Coimbatore? ",
+            ans: "For further information on how to hire a security guard with AEJS INFO, feel free to call us through this number [phone number] or through the given [email address]. The specifics of your security requirements, eligibility and placement of security personnel will be determined from this meeting.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the working hours of the security guards provided by AEJS INFO?",
+            ans: "AEJS INFO provides working schedules of security guards which may include 8 hours shift. This means that we are in a position to adjust the shift times to the needed time for security starting from 8 hours to 12 hours, to 24/7. ",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What could be good average salary that security guards receive in the area of Coimbatore?",
+            ans: "The pay scale for security guards in Coimbatore may depend on certain aspects, which include experience, duties and shift. The relative pay scale of AEJS INFO is competitive depending on the industry norm and demand of the job.",
+          },
+
+          {
+            id: "cfd_5",
+            qus: "What kind of trained and qualified staff serves security guards in AEJS INFO?",
+            ans: "Security guards belonging to AEJS INFO security services undergo through intensive trainings and are equipped in several aspects of security like surveillance, emergencies, and control of violent incidents. To maintain a high quality of service, they are subjected to strict background checks and issued certifications.",
           },
         ],
       },
@@ -450,26 +466,36 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the duty and tasks of a Security Supervisor at AEJS INFO?",
+            ans: "A Security Supervisor from AEJS INFO is technically answerable for the entire security situation of a site, managing all the security staff, conducting inspections and investigating cases and emergencies if there are any. They also offer reports and status to the upper management.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How can I find Security Supervisor jobs in Coimbatore through AEJS INFO?",
+            ans: "Hiring a Security Supervisor at AEJS INFO; for more information, you can call us or email [phone number] or [email address]. First, we will evaluate your security needs, then, we will offer you suitable human resource, and finally ensure the appointment of the appropriate Security Supervisor.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the provisions for working hours of the Security Supervisors to be rendered by AEJS INFO?",
+            ans: "The work schedule for Security Supervisors at AEJS INFO comprises a flexible number of working hours including eight hours. Our staff is flexible when it comes to shift working time, 8 hours or 12 hours, or even the continuous shift you need. ",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What personal characteristics make up a good Security Supervisor?",
+            ans: "While recruiting for a post of a Security Supervisor the ideal candidate should be a team player with leadership skills, good communicator, good problem solver, detail oriented and a stress tolerant candidate.  ",
+          },
+          {
+            id: "cfd_5",
+            qus: "What are the standards and requirements necessary for one to secure the position of a Security Supervisor at AEJS INFO?",
+            ans: "A Security Supervisor at AEJS INFO should have prior working experience in security or relevant field, security certifications and learning security measures fully. ",
+          },
+          {
+            id: "cfd_6",
+            qus: "What is the salary for a Security Supervisor in Coimbatore?",
+            ans: "Security Supervisor’s salary in Coimbatore varies based on the previous experience, roles, and responsibilities, and the organization’s needs. Currently, all employees of AEJS INFO receive handsome remuneration according to the average for the IT market and in accordance with the job description.",
           },
         ],
       },
@@ -538,6 +564,38 @@ export const services = [
           armedpso_person_2,
           armedpso_person_3,
           armedpso_person_4,
+        ],
+        faqDatas: [
+          {
+            id: "cfd_1",
+            qus: "What is the role of a Gunman provided by AEJS INFO?",
+            ans: "A Gunman from AEJS INFO is expected to offer armed security and protection services especially to different clients in risky situations. Some of their activities include guarding people or assets, patrol security, and in case of an incident, act on it.",
+          },
+          {
+            id: "cfd_2",
+            qus: "How can I find a Gunman for security services in Coimbatore through AEJS INFO?",
+            ans: "To get a direct link to a Gunman into AEJS INFO, kindly contact us on [phone number] or [email address]. Your security provisions will be discussed, appropriate candidates will be recommended to you and we will then link you up with a well qualified Gunman.",
+          },
+          {
+            id: "cfd_3",
+            qus: "What qualities should I look for in a Gunman?",
+            ans: "When hiring a Gunman, defensive skills, reliability, alertness, and professionalism of the latter should be considered. They should also possess fire arms license, good expertise in handling fire arms, must know how the respond to security threats.",
+          },
+          {
+            id: "cfd_4",
+            qus: "What are the job responsibilities of a Gunman?",
+            ans: "The working responsibilities of a Gunman include protecting people and property with firearms, patrolling the premises, controlling the entrants’ entry, and handling any emergent situations. ",
+          },
+          {
+            id: "cfd_5",
+            qus: "Are there job opportunities for Gunmen with AEJS INFO in Coimbatore?",
+            ans: "We are open for everyone interested and the applicants are welcome to contact us via phone or use the internet resources on the official website of the company.",
+          },
+          {
+            id: "cfd_6",
+            qus: "What qualifications and training are required for a Gunman at AEJS INFO?",
+            ans: "A Gunman at AEJS INFO should possess a legal license to bear firearms, practice in handling firearms, and should have a background working in security events. Certifications earned by the recruits may encompass defensive tactics and emergency response as it can help them in handling all types of security threats.",
+          },
         ],
       },
       {
@@ -625,27 +683,42 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What does an Armed Security Officer (ASO) do at AEJS INFO?",
+            ans: "An Armed Security Officer (ASO) working for AEJS INFO offers professional security services accompanied by the utilization of weapons, ensuring person and property safety. Their responsibilities include command and control of security matters, performing regular security tours, incident handling as well as security of their respective zones.",
           },
           {
             id: "cfd_2",
-
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How do I get a security services ASO from AEJS INFO in Coimbatore?",
+            ans: "For recruitment/enlistment of an ASO through AEJS INFO please call [phone number] or send an email to [email address]. We will discuss your security requirements with you, present you with suitable ASO applicants and proceed with their implementation to meet your security demands.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the key qualities of a reliable ASO?",
+            ans: "A reliable ASO should have qualities such as; one must be defensive, be keen in details, be reliable and professional. Also, they have to possess a proper license to bear firearms, sufficient security training to perform the operations, and the capacity to work efficiently under stress.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the typical job responsibilities of an ASO?",
+            ans: "General duties of an ASO include armed guarding, surveillance of security systems, fixed intensive protection, entry control, and requirements for protection against threats or risks. ",
           },
+          {
+            id: "cfd_5",
+            qus: "Are there job opportunities for ASOs with AEJS INFO in Coimbatore?",
+            ans: "Job applicants can contact us through email or visit our website and apply for the relevant positions they desire. The job positions are competitive and the ASOs are provided with the needed trainings."
+          },
+          {
+            id: "cfd_6",
+            qus: "What qualifications and training are required for an ASO at AEJS INFO?",
+            ans: "ASO at AEJS INFO should posses credible firearms license and enriched training in covering the firearms and experience in security activities. "
+          }
+          ,
+          {
+            id: "cfd_7",
+            qus: "How does AEJS INFO ensure the effectiveness and safety of their ASOs?",
+            ans: "AEJS INFO brings the highest standards in effectiveness and safety of our ASOs due to careful selection of workers, constant training and obligatory adherence to safety measures. Our ASOs are also equipped with the newest security technology in the market to ensure their security and efficiency Also we do performance assessments from time to time to ensure that our service delivery standards are high."
+          }
         ],
       },
 
@@ -745,27 +818,42 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "Who is a Bouncer provided by AEJS INFO and what are his duties?",
+            ans: "A Bouncer from AEJS INFO gives security and control in events, clubs or any other place where this service is needed. Some of their responsibilities include mob control, identification checks, exclusion/control of unauthorised access, and dealing with riots/commotion."
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How can I get a Bouncer for an event in Coimbatore via AEJS INFO?",
+            ans: "To hire a Bouncer through AEJS INFO, please call at to [phone number] or write an e-mail at [email address]. In this case, we will engage you to understand your event’s security requirements and present you with the right candidates to be our Bouncers who will ensure proper security within your facility. ",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the key qualities of an effective Bouncer?",
+            ans: "The job of Bouncer requires physical power, good communication skills, ability to work under pressure, problem solving skills. They should also be able to observe, remain professional, and be competent in the implementation of venue polices.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What kind of events or places do people need Bouncer services for?",
+            ans: "Bouncer services are mostly needed in clubs, bars, night clubs, concerts, parties, corporate functions, among others, anyone or any place that needs control of crowds and security. ",
           },
+          {
+            id: "cfd_5",
+            qus: "What education and/or training are necessary for a Bouncer at AEJS INFO?",
+            ans: "A Bouncer at AEJS INFO should also in security measures, handling of conflicts, and responding to emergencies including first aid. Physical fitness and prior work experience in the field of security or in related capacity is also necessary. "
+          },
+          {
+            id: "cfd_6",
+            qus: "Can AEJS INFO provide Bouncers with guns for high-risk events in Coimbatore?",
+            ans: "AEJS INFO can provide Bouncers who are licensed to carry firearms for high risk event in Coimbatore. Such Bouncers are capable and skilled in shooting, managing crowds, crises situations, and basic security. ",
+          },
+          {
+            id: "cfd_7",
+            qus: "What kind of emergencies can Bouncers from AEJS INFO manage during an event?",
+            ans: "Bouncers from AEJS INFO are required to have sufficient knowledge to deal with emergencies, such as medical, evacuation, and violent incidents. They are in a position to be able to quickly and efficiently intervene and quell any panic or need for security for all the guests."
+          }
         ],
       },
       {
@@ -873,27 +961,32 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What services do Fire Safety Experts from AEJS INFO provide in Coimbatore?",
+            ans: "AEJS INFO Fire Safety Consultants are involved in risk evaluation on fires, fire safety education, emergency drill, fire protection and advising. They confirm that your premises are adequately protected with measures that can help control and prevent fire and its calamities.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How can I get the Fire Safety Experts in Coimbatore through the AEJS INFO?",
+            ans: "For the best Fire Safety Experts through AEJS INFO, kindly call us on the following number or send an E-mail to our E-mail address. It will help us determine your particular needs in fire safety and offer you the best professionals who work with fire safety systems.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What qualities should I look for in a Fire Safety Expert?",
+            ans: "The key qualities a competent Fire Safety Expert should possess include the fire safety regulations knowledge, analytical skills, attention to details, and good communication skills. ",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What does a Fire Consultant do with AEJS INFO?",
+            ans: "A Fire Consultant at AEJS INFO assists in matters to do with prevention of fires, safety measures, and legal requirements. They have a close relationship with their clients to develop and incorporate efficient fire safety measures in their arrangements for the safety of the inhabitants and protection of structures.",
           },
+          {
+            id: "cfd_5",
+            qus: "Are there online fire safety classes available through AEJS INFO?",
+            ans: "AEJS INFO does provide online fire safety classes that incorporate some of the basics of fire safety like fire prevention, response, as well as the proper usage of fire safety equipment’s."
+          }
         ],
       },
       {
@@ -971,27 +1064,37 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What is the purpose of a Surveillance Room provided by AEJS INFO?",
+            ans: "The service a company by the name AEJS INFO offers include a Surveillance Room that entails overseeing of security measures taken in different premises and managing of these security measures through sophisticated technologies. To provide constant supervision and immediate intervention in case of emergencies, this room has high-tech cameras, monitoring software, and other security tools."
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What type of setup is used in a Surveillance Room by AEJS INFO?",
+            ans: "AEJS INFO installs Surveillance Rooms with modern gadgets such as HD Cameras, Multi-screen visual displays, Real-time Monitoring tools, Data Security Storage systems. We also incorporate options for specific management of access as well as alarm systems for boosting the security management.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How does AEJS INFO ensure the security and reliability of Surveillance Rooms?",
+            ans: "AEJS INFO guarantees the protection of the information in Surveillance Rooms making use of secured data communications, storage media, and backup technologies that would inhibit data loss. ",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "Can AEJS INFO customize a Surveillance Room setup for specific needs?",
+            ans: "Yes it is possible for AEJS INFO to design and implement a surveillance room depending on the needs of the client. Regardless of whether you require a system for one or several buildings, we adjust the design, and the equipment required, to your security requirements.",
           },
+          {
+            id: "cfd_5",
+            qus:" What are the benefits of having a Surveillance Room for business security?",
+            ans: "A Surveillance Room is characterized by constant observation, immediate identification of threats, and management of numerous sites. It assists companies in avoiding security breaches, loss, and efficiently handling crises thus enhancing safety and security."
+          },
+          {
+            id: "cfd_6",
+            qus: "What training is offered by AEJS INFO for the running of a Surveillance Room?",
+            ans: "AEJS INFO also includes training of the security personnel in management of a Surveillance Room. This involves training on how to utilize the surveillance software, analyze the data, handle incidences and constantly servicing the software so as to prevent breakdowns."
+          }
         ],
       },
     ],
@@ -1098,18 +1201,7 @@ export const services = [
               "As a result of the grouping position, enhanced technology in cyber intelligence, crime analysis, fraud investigation, and surveillance, AEJSINFO of the U.S. is a leading member in cyberspace crime prevention and solutions",
             ],
           },
-          {
-            title: "",
-            content: ["", ""],
-          },
-          {
-            title: "",
-            content: ["", ""],
-          },
-          {
-            title: "",
-            content: ["", ""],
-          },
+          
         ],
 
         images: [
@@ -1121,27 +1213,38 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What services do detective agencies for cybercrime provide?",
+            ans: "Detective agencies for cybercrime investigate online fraud, identity theft, hacking, and other digital crimes, helping clients protect their personal and business information.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "Where and how can I recruit a cybercrime detective from AEJS INFO?",
+            ans: "If you have any personal issue related to cybercrime, please call AEJS INFO or email us so that you will be referred to a competent cybercrime detective to help you.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What types of cybercrimes can AEJS INFO investigate?",
+            ans: "AEJS INFO can cover almost every kind of cybercrime – whether it is data theft or leakage, phishing, ransomware attack, stalking on social media, etc.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "Why should I choose AEJS INFO for cybercrime investigation?",
+            ans: "AEJS INFO has professional cyber detectives who efficiently solve complicated cases by using the modern hardware and software tools. ",
           },
+          
+          {
+            id: "cfd_5",
+            qus: "How does AEJS INFO ensure confidentiality during a cybercrime investigation?",
+            ans: "During the investigation, AEJS INFO adheres to the highest levels of confidentiality to make sure that all the required information is kept secret and dealt with silently."
+          },
+          {
+            id:  "cfd_6",
+            qus: "What steps should I take if I suspect a cybercrime?",
+            ans: "If you have the slightest feeling that you are a victim of a cybercrime, kindly report to AEJS INFO. Our specialists in the area will help you know how to proceed to ensure that you retain incriminating evidence and consequently, begin a proper investigation."
+          }
         ],
       },
 
@@ -1218,27 +1321,43 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What is a pre-matrimonial investigation?",
+            ans: "A investigative search conducted before marriage aims at establishing the history, economic position, and moral character of the proposed partner.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How does AEJS INFO help in case I am planning to for a marriage investigation of someone?",
+            ans: "This way, marriage investigations from AEJS INFO assist you in confirming crucial facts about the partner and establish trust in a relationship.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What information can I expect from a pre-matrimonial investigation?",
+            ans: "You can expect the information concerning family background, employment status, financial position, conduct, and criminal records if any.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How confidential is the matrimonial screening process?",
+            ans: "AEJS INFO guarantees the candidate’s absolute discretion throughout the screening process (stating the nature of the investigation).",
           },
+          {
+            id: "cfd_5",
+            qus: "How much time does pre-matrimonial investigation take?"
+            ,
+            ans: "It depends on the peculiarities of the case and the available information the duration of AEJS INFO is on average a few weeks.",
+          },
+          {
+            id: "cfd_6",
+            qus: "Can AEJS INFO investigate past relationships in a matrimonial screening?",
+            ans: "Yes, AEJS INFO can look into the past social relations in a bid to establish your partner’s track record and conduct."
+          },
+          {
+            id: "cfd_7",
+            qus: "What are the expenses incurred in conducting a marriage investigation?",
+            ans: "The costs are relative to the number of investigations or analysis a firm carries out. AEJS INFO is sensitive to the needs of the clients and therefore provides the service in a package that is fit for purpose.  "
+          }
         ],
       },
 
@@ -1317,27 +1436,43 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What is a direct investigation in personal cases?",
+            ans: "Another purpose of investigation is direct investigation where the collector has to get in touch with the subject personally to ask questions or observe them to get certain facts about the latter.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What is an indirect investigation?",
+            ans: "Indirect investigation acquire information indirectly from other people such as friends, records and databases without actual contact with the target individual.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How does AEJS INFO handle oral investigations?",
+            ans: "Oral examinations are the processes of getting verbal evidence from the witnesses or any person concerned with the case and makes the findings accurate and reliable.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What types of personal investigations does AEJS INFO offer?",
+            ans: "Thus, the services provided by AEJS INFO include different personal investigation services such as background check, infidelity cases investigation, missing person investigation.",
           },
+          {
+            id: "cfd_5",
+            qus: "How confidential are personal investigations conducted by AEJS INFO?",
+            ans: "AEJS INFO makes sure that, any case involving personal issues is well protected and the privacy of the individuals is not violated in any way."
+          }
+          ,
+          {
+            id: "cfd_6",
+            qus: "How long does one take in personal investigation?",
+            ans: "This in accord with many private investigations depending on how complicated the particular case is, AEJS INFO will try and return results as soon as possible."
+          },
+          {
+            id: "cfd_7",
+            qus: "Can AEJS INFO carry out the direct and indirect investigation for the same case?",
+            ans: "Indeed, AEJS INFO can use both the direct and indirect investigations to assemble the detailed information for better case study."
+          }
         ],
       },
 
@@ -1412,27 +1547,42 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What services does AEJS offer during Corporate Investigation?",
+            ans: "Corporate investigation also entails research on business conduct, confirmation of the identity of employees, the detection of fraud and the checking of the legal requirements.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What is the normal procedure in a corporate investigation?",
+            ans: "This process entails the preliminary assessment, identification of goals, identification of facts, and final analysis and write up of the report with findings and recommendations.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What procedures does AEJS INFO take when doing the corporate fraud investigations?",
+            ans: "AEJS INFO examines various frauds through scrutinizing the financial statements, excluding asking the organizations employees questions and looking for irregularities in the accounts to discover frauds. ",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What kind of corporate investigation is done by AEJS INFO?",
+            ans: "AEJS INFO performs internal investigations that involve employee conduct, financial embezzlement, piracy or theft and compliance matters.",
           },
+          {
+            id: "cfd_5",
+            qus: "How secure are business investigations with AEJS INFO?",
+            ans: "Incorporating confidentiality, AEJS INFO maintains the confidentiality of all information throughout investigations in corporations by keeping the information secretive.",
+          },
+          {
+            id: "cfd_6",
+            qus: "How long does a corporate investigation usually take?",
+            ans: "It depends on the specificity of the case, though AEJS INFO does not take much time for investigations at the same time meeting quality requirements."
+          },
+          {
+            id: "cfd_7",
+            qus: "Can AEJS INFO help in corporate investigations?",
+            ans: "Absolutely, AEJS INFO offers a check on business partners, mergers or acquisition where one intends to get vital information on the background of the other party or business."
+          }
         ],
       },
 
@@ -1499,27 +1649,43 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What does AEJS INFO carry out a forensic investigation for?",
+            ans: "Forensic means a formal examination and analysis of related or pertinent objects including adhering to scientific techniques in its collection and processing for the purpose of presenting it as supporting evidence of a crime or a financial disagreement case.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How does AEJS INFO handle forensic investigations in cyber security?",
+            ans: "In cyber security cases, AEJS INFO employs sophisticated techniques in tracking, investigating, and mapping cyber related incidences in order to spot vulnerabilities and to perform a data recovery on hacked information. ",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the key steps in a forensic investigation?",
+            ans: "The main processes are scene control, evidence search and collection, data integrity maintenance, analysis of results, and preparation of a report.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How does AEJS INFO ensure the integrity of evidence during a forensic investigation?",
+            ans: "AEJS INFO follows strict protocols to maintain the chain of custody, ensuring that evidence is collected, handled, and stored securely to avoid contamination.",
           },
+          
+          {
+            id: "cfd_5",
+            qus: "What types of cases require forensic investigation services?",
+            ans: "There are numerous circumstances when forensic examinations are employed; these include fraud, computer crime, piracy, and other criminal/civil litigation cases."
+          },
+          {
+            id: "cfd_6",
+            qus: "How long does a forensic investigation typically take?",
+            ans: "This depends with the intensity of the case and on the quantity of proofs required to build the case. AEJS INFO tries to carry out investigations effectively and, at the same time, be as comprehensive as possible."
+          },
+          {
+            id: "cfd_7",
+            qus: "Can AEJS INFO provide forensic analysis for digital evidence?",
+            ans: "Indeed, AEJS INFO is focused on cyber-related matters, and more specifically treats digital evidence found on computers, mobile devices, networks and more to obtain relevant information for a case."
+          }
         ],
       },
 
@@ -1596,27 +1762,42 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What is involved in a cybercrime investigation by AEJS INFO?",
+            ans: "This includes the identification, analysis, and mitigation of cyber threats with respect to incidents concerning data breaches, cases of hacking, and online fraud cases. ",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the key techniques used in cybercrime investigations?",
+            ans: "The strategies involve digital forensics analysis, network analysis, malware analysis, and acquiring threat knowledge to further determine and address cyber threats.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the steps in a cybercrime investigation?",
+            ans: "These steps include the identification of the breach, collection and preservation of digital evidence, analysis, and steps to prevent future occurrences while a detailed report is prepared.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How does AEJS INFO ensure effective cybercrime investigation?",
+            ans: "AEJS INFO employs advanced tools and methodologies, follows strict protocols for evidence handling, and utilizes experienced professionals to ensure thorough and effective investigations.",
           },
+          {
+            id: "cfd_5",
+            qus: "Can AEJS INFO recover data lost in a cybercrime incident?",
+            ans: "AEJS INFO can recover severely lost or compromised data in a cybercrime incident, even if the data had been encrypted or deleted."
+          },
+          {
+            id: "cfd_6",
+            qus: "How confidential is a cybercrime investigation with AEJS INFO?",
+            ans: "AEJS INFO makes sure all investigations are strictly confidential and avoids any possibility of information that is sensitive in nature being disclosed."
+          },
+          {
+            id: "cfd_7",
+            qus: "What kinds of cybercrime can AEJS INFO investigate?",
+            ans: "AEJS INFO investigates crimes such as phishing, ransomware incidents, identity theft, and online fraud."
+          }
         ],
       },
     ],
@@ -1714,27 +1895,32 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What is IT labour consultancy offered by AEJS INFO?",
+            ans: "IT labour consultancy is a professional consultancy and support service for managing IT workforce needs, from recruitment and training to compliance.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How can AEJS INFO help in IT recruitment?",
+            ans: "AEJS INFO aids in IT recruitment by spotting the eligible candidates, interviewing, and shortlisting them as per your particular IT staffing needs.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What types of IT positions can AEJS INFO help fill?",
+            ans: "AEJS INFO helps fill a broad spectrum of positions in IT, from software developers to network administrators, IT managers, and cybersecurity experts.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the advantages of using AEJS INFO for IT Labour Consultancy?",
+            ans: "The advantages come with a talent pool of skilled IT professionals, expertise in recruitment processes, and tailored solutions to meet your IT staffing requirements effectively.",
           },
+          {
+            id:  "cfd_5",
+            qus: "How does AEJS INFO ensure compliance in IT Labour Consultancy?",
+            ans: "AEJS INFO complies by ensuring it enforces labour laws, industry standards, and best practices in IT staffing and workforce management."
+          }
         ],
       },
       {
@@ -1790,27 +1976,32 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What is skilled labour consultancy offered by AEJS INFO? ",
+            ans: "Skilled Labour Consultancy means to provide professional support in the sourcing, recruiting, and managing of skilled labour under specific industries."
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How can AEJS INFO help with your manpower requirements?",
+            ans: "AEJS INFO will assist in recruiting qualified skilled labour for various roles that may include but not be limited to trade professionals, technicians, or specialized workers, as required by your business.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What kinds of skilled labour does AEJS INFO offer?",
+            ans: "AEJS INFO provides skilled manpower resources in construction, manufacturing, engineering, and technical fields—right skill sets for your projects.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are some of the benefits that come with hiring AEJS INFO as a skilled labour consultancy?",
+            ans: "Amongst them would be the pool of pre-screened and qualified candidates, efficient recruitment process, and customized solutions to meet specific manpower requirements.",
           },
+          {
+            id:  "cfd_5",
+            qus: "How does AEJS INFO ensure the quality of skilled labour?",
+            ans: "AEJS INFO ensures quality through comprehensive background checks, ability assessment, and qualification verification to render reliable and competent skilled labour."
+          }
         ],
       },
       {
@@ -1859,27 +2050,32 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What is the unskilled labour consultancy provided by AEJS INFO?",
+            ans: "Unskilled labour consultancy means providing and managing unskilled workers for tasks or projects according to your requirement.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "Can AEJS INFO provide unskilled labour for one day?",
+            ans: "AEJS INFO can provide unskilled labour for your short-term assignment, which includes daily or temporary work for any of your project requirements.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What kind of unskilled labours can AEJS INFO provide?",
+            ans: "AEJS INFO provides unskilled labour in manual handling, basic construction work, general maintenance, and other non-specialized tasks.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How does AEJS INFO guarantee the reliability of its unskilled labour?",
+            ans: "AEJS INFO ensures reliability by vetting workers with background checks and assessments to ensure that it matches the right person for the job to meet your needs.",
           },
+          {
+            id: "cfd_5",
+            qus: "How to order unskilled labour from AEJS INFO?",
+            ans: "If you need unskilled labour, just dial or email AEJS INFO with the details of your project at hand; we will do our best to find workers that fit your needs. ",
+          }
         ],
       },
     ],
@@ -1969,27 +2165,32 @@ export const services = [
         faqDatas: [
           {
             id: "cfd_1",
-            qus: "Are first your security guards and investigators highly trained and experienced?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What is included in deep house cleaning?",
+            ans: "Deep house cleaning is the detailed cleaning of your premises from top to bottom; it involves all tasks from scrubbing the floors to cleaning behind appliances and dusting all those places that are out of reach.",
           },
           {
             id: "cfd_2",
 
-            qus: "Do you offer a wide range of security and investigative services to meet my specific needs?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "How often should I schedule deep house cleaning?",
+            ans: "It depends on your needs; however, most people prefer to deep clean their place once in three or six months to keep their environment fresh and healthy.",
           },
           {
             id: "cfd_3",
 
-            qus: "Do you stay up-to-date on the latest security threats and investigative techniques?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "Does AEJS INFO do residential cleaning?",
+            ans: "AEJS INFO will provide you with complete residential cleaning services so that your home will be neat and clean.",
           },
           {
             id: "cfd_4",
 
-            qus: "Do you have a proven track record of success in the security and investigation industry?",
-            ans: "Yes, our security guards are rigorously trained and licensed, exceeding industry standards. They are equipped to handle a variety of situations and ensure the safety of your property and personnel.  ",
+            qus: "What are the benefits of professional home cleaning?",
+            ans: "Professional house cleaning ensures a well-done and frequent cleaning using specific equipment and cleaning solutions that enable proper cleaning of those hard-to-reach places where dirt and allergens accumulate.",
           },
+          {
+            id: "cfd_5",
+            qus: "How do I schedule a deep house cleaning service with AEJS INFO?",
+            ans: "You can book your deep house cleaning service by contacting AEJS INFO via this phone number or email address with your details, and then we can schedule a convenient time for your cleaning appointment.",
+          }
         ],
       },
     ],
