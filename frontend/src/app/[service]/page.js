@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
   const service = services.find((s) => s.id === params.service);
 
   return {
-    title: service ? `Service - ${service.name}` : "Service Not Found",
+    title: service ? `${service.name} Coimbatore` : "Service Not Found",
     description: service
       ? `Details about ${service.name}`
       : "Service details not found",

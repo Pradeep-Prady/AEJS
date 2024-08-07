@@ -23,7 +23,7 @@ export async function generateMetadata({ params }) {
   return {
     title: subService ? `${subService.metaTitle}` : "SubService Not Found",
     description: subService
-      ? `Details about ${subService?.metaDescription}`
+      ? `Details About ${subService?.metaDescription}`
       : "SubService details not found",
   };
 }

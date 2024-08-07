@@ -2,6 +2,7 @@
 import Heading from "@/components/UI/Heading";
 import { navBarData } from "../_data/general";
 import ServiceCard from "./ServiceCard";
+import React from "react";
 
 const OurServices = () => {
   const [active, setActive] = React.useState("Security Services");
