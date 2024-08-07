@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 
 import ServiceHeading from "@/components/UI/ServiceHeading";
 import React, { useState } from "react";

@@ -42,7 +42,6 @@ export default async function Page({ params }) {
               title={service?.name}
               subTitle={service?.subTitle}
             />
-
             <ScrollDownButton link={"main-content"} />
           </div>
 
