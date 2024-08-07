@@ -111,10 +111,14 @@ export const services = [
         subTitle: "Security services",
         banner: armedpso_banner,
 
-        metaTitle: "Armed PSO in Coimbatore",
-        metaDescription: "",
+        metaTitle: "Armed PSO Coimbatore",
+        metaDescription:
+          "Secure your peace of mind with our Armed PSO in Coimbatore, providing trusted and experienced personal security services.",
         metaKeywords: [
+          "Armed PSO in Coimbatore",
           "Armed Bodyguard",
+          "Personal Protection Officer",
+          "High Risk Security Officer",
           "VIP Security Guard",
           "Personal Protection Officer",
           "High Risk Security Officer",
@@ -229,7 +233,7 @@ export const services = [
       },
       {
         id: "security-guard",
-        title: "Security guard services in Coimbatore",
+        title: "Security guard services Coimbatore",
         path: "/security-services/security-guard",
         subTitle: "Security services",
         banner: armedpso_banner,
@@ -238,7 +242,7 @@ export const services = [
 
         metaTitle: "Security guard services in Coimbatore",
         metaDescription:
-          "AEJSINFO offers top security guard services in Coimbatore, using trained personnel and advanced measures to ensure your safety.",
+          "Professional Security guard services in Coimbatore tailored to safeguard your property with 24/7 reliable protection.",
         metaKeywords: [
           "Security guard services in Coimbatore",
           "Security Solutions",
@@ -365,14 +369,16 @@ export const services = [
         image: SecuritySupervisorImg,
         icon: service_security_supervisor,
 
-        metaTitle: "Security Supervisor",
-        metaDescription: "",
+        metaTitle: "Security Supervisor Coimbatore",
+        metaDescription:
+          "Reliable Security supervisor overseeing all aspects of safety and security, tailored to meet your specific protection needs.",
         metaKeywords: [
           "Security Supervisor",
           "Security Oversight",
           "Security team leader",
           "Security Coordinator",
           "Security Chief",
+          "Safety personnel",
         ],
 
         subTitle: "Security services",
@@ -500,10 +506,11 @@ export const services = [
         ],
       },
       {
-        metaTitle: "Gunman in Coimbatore",
+        metaTitle: "Gunman Coimbatore",
         metaDescription:
           "Gunman in Coimbatore: Ensuring top-level security and reliable protection for you and your property with professional services.",
         metaKeywords: [
+          "Gunman in Coimbatore",
           "Armed Security Guard",
           "Licensed Gunman",
           "Firearm Security",
@@ -599,9 +606,12 @@ export const services = [
         ],
       },
       {
-        metaTitle: "Assistant Security Officer (ASO) in Coimbatore",
-        metaDescription: "",
+        metaTitle: "Assistant Security Officer (ASO) Coimbatore",
+        metaDescription:
+          "Reliable Assistant Security Officer (ASO) in Coimbatore providing expert oversight to maintain safety and security standards.",
         metaKeywords: [
+          "Assistant Security Officer (ASO) in Coimbatore",
+
           "Deputy Security Officer",
           "Assistant Safety Officer",
           "Assistant Security Supervisor",
@@ -706,26 +716,27 @@ export const services = [
           {
             id: "cfd_5",
             qus: "Are there job opportunities for ASOs with AEJS INFO in Coimbatore?",
-            ans: "Job applicants can contact us through email or visit our website and apply for the relevant positions they desire. The job positions are competitive and the ASOs are provided with the needed trainings."
+            ans: "Job applicants can contact us through email or visit our website and apply for the relevant positions they desire. The job positions are competitive and the ASOs are provided with the needed trainings.",
           },
           {
             id: "cfd_6",
             qus: "What qualifications and training are required for an ASO at AEJS INFO?",
-            ans: "ASO at AEJS INFO should posses credible firearms license and enriched training in covering the firearms and experience in security activities. "
-          }
-          ,
+            ans: "ASO at AEJS INFO should posses credible firearms license and enriched training in covering the firearms and experience in security activities. ",
+          },
           {
             id: "cfd_7",
             qus: "How does AEJS INFO ensure the effectiveness and safety of their ASOs?",
-            ans: "AEJS INFO brings the highest standards in effectiveness and safety of our ASOs due to careful selection of workers, constant training and obligatory adherence to safety measures. Our ASOs are also equipped with the newest security technology in the market to ensure their security and efficiency Also we do performance assessments from time to time to ensure that our service delivery standards are high."
-          }
+            ans: "AEJS INFO brings the highest standards in effectiveness and safety of our ASOs due to careful selection of workers, constant training and obligatory adherence to safety measures. Our ASOs are also equipped with the newest security technology in the market to ensure their security and efficiency Also we do performance assessments from time to time to ensure that our service delivery standards are high.",
+          },
         ],
       },
 
       {
-        metaTitle: "Bouncer in Coimbatore",
-        metaDescription: "",
+        metaTitle: "Bouncer Coimbatore",
+        metaDescription:
+          "Ensure event safety with a dedicated Bouncer in Coimbatore. Expert in crowd management and venue security for all occasions.",
         metaKeywords: [
+          "Bouncer in Coimbatore",
           "Security Personnel",
           "Private Security",
           "Event Security Guard",
@@ -819,7 +830,7 @@ export const services = [
           {
             id: "cfd_1",
             qus: "Who is a Bouncer provided by AEJS INFO and what are his duties?",
-            ans: "A Bouncer from AEJS INFO gives security and control in events, clubs or any other place where this service is needed. Some of their responsibilities include mob control, identification checks, exclusion/control of unauthorised access, and dealing with riots/commotion."
+            ans: "A Bouncer from AEJS INFO gives security and control in events, clubs or any other place where this service is needed. Some of their responsibilities include mob control, identification checks, exclusion/control of unauthorised access, and dealing with riots/commotion.",
           },
           {
             id: "cfd_2",
@@ -842,7 +853,7 @@ export const services = [
           {
             id: "cfd_5",
             qus: "What education and/or training are necessary for a Bouncer at AEJS INFO?",
-            ans: "A Bouncer at AEJS INFO should also in security measures, handling of conflicts, and responding to emergencies including first aid. Physical fitness and prior work experience in the field of security or in related capacity is also necessary. "
+            ans: "A Bouncer at AEJS INFO should also in security measures, handling of conflicts, and responding to emergencies including first aid. Physical fitness and prior work experience in the field of security or in related capacity is also necessary. ",
           },
           {
             id: "cfd_6",
@@ -852,13 +863,13 @@ export const services = [
           {
             id: "cfd_7",
             qus: "What kind of emergencies can Bouncers from AEJS INFO manage during an event?",
-            ans: "Bouncers from AEJS INFO are required to have sufficient knowledge to deal with emergencies, such as medical, evacuation, and violent incidents. They are in a position to be able to quickly and efficiently intervene and quell any panic or need for security for all the guests."
-          }
+            ans: "Bouncers from AEJS INFO are required to have sufficient knowledge to deal with emergencies, such as medical, evacuation, and violent incidents. They are in a position to be able to quickly and efficiently intervene and quell any panic or need for security for all the guests.",
+          },
         ],
       },
       {
         id: "fire-safety-expert",
-        title: "Fire Safety Expert in Coimbatore",
+        title: "Fire Safety Expert Coimbatore",
         path: "/security-services/fire-safety-expert",
         image: FireSafteyExpertImg,
         icon: service_fire_safety_expert,
@@ -866,7 +877,8 @@ export const services = [
         banner: armedpso_banner,
 
         metaTitle: "Fire Safety Expert in Coimbatore",
-        metaDescription: "",
+        metaDescription:
+          "Trusted Fire safety expert in Coimbatore with extensive experience in fire risk assessment and safety improvement strategies.",
         metaKeywords: [
           "Fire Risk Assessor",
           "Fire Prevention Specialist",
@@ -985,8 +997,8 @@ export const services = [
           {
             id: "cfd_5",
             qus: "Are there online fire safety classes available through AEJS INFO?",
-            ans: "AEJS INFO does provide online fire safety classes that incorporate some of the basics of fire safety like fire prevention, response, as well as the proper usage of fire safety equipment’s."
-          }
+            ans: "AEJS INFO does provide online fire safety classes that incorporate some of the basics of fire safety like fire prevention, response, as well as the proper usage of fire safety equipment’s.",
+          },
         ],
       },
       {
@@ -998,9 +1010,11 @@ export const services = [
         subTitle: "Security services",
         banner: armedpso_banner,
 
-        metaTitle: "Surveillance Room",
-        metaDescription: "",
+        metaTitle: "Surveillance Room Coimbatore",
+        metaDescription:
+          "Customized Surveillance Room solutions for effective surveillance and security, tailored to your specific needs and requirements.",
         metaKeywords: [
+          "Surveillance Room",
           "CCTV Room",
           "Video Surveillance Room,",
           "Security Control Room",
@@ -1065,7 +1079,7 @@ export const services = [
           {
             id: "cfd_1",
             qus: "What is the purpose of a Surveillance Room provided by AEJS INFO?",
-            ans: "The service a company by the name AEJS INFO offers include a Surveillance Room that entails overseeing of security measures taken in different premises and managing of these security measures through sophisticated technologies. To provide constant supervision and immediate intervention in case of emergencies, this room has high-tech cameras, monitoring software, and other security tools."
+            ans: "The service a company by the name AEJS INFO offers include a Surveillance Room that entails overseeing of security measures taken in different premises and managing of these security measures through sophisticated technologies. To provide constant supervision and immediate intervention in case of emergencies, this room has high-tech cameras, monitoring software, and other security tools.",
           },
           {
             id: "cfd_2",
@@ -1087,14 +1101,14 @@ export const services = [
           },
           {
             id: "cfd_5",
-            qus:" What are the benefits of having a Surveillance Room for business security?",
-            ans: "A Surveillance Room is characterized by constant observation, immediate identification of threats, and management of numerous sites. It assists companies in avoiding security breaches, loss, and efficiently handling crises thus enhancing safety and security."
+            qus: " What are the benefits of having a Surveillance Room for business security?",
+            ans: "A Surveillance Room is characterized by constant observation, immediate identification of threats, and management of numerous sites. It assists companies in avoiding security breaches, loss, and efficiently handling crises thus enhancing safety and security.",
           },
           {
             id: "cfd_6",
             qus: "What training is offered by AEJS INFO for the running of a Surveillance Room?",
-            ans: "AEJS INFO also includes training of the security personnel in management of a Surveillance Room. This involves training on how to utilize the surveillance software, analyze the data, handle incidences and constantly servicing the software so as to prevent breakdowns."
-          }
+            ans: "AEJS INFO also includes training of the security personnel in management of a Surveillance Room. This involves training on how to utilize the surveillance software, analyze the data, handle incidences and constantly servicing the software so as to prevent breakdowns.",
+          },
         ],
       },
     ],
@@ -1138,8 +1152,9 @@ export const services = [
 
         path: "/detective-services/detective-agencies-for-cyber-crime",
 
-        metaTitle: "Detective agency for Cyber Crime in Coimbatore",
-        metaDescription: "",
+        metaTitle: "Detective agency for Cyber Crime Coimbatore",
+        metaDescription:
+          "Top-rated Detective agency for Cyber Crime in Coimbatore providing cutting-edge solutions for digital security and cyber investigations.",
         metaKeywords: [
           "Cyber Intelligence Agency",
           "Cyber Crime Analysis Agency",
@@ -1201,7 +1216,6 @@ export const services = [
               "As a result of the grouping position, enhanced technology in cyber intelligence, crime analysis, fraud investigation, and surveillance, AEJSINFO of the U.S. is a leading member in cyberspace crime prevention and solutions",
             ],
           },
-          
         ],
 
         images: [
@@ -1234,17 +1248,17 @@ export const services = [
             qus: "Why should I choose AEJS INFO for cybercrime investigation?",
             ans: "AEJS INFO has professional cyber detectives who efficiently solve complicated cases by using the modern hardware and software tools. ",
           },
-          
+
           {
             id: "cfd_5",
             qus: "How does AEJS INFO ensure confidentiality during a cybercrime investigation?",
-            ans: "During the investigation, AEJS INFO adheres to the highest levels of confidentiality to make sure that all the required information is kept secret and dealt with silently."
+            ans: "During the investigation, AEJS INFO adheres to the highest levels of confidentiality to make sure that all the required information is kept secret and dealt with silently.",
           },
           {
-            id:  "cfd_6",
+            id: "cfd_6",
             qus: "What steps should I take if I suspect a cybercrime?",
-            ans: "If you have the slightest feeling that you are a victim of a cybercrime, kindly report to AEJS INFO. Our specialists in the area will help you know how to proceed to ensure that you retain incriminating evidence and consequently, begin a proper investigation."
-          }
+            ans: "If you have the slightest feeling that you are a victim of a cybercrime, kindly report to AEJS INFO. Our specialists in the area will help you know how to proceed to ensure that you retain incriminating evidence and consequently, begin a proper investigation.",
+          },
         ],
       },
 
@@ -1260,8 +1274,9 @@ export const services = [
         banner: armedpso_banner,
         icon: detective_agencies_for_matrimonial_screening,
 
-        metaTitle: "Detective Agency for Matrimonial Screening in Coimbatore",
-        metaDescription: "",
+        metaTitle: "Detective Agency for Matrimonial Screening Coimbatore",
+        metaDescription:
+          "Efficient Detective agency for matrimonial screening in Coimbatore offering detailed investigations to ensure a safe and secure match.",
         metaKeywords: [
           "Cyber Intelligence Agency",
           "Cyber Crime Analysis Agency",
@@ -1344,20 +1359,19 @@ export const services = [
           },
           {
             id: "cfd_5",
-            qus: "How much time does pre-matrimonial investigation take?"
-            ,
+            qus: "How much time does pre-matrimonial investigation take?",
             ans: "It depends on the peculiarities of the case and the available information the duration of AEJS INFO is on average a few weeks.",
           },
           {
             id: "cfd_6",
             qus: "Can AEJS INFO investigate past relationships in a matrimonial screening?",
-            ans: "Yes, AEJS INFO can look into the past social relations in a bid to establish your partner’s track record and conduct."
+            ans: "Yes, AEJS INFO can look into the past social relations in a bid to establish your partner’s track record and conduct.",
           },
           {
             id: "cfd_7",
             qus: "What are the expenses incurred in conducting a marriage investigation?",
-            ans: "The costs are relative to the number of investigations or analysis a firm carries out. AEJS INFO is sensitive to the needs of the clients and therefore provides the service in a package that is fit for purpose.  "
-          }
+            ans: "The costs are relative to the number of investigations or analysis a firm carries out. AEJS INFO is sensitive to the needs of the clients and therefore provides the service in a package that is fit for purpose.  ",
+          },
         ],
       },
 
@@ -1371,9 +1385,11 @@ export const services = [
         banner: armedpso_banner,
         icon: personal_investigation,
 
-        metaTitle: "Personal Investigation by Detectives in Coimbatore",
-        metaDescription: "",
+        metaTitle: "Personal Investigation by Detectives Coimbatore",
+        metaDescription:
+          "Dedicated Personal Investigation by Detectives in Coimbatore offering expert and discreet services to solve your personal concerns.",
         metaKeywords: [
+          "Personal Investigation by Detectives in Coimbatore",
           "Personal Detective Services",
           "Personal Surveillance by Detectives",
           "Personal Detective Work",
@@ -1460,19 +1476,18 @@ export const services = [
           {
             id: "cfd_5",
             qus: "How confidential are personal investigations conducted by AEJS INFO?",
-            ans: "AEJS INFO makes sure that, any case involving personal issues is well protected and the privacy of the individuals is not violated in any way."
-          }
-          ,
+            ans: "AEJS INFO makes sure that, any case involving personal issues is well protected and the privacy of the individuals is not violated in any way.",
+          },
           {
             id: "cfd_6",
             qus: "How long does one take in personal investigation?",
-            ans: "This in accord with many private investigations depending on how complicated the particular case is, AEJS INFO will try and return results as soon as possible."
+            ans: "This in accord with many private investigations depending on how complicated the particular case is, AEJS INFO will try and return results as soon as possible.",
           },
           {
             id: "cfd_7",
             qus: "Can AEJS INFO carry out the direct and indirect investigation for the same case?",
-            ans: "Indeed, AEJS INFO can use both the direct and indirect investigations to assemble the detailed information for better case study."
-          }
+            ans: "Indeed, AEJS INFO can use both the direct and indirect investigations to assemble the detailed information for better case study.",
+          },
         ],
       },
 
@@ -1486,9 +1501,11 @@ export const services = [
         banner: armedpso_banner,
         icon: corporate_investigation,
 
-        metaTitle: "Corporate Investigation by Detectives in Coimbatore",
-        metaDescription: "",
+        metaTitle: "Corporate Investigation by Detectives Coimbatore",
+        metaDescription:
+          "Professional Corporate investigation by Detectives in Coimbatore providing reliable and discreet services for your business investigations.",
         metaKeywords: [
+          "Corporate Investigation by Detectives in Coimbatore",
           "Corporate Fraud Investigation",
           "Business Investigative Service",
           "Professional Corporate Investigations",
@@ -1576,13 +1593,13 @@ export const services = [
           {
             id: "cfd_6",
             qus: "How long does a corporate investigation usually take?",
-            ans: "It depends on the specificity of the case, though AEJS INFO does not take much time for investigations at the same time meeting quality requirements."
+            ans: "It depends on the specificity of the case, though AEJS INFO does not take much time for investigations at the same time meeting quality requirements.",
           },
           {
             id: "cfd_7",
             qus: "Can AEJS INFO help in corporate investigations?",
-            ans: "Absolutely, AEJS INFO offers a check on business partners, mergers or acquisition where one intends to get vital information on the background of the other party or business."
-          }
+            ans: "Absolutely, AEJS INFO offers a check on business partners, mergers or acquisition where one intends to get vital information on the background of the other party or business.",
+          },
         ],
       },
 
@@ -1596,9 +1613,11 @@ export const services = [
         banner: armedpso_banner,
         icon: forensic_investigation,
 
-        metaTitle: "Forensic Investigation by Detectives in Coimbatore",
-        metaDescription: "",
+        metaTitle: "Forensic Investigation by Detectives Coimbatore",
+        metaDescription:
+          "Accurate Forensic investigation by Detectives in Coimbatore ensuring expert forensic analysis and evidence gathering for all cases.",
         metaKeywords: [
+          "Forensic Investigation by Detectives in Coimbatore",
           "Forensic Investigation Solutions",
           "Forensic Crime Investigation",
           "Forensic Evidence Collection",
@@ -1670,22 +1689,22 @@ export const services = [
             qus: "How does AEJS INFO ensure the integrity of evidence during a forensic investigation?",
             ans: "AEJS INFO follows strict protocols to maintain the chain of custody, ensuring that evidence is collected, handled, and stored securely to avoid contamination.",
           },
-          
+
           {
             id: "cfd_5",
             qus: "What types of cases require forensic investigation services?",
-            ans: "There are numerous circumstances when forensic examinations are employed; these include fraud, computer crime, piracy, and other criminal/civil litigation cases."
+            ans: "There are numerous circumstances when forensic examinations are employed; these include fraud, computer crime, piracy, and other criminal/civil litigation cases.",
           },
           {
             id: "cfd_6",
             qus: "How long does a forensic investigation typically take?",
-            ans: "This depends with the intensity of the case and on the quantity of proofs required to build the case. AEJS INFO tries to carry out investigations effectively and, at the same time, be as comprehensive as possible."
+            ans: "This depends with the intensity of the case and on the quantity of proofs required to build the case. AEJS INFO tries to carry out investigations effectively and, at the same time, be as comprehensive as possible.",
           },
           {
             id: "cfd_7",
             qus: "Can AEJS INFO provide forensic analysis for digital evidence?",
-            ans: "Indeed, AEJS INFO is focused on cyber-related matters, and more specifically treats digital evidence found on computers, mobile devices, networks and more to obtain relevant information for a case."
-          }
+            ans: "Indeed, AEJS INFO is focused on cyber-related matters, and more specifically treats digital evidence found on computers, mobile devices, networks and more to obtain relevant information for a case.",
+          },
         ],
       },
 
@@ -1699,9 +1718,11 @@ export const services = [
         banner: armedpso_banner,
         icon: cybercrime_investgation,
 
-        metaTitle: "Cybercrime Investigation by Detectives in Coimbatore ",
-        metaDescription: "",
+        metaTitle: "Cybercrime Investigation by Detectives Coimbatore ",
+        metaDescription:
+          "Precise Cybercrime investigation by Detectives in Coimbatore offering comprehensive services to handle all your cybercrime concerns.",
         metaKeywords: [
+          "Cybercrime Investigation by Detectives in Coimbatore",
           "Cyber Investigation Experts",
           "Digital Crime Investigation",
           "Online Threat Analysis",
@@ -1786,18 +1807,18 @@ export const services = [
           {
             id: "cfd_5",
             qus: "Can AEJS INFO recover data lost in a cybercrime incident?",
-            ans: "AEJS INFO can recover severely lost or compromised data in a cybercrime incident, even if the data had been encrypted or deleted."
+            ans: "AEJS INFO can recover severely lost or compromised data in a cybercrime incident, even if the data had been encrypted or deleted.",
           },
           {
             id: "cfd_6",
             qus: "How confidential is a cybercrime investigation with AEJS INFO?",
-            ans: "AEJS INFO makes sure all investigations are strictly confidential and avoids any possibility of information that is sensitive in nature being disclosed."
+            ans: "AEJS INFO makes sure all investigations are strictly confidential and avoids any possibility of information that is sensitive in nature being disclosed.",
           },
           {
             id: "cfd_7",
             qus: "What kinds of cybercrime can AEJS INFO investigate?",
-            ans: "AEJS INFO investigates crimes such as phishing, ransomware incidents, identity theft, and online fraud."
-          }
+            ans: "AEJS INFO investigates crimes such as phishing, ransomware incidents, identity theft, and online fraud.",
+          },
         ],
       },
     ],
@@ -1844,9 +1865,11 @@ export const services = [
         banner: armedpso_banner,
         icon: it_labour,
 
-        metaTitle: "IT Labour Consultancy Services in Coimbatore",
-        metaDescription: "",
+        metaTitle: "IT Labour Consultancy Services Coimbatore",
+        metaDescription:
+          "Trusted IT Labour Consultancy Services in Coimbatore providing specialized support for IT recruitment and workforce management.",
         metaKeywords: [
+          "IT Labour Consultancy Services in Coimbatore",
           "IT Job Consultants",
           "Comprehensive IT Employment Services",
           "Tailored IT Labour Consultancy Services",
@@ -1917,15 +1940,15 @@ export const services = [
             ans: "The advantages come with a talent pool of skilled IT professionals, expertise in recruitment processes, and tailored solutions to meet your IT staffing requirements effectively.",
           },
           {
-            id:  "cfd_5",
+            id: "cfd_5",
             qus: "How does AEJS INFO ensure compliance in IT Labour Consultancy?",
-            ans: "AEJS INFO complies by ensuring it enforces labour laws, industry standards, and best practices in IT staffing and workforce management."
-          }
+            ans: "AEJS INFO complies by ensuring it enforces labour laws, industry standards, and best practices in IT staffing and workforce management.",
+          },
         ],
       },
       {
         id: "skilled-labour",
-        title: "Skilled Labour Consultancy Services in Coimbatore",
+        title: "Skilled Labour Consultancy Services Coimbatore",
         path: "/manpower-consultancy/skilled-labour",
         image: serviceImage4,
 
@@ -1934,8 +1957,9 @@ export const services = [
         icon: skilled_labour,
 
         metaTitle: "Skilled Labour Consultancy Services in Coimbatore",
-        metaDescription: "",
-        metaKeywords: [""],
+        metaDescription:
+          "Top-rated Skilled Labour Consultancy Services in Coimbatore providing expert recruitment and management solutions for skilled labour.",
+        metaKeywords: ["Skilled Labour Consultancy Services in Coimbatore"],
 
         descriptions: [],
 
@@ -1977,7 +2001,7 @@ export const services = [
           {
             id: "cfd_1",
             qus: "What is skilled labour consultancy offered by AEJS INFO? ",
-            ans: "Skilled Labour Consultancy means to provide professional support in the sourcing, recruiting, and managing of skilled labour under specific industries."
+            ans: "Skilled Labour Consultancy means to provide professional support in the sourcing, recruiting, and managing of skilled labour under specific industries.",
           },
           {
             id: "cfd_2",
@@ -1998,10 +2022,10 @@ export const services = [
             ans: "Amongst them would be the pool of pre-screened and qualified candidates, efficient recruitment process, and customized solutions to meet specific manpower requirements.",
           },
           {
-            id:  "cfd_5",
+            id: "cfd_5",
             qus: "How does AEJS INFO ensure the quality of skilled labour?",
-            ans: "AEJS INFO ensures quality through comprehensive background checks, ability assessment, and qualification verification to render reliable and competent skilled labour."
-          }
+            ans: "AEJS INFO ensures quality through comprehensive background checks, ability assessment, and qualification verification to render reliable and competent skilled labour.",
+          },
         ],
       },
       {
@@ -2014,9 +2038,10 @@ export const services = [
         banner: armedpso_banner,
         icon: unskilled_labour,
 
-        metaTitle: "Unskilled Labour Consultancy Services in Coimbatore",
-        metaDescription: "",
-        metaKeywords: [""],
+        metaTitle: "Unskilled Labour Consultancy Services Coimbatore",
+        metaDescription:
+          "Trusted Unskilled Labour Consultancy Services in Coimbatore providing specialized support for sourcing and managing unskilled workforce.",
+        metaKeywords: ["Unskilled Labour Consultancy Services in Coimbatore"],
 
         benefits: [
           "General Labourers: Affordable servants for various forms of labor, and from carrying out simple assignments in a household and the cleaning of the house to some of the most basic repairs around the home.",
@@ -2075,7 +2100,7 @@ export const services = [
             id: "cfd_5",
             qus: "How to order unskilled labour from AEJS INFO?",
             ans: "If you need unskilled labour, just dial or email AEJS INFO with the details of your project at hand; we will do our best to find workers that fit your needs. ",
-          }
+          },
         ],
       },
     ],
@@ -2122,9 +2147,14 @@ export const services = [
         banner: armedpso_banner,
         icon: deep_cleaning,
 
-        metaTitle: "Top-Rated Deep Cleaning Services in Coimbatore",
-        metaDescription: "",
-        metaKeywords: ["Best Home Cleaning Services"],
+        metaTitle: "Top-Rated Deep Cleaning Services Coimbatore",
+        metaDescription:
+          "Top-Rated Deep Cleaning Services in Coimbatore delivering exceptional cleaning results for a healthier and cleaner environment.",
+        metaKeywords: [
+          "Best Home Cleaning Services",
+          "Top-Rated Deep Cleaning Services in Coimbatore",
+          "Residential Deep Cleaning",
+        ],
         descriptions: [
           {
             title: "Best Home Cleaning Services",
@@ -2190,7 +2220,7 @@ export const services = [
             id: "cfd_5",
             qus: "How do I schedule a deep house cleaning service with AEJS INFO?",
             ans: "You can book your deep house cleaning service by contacting AEJS INFO via this phone number or email address with your details, and then we can schedule a convenient time for your cleaning appointment.",
-          }
+          },
         ],
       },
     ],

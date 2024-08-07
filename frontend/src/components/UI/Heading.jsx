@@ -1,5 +1,3 @@
-import React from "react";
-
 const Heading = ({ heading, align = "text-center" }) => {
   return (
     <div className="w-full    ">

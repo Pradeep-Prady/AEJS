@@ -1,6 +1,5 @@
 "use client";
 import Heading from "@/components/UI/Heading";
-import React from "react";
 import { navBarData } from "../_data/general";
 import ServiceCard from "./ServiceCard";
 

@@ -1,6 +1,4 @@
-import React from "react";
 import logo from "/public/assets/security services/Logo.png";
-import service from "/public/assets/security services/service-image.png";
 import Image from "next/image";
 import Link from "next/link";
  
@@ -25,7 +23,6 @@ const ServiceCard = ({ subItem, className, size  }) => {
         </div>
 
         <h3 className="text-myLG text-[20px] font-semibold pt-2">{subItem.title} </h3>
-        {/* {subItem.description && <p>{subItem.description}</p>} */}
       </div>
     </Link>
   );

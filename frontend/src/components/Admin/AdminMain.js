@@ -9,7 +9,6 @@ const AdminMain = ({ children, setIsLoggedIn, isLoggedIn }) => {
 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  // const [isLoggedIn, setIsLoggedIn] = useState(false);
  
 
   useQuery(

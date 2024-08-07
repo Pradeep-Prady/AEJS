@@ -1,6 +1,6 @@
 import Image from "next/image";
-import React from "react";
 import Link from "next/link";
+
 const SubServiceItem = ({ items, title, params }) => {
   return (
     <div className={"bg-[#F2F2F2] w-full p-5"}>

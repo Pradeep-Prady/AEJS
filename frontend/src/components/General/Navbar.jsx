@@ -8,11 +8,8 @@ import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { IoClose } from "react-icons/io5";
 import Link from "next/link";
 import { BiSolidPhoneCall } from "react-icons/bi";
-import { BiCaretDownCircle } from "react-icons/bi";
-import { MdCall } from "react-icons/md";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 const Navbar = () => {
-  
   const [hovered, setHovered] = useState(null);
   const [openNav, setOpenNav] = useState(false);
   const [mobileHovered, setMobileHovered] = useState(null);
@@ -33,15 +30,14 @@ const Navbar = () => {
         className="hidden bg-white sticky z-50 top-0  lg:flex justify-between items-center myPadX py-5 h-[13%]"
       >
         <Link href="/">
-        <Image
-          src={logo}
-          alt="logo"
-          width={200}
-          height={150}
-          // fill
-          className="h-[50px] scale-[3] md:scale-[3] relative"
-        />
-        
+          <Image
+            src={logo}
+            alt="logo"
+            width={200}
+            height={150}
+            // fill
+            className="h-[50px] scale-[3] md:scale-[3] relative"
+          />
         </Link>
         <ul className="flex items-center gap-5">
           {navBarData?.map((item) => (
@@ -75,13 +71,9 @@ const Navbar = () => {
               )}
             </li>
           ))}
-          {/* <div className="bg-myBlue w-[40px] h-[40px] cursor-pointer   rounded-full flex items-center justify-center">
-<BiSolidPhoneCall className="text-[28px] text-white " />
-            </div> */}
+
           <a href="tel:9944580798">
             <div className="bg-myBlue w-[40px h-[40px rounded-3xl px-4 py-2 flex items-center justify-center">
-              {/* <BiSolidPhoneCall className="text-[28px] text-white" />
-               */}
               <p className="text-[14px] sm:text-[16px] text-white">Call Now </p>
             </div>
           </a>
@@ -131,17 +123,13 @@ const Navbar = () => {
               <div key={item.id} className="relative w-full ">
                 <>
                   <div key={item.id} className="relative w-full flex">
-                  {item.id === "nbd_7" ? (
+                    {item.id === "nbd_7" ? (
                       <p className="font-semibold  ">{item.title}</p>
                     ) : (
                       <Link href={item.path}>
                         <p className="font-semibold  ">{item.title}</p>
                       </Link>
                     )}
-
-                    {/* <Link href={item.path} onClick={handleMobileClick}>
-                      <p className="text-lg font-semibold">{item.title}</p>
-                    </Link> */}
 
                     {item.subMenu && (
                       <IoIosArrowDown

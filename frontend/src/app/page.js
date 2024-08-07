@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import { Hero } from "./_components/Hero";
 import MainContent from "@/components/General/MainContent";
 import OurServices from "./_components/OurServices";
@@ -66,7 +67,7 @@ export default function Home({ params }) {
     <>
       <MainNavbar>
         <div className="w-full h-auto">
-          <Hero  />
+          <Hero />
           <Values />
           <MainContent link="/about-us" data={mainContentData[0]} />
           <OurServices />
@@ -91,9 +92,7 @@ export default function Home({ params }) {
           />
           <Map />
           {/* Add ID to the div you want to focus on */}
-          <div id="focusElement">
-            {/* Content of the focus element */}
-          </div>
+          <div id="focusElement">{/* Content of the focus element */}</div>
         </div>
       </MainNavbar>
     </>

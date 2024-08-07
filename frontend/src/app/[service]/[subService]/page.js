@@ -1,7 +1,6 @@
 import { services } from "../../_data/service";
 import ServiceHeading from "@/components/UI/ServiceHeading";
 import Image from "next/image";
-import ServiceCard from "../../_components/ServiceCard";
 import ServicesIconCard from "../../_components/ServicesIconCard";
 import Solutions from "../../_components/Solutions";
 import bgImage2 from "/public/assets/security services/bgImage2.png";
@@ -14,8 +13,8 @@ import FAQ from "@/components/General/FAQ";
 import NotFound from "@/components/UI/NotFound";
 import Link from "next/link";
 import MainNavbar from "@/components/General/MainNavbar";
-import { FaArrowRight } from "react-icons/fa6";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import React from "react";
 
 export async function generateMetadata({ params }) {
   const service = services.find((s) => s.id === params.service);
@@ -56,29 +55,27 @@ export default async function SubService({ params }) {
                 <h1 className="text-[32px] font-semibold text-center">
                   {subService?.title}
                 </h1>
-                {/* <div className="my-3 p-5">
-                  <p className="text-[18px] text-gray-500 tracking-wide">
-                    {subService?.descriptionOne}
-                  </p>
-                </div>  */}
 
-                {
-                  subService?.descriptions &&  
+                {subService?.descriptions && (
                   <div className="my-3 p-5">
-                  <h1 className="text-[24px] font-semibold">
-                    {subService?.descriptions[0]?.title}
-                  </h1>
+                    <h1 className="text-[24px] font-semibold">
+                      {subService?.descriptions[0]?.title}
+                    </h1>
 
-                  {subService?.descriptions[0]?.content &&
-                    subService?.descriptions[0]?.content?.length > 0 &&
-                    subService?.descriptions[0]?.content?.map((service,i) => (
-                      <p className="text-[18px] my-2 text-gray-500 tracking-wide" key={i}>
-                        {service}
-                      </p>
-                    ))}
-                </div>
-                }
-                
+                    {subService?.descriptions[0]?.content &&
+                      subService?.descriptions[0]?.content?.length > 0 &&
+                      subService?.descriptions[0]?.content?.map(
+                        (service, i) => (
+                          <p
+                            className="text-[18px] my-2 text-gray-500 tracking-wide"
+                            key={i}
+                          >
+                            {service}
+                          </p>
+                        )
+                      )}
+                  </div>
+                )}
 
                 <div className="my-3 p-5 w-12/12 grid grid-cols-2 gap-10">
                   {subService?.images.map((image) => (
@@ -93,15 +90,9 @@ export default async function SubService({ params }) {
                   ))}
                 </div>
 
-                {/* <div className="my-3 p-5">
-                  <p className="text-[18px] text-gray-500 tracking-wide">
-                    {subService?.descriptionTwo}
-                  </p>
-                </div> */}
-
                 {subService?.descriptions &&
                   subService?.descriptions?.length > 1 &&
-                  subService?.descriptions.slice(1).map((serviceContent,i) => (
+                  subService?.descriptions.slice(1).map((serviceContent, i) => (
                     <div className="my-3 px-5" key={i}>
                       <h1 className="text-[24px] font-semibold">
                         {serviceContent?.title}
@@ -109,8 +100,11 @@ export default async function SubService({ params }) {
 
                       {serviceContent?.content &&
                         serviceContent?.content?.length > 0 &&
-                        serviceContent?.content?.map((service,i) => (
-                          <p className="text-[18px] my-2 text-gray-500 tracking-wide" key={i}>
+                        serviceContent?.content?.map((service, i) => (
+                          <p
+                            className="text-[18px] my-2 text-gray-500 tracking-wide"
+                            key={i}
+                          >
                             {service}
                           </p>
                         ))}
@@ -123,8 +117,11 @@ export default async function SubService({ params }) {
                     </h2>
                     {subService?.benefits &&
                       subService?.benefits?.length > 0 &&
-                      subService?.benefits.map((service,i) => (
-                        <div className="text-[18px] flex items-start  my-3 text-gray-500 tracking-wide" key={i}>
+                      subService?.benefits.map((service, i) => (
+                        <div
+                          className="text-[18px] flex items-start  my-3 text-gray-500 tracking-wide"
+                          key={i}
+                        >
                           <FaLongArrowAltRight className="mt-1 w-1/12 mr-2 text-[20px] text-black" />
                           <p className="w-11/12">{service}</p>
                         </div>

@@ -1,24 +1,20 @@
 "use client";
 
-import React from "react";
 import logo from "/public/assets/general/logo.png";
 import Image from "next/image";
 import Link from "next/link";
- 
+
 import { useMutation } from "react-query";
 import axiosInstance from "@/utils/axios";
 
-const SideBar = ({setIsLoggedIn}) => {
-
+const SideBar = ({ setIsLoggedIn }) => {
   const mutation = useMutation({
     mutationFn: () => axiosInstance.post("admin/logout"),
     onError: (error) => {
       console.log(error);
     },
     onSuccess: () => {
-      
       setIsLoggedIn(false);
-       
     },
   });
 
@@ -28,7 +24,6 @@ const SideBar = ({setIsLoggedIn}) => {
 
   return (
     <div className="w-full border-r-2 bg-myWhite h-screen flex flex-col items-center justify-between">
-
       <Link href="/admin" className="p-10">
         <Image
           className="w-[230px] h-auto"

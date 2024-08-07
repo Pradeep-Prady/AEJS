@@ -1,4 +1,3 @@
-import React from "react";
 import vision from "/public/assets/general/vision.png";
 import mission from "/public/assets/general/mission.png";
 import Image from "next/image";

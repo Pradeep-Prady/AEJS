@@ -1,7 +1,6 @@
- "use client";
+"use client";
 import React, { useState } from "react";
 import { CgMouse } from "react-icons/cg";
-import { FaArrowDownLong } from "react-icons/fa6";
 import { IoIosArrowRoundDown } from "react-icons/io";
 const ScrollDownButton = ({ link }) => {
   const [hovered, setHovered] = useState(false);
@@ -25,9 +24,7 @@ const ScrollDownButton = ({ link }) => {
           !hovered ? "top-[0px]" : "top-[40px]"
         } duration-1000 ease-in-out`}
       >
-        <CgMouse
-          className={`duration-500 font-light w-[30px] h-[30px] z-30`}
-        />
+        <CgMouse className={`duration-500 font-light w-[30px] h-[30px] z-30`} />
       </div>
       <div
         className={`absolute z-0 ${

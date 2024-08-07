@@ -1,22 +1,17 @@
-import { Inter } from "next/font/google";
 import { services } from "../_data/service";
 import ServiceHeading from "@/components/UI/ServiceHeading";
 import MainContent from "@/components/General/MainContent";
 import ServiceCard from "../_components/ServiceCard";
 import Heading from "@/components/UI/Heading";
-import Contact from "@/components/UI/Contact";
-import bgImage1 from "/public/assets/security services/bgImage1.webp";
 import bgImage2 from "/public/assets/security services/banner2.webp";
-import layer1 from "/public/assets/security services/solutions-2.png";
 import layer2 from "/public/assets/security services/solutions-3.png";
 import ServicesIconCard from "../_components/ServicesIconCard";
 import Solutions from "../_components/Solutions";
 import ScrollDownButton from "@/components/UI/ScrollDownButton";
-import Navbar from "@/components/General/Navbar";
-import { Footer } from "@/components/General/Footer";
 import NeedHelp from "@/components/UI/NeedHelp";
 import MainNavbar from "@/components/General/MainNavbar";
 import NotFound from "@/components/UI/NotFound";
+import React from "react";
 
 export async function generateMetadata({ params }) {
   const service = services.find((s) => s.id === params.service);

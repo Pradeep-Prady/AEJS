@@ -1,4 +1,3 @@
-import React from "react";
 import Heading from "@/components/UI/Heading";
 import SubHeading from "@/components/UI/SubHeading";
 import LocationCard from "@/components/UI/LocationCard";

@@ -4,7 +4,6 @@
 
 import Heading from "@/components/UI/Heading";
 import SubHeading from "@/components/UI/SubHeading";
-import React from "react";
 
 import Kovaitech from "/public/assets/our-clients/Kovaitech.webp";
 import shobha from "/public/assets/our-clients/shobha.webp";

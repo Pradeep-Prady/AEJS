@@ -15,23 +15,11 @@ export default function Main({ children }) {
   };
   return (
     <>
-      <div
-        className="w-full h-auto  z-0 relative"
-      >
+      <div className="w-full h-auto  z-0 relative">
         <QueryClientProvider client={queryClient}>
           <div className="w-full h-screen poppins">{children}</div>
         </QueryClientProvider>
       </div>
-
-      {/* {!showConfetti && (
-        <Celebrate onCountdownComplete={handleCountdownComplete} />
-      )}
-      {showConfetti && (
-        <>
-          <ContinuousConfetti />
-          <FireworksConfetti />
-        </>
-      )} */}
     </>
   );
 }

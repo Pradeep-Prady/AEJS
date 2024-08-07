@@ -1,11 +1,9 @@
-"use client"
+"use client";
 
 import React from "react";
 import vectorYellow from "/public/assets/home/Vector-yellow.png";
 import vectorBlue from "/public/assets/home/Vector-blue.png";
-// import guard1 from "/public/assets/home/SECURITYHOMPAGE.jpg";
 import guard1 from "/public/assets/home/3.webp";
-
 
 import guard2 from "/public/assets/home/guard-2.png";
 import { PiDotOutlineFill } from "react-icons/pi";
@@ -13,7 +11,7 @@ import Image from "next/image";
 import ButtonWithArrow from "../UI/ButtonWithArrow";
 import { motion } from "framer-motion";
 
-const MainContent = ({ link ="/" , right = false, data, read }) => {
+const MainContent = ({ link = "/", right = false, data, read }) => {
   return (
     <div
       className="w-full grid lg:grid-cols-2 myPadX gap-10 py-10 lg:py-20"
@@ -70,9 +68,7 @@ const MainContent = ({ link ="/" , right = false, data, read }) => {
         </motion.div>
       </div>
       <div
-        className={` md:p-5 w-full ${
-          right ? "order-2 md:order-1" : "order-2"
-        }`}
+        className={` md:p-5 w-full ${right ? "order-2 md:order-1" : "order-2"}`}
       >
         <h2 className="text-myBlue md:tracking-wide sm:leading-5 lg:leading-10 font-bold text-[20px] sm:text-[28px] lg:text-[38px]">
           {data?.title}
@@ -95,7 +91,12 @@ const MainContent = ({ link ="/" , right = false, data, read }) => {
               </h5>
             </div>
           ))}
-          <ButtonWithArrow text="Learn More" link={link} className="my-5" read={read} />
+          <ButtonWithArrow
+            text="Learn More"
+            link={link}
+            className="my-5"
+            read={read}
+          />
         </div>
       </div>
     </div>

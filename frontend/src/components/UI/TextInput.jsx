@@ -1,4 +1,11 @@
-const TextInput = ({ label="", placeHolder, type, name, value, onChange }) => {
+const TextInput = ({
+  label = "",
+  placeHolder,
+  type,
+  name,
+  value,
+  onChange,
+}) => {
   return (
     <div className="w-full flex flex-col justify-end my-1 md:my-2">
       <label className="label"> {label}</label>

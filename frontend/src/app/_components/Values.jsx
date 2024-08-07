@@ -29,7 +29,6 @@ const Values = () => {
       {values.map((value, index) => (
         <ValueCard value={value} key={index} />
       ))}
-      
     </div>
   );
 };
@@ -37,8 +36,6 @@ const Values = () => {
 export default Values;
 
 const ValueCard = ({ value }) => {
-
- 
   return (
     <div className="md:p-3">
       <div className="flex sm:flex-col items- gap-5 sm:gap-0">

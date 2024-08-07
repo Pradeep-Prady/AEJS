@@ -1,19 +1,14 @@
-import React from 'react'
-import Navbar from './Navbar'
-import { Footer } from './Footer'
+import Navbar from "./Navbar";
+import { Footer } from "./Footer";
 
-const MainNavbar = ({children}) => {
+const MainNavbar = ({ children }) => {
   return (
-    <div> 
-
-        <Navbar/>
-        {
-            children
-        }
-
-        <Footer />
+    <div>
+      <Navbar />
+      {children}
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default MainNavbar
+export default MainNavbar;
