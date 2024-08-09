@@ -72,7 +72,7 @@ export const services = [
 
     banner: securityBg,
 
-    metaTitle: "",
+    metaTitle: "Premier Security Services in Coimbatore – 24/7 Protection",
     metaDescription: "",
     metaKeywords: [""],
 
@@ -505,7 +505,8 @@ export const services = [
         ],
       },
       {
-        metaTitle: "Gunman Coimbatore",
+        metaTitle:
+          "Top Gunman in Coimbatore: Reliable Armed Security Solutions",
         metaDescription:
           "Gunman in Coimbatore: Ensuring top-level security and reliable protection for you and your property with professional services.",
         metaKeywords: [
@@ -1114,6 +1115,11 @@ export const services = [
   },
   {
     id: "detective-services",
+
+    metaTitle:
+      "Expert Detective Services in Coimbatore – Confidential & Reliable",
+    metaDescription: "",
+    metaKeywords: [""],
 
     name: "Detective Services",
     subTitle: "Protecting Your World",
@@ -1824,6 +1830,11 @@ export const services = [
   },
   {
     id: "manpower-consultancy",
+
+    metaTitle: "Leading Manpower Consultancy in Coimbatore – Find Top Talent",
+    metaDescription: "",
+    metaKeywords: [""],
+
     name: "Manpower Consultancy",
     subTitle: "Protecting Your World",
     banner: securityBg,
@@ -2106,6 +2117,11 @@ export const services = [
   },
   {
     id: "house-cleaning",
+
+    metaTitle: "Reliable House Cleaning in Coimbatore – Fresh & Spotless Homes",
+    metaDescription: "",
+    metaKeywords: [""],
+
     name: "House Cleaning",
     subTitle: "Protecting Your House",
     banner: securityBg,

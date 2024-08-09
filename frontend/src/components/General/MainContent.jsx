@@ -70,9 +70,9 @@ const MainContent = ({ link = "/", right = false, data, read }) => {
       <div
         className={` md:p-5 w-full ${right ? "order-2 md:order-1" : "order-2"}`}
       >
-        <h2 className="text-myBlue md:tracking-wide sm:leading-5 lg:leading-10 font-bold text-[20px] sm:text-[28px] lg:text-[38px]">
+        <h3 className="text-myBlue md:tracking-wide sm:leading-5 lg:leading-10 font-bold text-[20px] sm:text-[28px] lg:text-[38px]">
           {data?.title}
-        </h2>
+        </h3>
         <h5 className="text-myGreen md:tracking-wide my-3 md:my-5 font-semibold text-[18px] sm:text-[20px] lg:text-[26px]">
           {data?.subTitle}
         </h5>

@@ -22,9 +22,8 @@ export async function generateMetadata({ params }) {
 
   return {
     title: subService ? `${subService.metaTitle}` : "SubService Not Found",
-    description: subService
-      ? `Details About ${subService?.metaDescription}`
-      : "SubService details not found",
+    description:subService?.metaDescription,
+    keywords: [subService?.metaKeywords],
   };
 }
 
@@ -52,15 +51,15 @@ export default async function SubService({ params }) {
           <div className="w-full my-5 flex flex-col items-center justify-center">
             <div id="sub-content" className="myPadX md:w-11/12 my-5 md:flex">
               <div className="w-full md:w-8/12">
-                <h1 className="text-[32px] font-semibold text-center">
+                <h3 className="text-[32px] font-semibold text-center">
                   {subService?.title}
-                </h1>
+                </h3>
 
                 {subService?.descriptions && (
                   <div className="my-3 p-5">
-                    <h1 className="text-[24px] font-semibold">
+                    <h4 className="text-[24px] font-semibold">
                       {subService?.descriptions[0]?.title}
-                    </h1>
+                    </h4>
 
                     {subService?.descriptions[0]?.content &&
                       subService?.descriptions[0]?.content?.length > 0 &&
@@ -112,9 +111,9 @@ export default async function SubService({ params }) {
                   ))}
                 {subService?.benefits && (
                   <div className="my-3 p-5">
-                    <h2 className="text-[24px] font-semibold">
+                    <h3 className="text-[24px] font-semibold">
                       Services We Offer
-                    </h2>
+                    </h3>
                     {subService?.benefits &&
                       subService?.benefits?.length > 0 &&
                       subService?.benefits.map((service, i) => (
@@ -146,9 +145,9 @@ export default async function SubService({ params }) {
                   items={service.subMenu}
                 />
                 <div className="bg-primary text-white p-5 rounded-md">
-                  <h2 className="text-[24px] font-semibold text-center">
+                  <h6 className="text-[24px] font-semibold text-center">
                     Grow Your Career in a Supportive Environment. Apply Now!
-                  </h2>
+                  </h6>
                   <div className="flex w-full mt-10 items-center justify-center">
                     <Link
                       href="/career"

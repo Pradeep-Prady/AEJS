@@ -128,16 +128,16 @@ const Page = () => {
               id="career"
             >
               <div className={"my-10 text-center"}>
-                <h1
+                <h4
                   className={`text-primary tracking-wide text-[20px] sm:text-[24px] lg:text-[30px] font-semibold`}
                 >
                   Please Fill Out the Following Information to Apply
-                </h1>
-                <h2
+                </h4>
+                <h5
                   className={`text-myLG tracking-wide my-3 sm:text-[20px] lg:text-[24px]`}
                 >
                   Join Our Team!
-                </h2>
+                </h5>
               </div>
               <div className="w-full grid md:grid-cols-3 my-1 md:my-5 gap-5 lg:gap-10">
                 <TextInput

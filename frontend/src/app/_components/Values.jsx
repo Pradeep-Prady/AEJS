@@ -46,9 +46,9 @@ const ValueCard = ({ value }) => {
           width={70}
           height={70}
         />
-        <h1 className="font-semibold my-5 text-myBlue text-[24px] md:text-[26px]">
+        <h3 className="font-semibold my-5 text-myBlue text-[24px] md:text-[26px]">
           {value.name}
-        </h1>
+        </h3>
       </div>
 
       <p className="leading-2 md:leading-7   md:text-[17px]">

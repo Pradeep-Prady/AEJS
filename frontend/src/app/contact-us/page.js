@@ -72,33 +72,33 @@ const Page = () => {
                 id="contact"
                 className="w-full bg-gray-100 py-3 px-2 sm:px-5"
               >
-                <h1
+                <h4
                   className={`md:text-[22px] text-myBlue   font-semibold my-3`}
                 >
                   Address
-                </h1>
+                </h4>
 
                 <p className="md:text-[17px] font-medium">
                   No 97 , 5 th Street Extn , Gandhipuram , Coimbatore - 641012
                 </p>
               </div>
               <div className="w-full py-3 px-2 sm:px-5  bg-gray-100 ">
-                <h1
+                <h4
                   className={`md:text-[22px] text-myBlue   font-semibold my-3`}
                 >
                   Mobile
-                </h1>
+                </h4>
 
                 <p className="md:text-[17px] font-medium">+91 9944580798</p>
                 <p className="md:text-[17px] font-medium">+91 9500475798</p>
               </div>
 
               <div className="w-full py-3 px-2 sm:px-5  bg-gray-100 p-5">
-                <h1
+                <h4
                   className={`md:text-[22px] text-myBlue   font-semibold my-3`}
                 >
                   Email
-                </h1>
+                </h4>
 
                 <p className="md:text-[17px] font-medium">ajesinfo@gmail.com</p>
               </div>
@@ -113,11 +113,11 @@ const Page = () => {
                 >
                   Have Questions? Let Our Experts Help You!
                 </h1>
-                <h2
+                <h4
                   className={`text-myLG tracking-wide my-3 sm:text-[20px] lg:text-[24px]`}
                 >
                   Contact Us for a Security Consultation!
-                </h2>
+                </h4>
               </div>
               <div className="w-full grid md:grid-cols-2 my-1 md:my-5 gap-5 lg:gap-10">
                 <TextInput
