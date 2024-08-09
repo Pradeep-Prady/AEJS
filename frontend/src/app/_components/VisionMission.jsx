@@ -13,14 +13,14 @@ const VisionMission = () => {
           src={vision.src}
           alt="vision"
         />
-        <h1 className={`text-primary text-[22px] my-3 font-semibold`}>
+        <h3 className={`text-primary text-[22px] my-3 font-semibold`}>
           {" "}
           Vision{" "}
-        </h1>
-        <h2 className="text-center w-full md:w-7/12">
+        </h3>
+        <h4 className="text-center w-full md:w-7/12">
         To be the best security services provider organization in Coimbatore by being the benchmark for safety, trust, and client satisfaction. 
 
-        </h2>
+        </h4>
       </div>
 
       <div className="text-center flex flex-col items-center justify-center">
