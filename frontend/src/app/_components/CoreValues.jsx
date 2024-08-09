@@ -20,7 +20,7 @@ const CoreValues = () => {
       <div className={`w-full flex md:hidden items-center justify-center`}>
         <hr className={`border-2 w-2/12 border-black`} />
         <div className={`flex items-center justify-center`}>
-          <h1 className="p-2 text-[24px] font-semibold">Core Values</h1>
+          <h3 className="p-2 text-[24px] font-semibold">Core Values</h3>
         </div>
         <hr className={`border-2 w-2/12 border-black`} />
       </div>
@@ -31,7 +31,7 @@ const CoreValues = () => {
         {coreValues.slice(0, 3).map((core, index) => (
           <motion.div
             key={core.id}
-            className="bg-[#D0FF55] flex justify-center items-center w-[250px] h-[250px] rotate-45 rounded-md"
+            className="bg-[#D0FF55] flex justify-center items-center w-[220px] h-[220px] rotate-45 rounded-md"
             initial={{ y: 300, opacity: 0 }}
             animate={inView ? { y: 0, opacity: 1, rotate: 45 } : {}}
             exit={{ y: -300, opacity: 0 }}
@@ -49,7 +49,7 @@ const CoreValues = () => {
       <div className={`w-full hidden md:flex items-center justify-center`}>
         <hr className={`border-2 w-3/12 border-black`} />
         <div className={`flex w-2/12 items-center justify-center`}>
-          <h1 className="p-3 text-[24px] font-semibold">Core Values</h1>
+          <h3 className="p-3 text-[24px] font-semibold">Core Values</h3>
         </div>
         <hr className={`border-2 w-3/12 border-black`} />
       </div>
@@ -61,7 +61,7 @@ const CoreValues = () => {
         {coreValues.slice(3, 5).map((core, index) => (
           <motion.div
             key={core.id}
-            className="bg-[#D0FF55] flex justify-center items-center w-[250px] h-[250px] rotate-45 rounded-md"
+            className="bg-[#D0FF55] flex justify-center items-center w-[220px] h-[220px] rotate-45 rounded-md"
             initial={{ y: -300, opacity: 0 }}
             animate={inView ? { y: 0, opacity: 1, rotate: 45 } : {}}
             exit={{ y: 300, opacity: 0 }}

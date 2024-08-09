@@ -51,9 +51,9 @@ export default async function SubService({ params }) {
           <div className="w-full my-5 flex flex-col items-center justify-center">
             <div id="sub-content" className="myPadX md:w-11/12 my-5 md:flex">
               <div className="w-full md:w-8/12">
-                <h2 className="text-[32px] font-semibold text-center">
+                <h3 className="text-[32px] font-semibold text-center">
                   {subService?.title}
-                </h2>
+                </h3>
 
                 {subService?.descriptions && (
                   <div className="my-3 p-5">
