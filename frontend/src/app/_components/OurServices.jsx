@@ -21,7 +21,7 @@ const OurServices = () => {
                 }`}
                 onClick={() => setActive(item.title)}
               >
-                <h1 className="  font-bold">{item.title}</h1>
+                <h3 className="  font-bold">{item.title}</h3>
               </div>
             )
         )}

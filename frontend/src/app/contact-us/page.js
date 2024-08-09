@@ -108,11 +108,11 @@ const Page = () => {
           <div className="w-full flex items-center justify-center">
             <form onSubmit={handleSubmit} className="w-11/12 md:w-8/12">
               <div className={"my-10 text-center"}>
-                <h1
+                <h4
                   className={`text-primary tracking-wide text-[20px] sm:text-[24px] lg:text-[30px] font-semibold`}
                 >
                   Have Questions? Let Our Experts Help You!
-                </h1>
+                </h4>
                 <h4
                   className={`text-myLG tracking-wide my-3 sm:text-[20px] lg:text-[24px]`}
                 >

@@ -197,9 +197,9 @@ const Certificates = ({ certificate }) => {
               className="flex justify-between items-center my-3 cursor-pointer"
               onClick={() => toggleFaq(index)}
             >
-              <h2 className="text-[16px] w-11/12 font-semibold my-1">
+              <h4 className="text-[16px] w-11/12 font-semibold my-1">
                 {cert.title}
-              </h2>
+              </h4>
               {expandedFaq === index ? <FaMinus /> : <FaPlus />}
             </div>
             {expandedFaq === index && (

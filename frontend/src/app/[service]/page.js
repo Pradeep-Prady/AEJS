@@ -53,8 +53,8 @@ export default async function Page({ params }) {
           />
           <div className="myPadX my-10 flex flex-col items-center justify-center">
             <div className="text-[34px] font-semibold text-center flex items-center justify-center gap-2">
-              <h2 className="text-primary">You trust, </h2>
-              <h2 className="text-myLG">We care </h2>
+              <h3 className="text-primary">You trust, </h3>
+              <h3 className="text-myLG">We care </h3>
             </div>
             <p className="text-[#414141] w-full md:w-6/12 text-center leading-7 text-[18px] my-2">
               We offer a comprehensive range of security solutions designed to

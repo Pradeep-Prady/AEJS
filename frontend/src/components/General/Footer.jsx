@@ -41,9 +41,9 @@ export const Footer = () => {
         </div>
         <div className="flex w-full lg:w-[40%]   flex-col items-start justify-start relative h-full ">
           <div className="h-[70px] md:h-[80px] lg:h-[100px] flex items-center ">
-            <h2 className="text-primary   text-[20px] md:text-[24px] font-bold  ">
+            <h3 className="text-primary   text-[20px] md:text-[24px] font-bold  ">
               Our Services
-            </h2>{" "}
+            </h3>{" "}
           </div>
 
           <div className="w-full   sm:flex gap- items-start justify-end">
@@ -86,9 +86,9 @@ export const Footer = () => {
         <div className="sm:flex gap-10 w-full lg:w-[40%]">
           <div className="flex w-full sm:w-[50%] lg:w-[40%]  flex-col items-start justify-start relative h-full">
             <div className="h-[70px] md:h-[80px] lg:h-[100px] flex items-center ">
-              <h2 className="text-primary text-[20px] md:text-[24px] font-bold">
+              <h3 className="text-primary text-[20px] md:text-[24px] font-bold">
                 Quick Links
-              </h2>
+              </h3>
             </div>
             <div className=" my-[10px] flex flex-col gap-2">
               <Link href={"/about-us"} className="  md:text-[16px]     ">
@@ -107,9 +107,9 @@ export const Footer = () => {
           </div>
           <div className="flex w-full sm:w-[50%] lg:w-[60%]   flex-col items-start justify-start relative h-full ">
             <div className="h-[70px] md:h-[80px] lg:h-[100px] flex items-center ">
-              <h2 className="text-primary text-[20px] md:text-[24px] font-bold">
+              <h3 className="text-primary text-[20px] md:text-[24px] font-bold">
                 Contact Us
-              </h2>
+              </h3>
             </div>
             <div className=" my-[10px]">
               <div className="w-full flex items-center gap-2">
