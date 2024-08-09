@@ -20,7 +20,7 @@ const CoreValues = () => {
       <div className={`w-full flex md:hidden items-center justify-center`}>
         <hr className={`border-2 w-2/12 border-black`} />
         <div className={`flex items-center justify-center`}>
-          <h3 className="p-2 text-[24px] font-semibold">Core Values</h3>
+          <h1 className="p-2 text-[24px] font-semibold">Core Values</h1>
         </div>
         <hr className={`border-2 w-2/12 border-black`} />
       </div>
@@ -49,7 +49,7 @@ const CoreValues = () => {
       <div className={`w-full hidden md:flex items-center justify-center`}>
         <hr className={`border-2 w-3/12 border-black`} />
         <div className={`flex w-2/12 items-center justify-center`}>
-          <h3 className="p-3 text-[24px] font-semibold">Core Values</h3>
+          <h1 className="p-3 text-[24px] font-semibold">Core Values</h1>
         </div>
         <hr className={`border-2 w-3/12 border-black`} />
       </div>
