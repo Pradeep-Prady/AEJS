@@ -14,9 +14,9 @@ export const Hero = () => {
         <h1 className="text-[34px] sm:text-[60px] lg:text-[80px] font-extrabold text-center">
           Truth uncovered. Security delivered.
         </h1>
-        <h4 className="text-[15px] md:text-[20px] font-semibold text-center my-7">
+        <h2 className="text-[15px] md:text-[20px] font-semibold text-center my-7">
           When security feels uncertain, trust us to bring peace of mind.
-        </h4>
+        </h2>
         <ButtonWithArrow
           link="/contact-us"
           text="Contact Us Now"
