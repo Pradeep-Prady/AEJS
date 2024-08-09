@@ -51,9 +51,9 @@ export default async function SubService({ params }) {
           <div className="w-full my-5 flex flex-col items-center justify-center">
             <div id="sub-content" className="myPadX md:w-11/12 my-5 md:flex">
               <div className="w-full md:w-8/12">
-                <h3 className="text-[32px] font-semibold text-center">
+                <h2 className="text-[32px] font-semibold text-center">
                   {subService?.title}
-                </h3>
+                </h2>
 
                 {subService?.descriptions && (
                   <div className="my-3 p-5">
@@ -93,9 +93,9 @@ export default async function SubService({ params }) {
                   subService?.descriptions?.length > 1 &&
                   subService?.descriptions.slice(1).map((serviceContent, i) => (
                     <div className="my-3 px-5" key={i}>
-                      <h1 className="text-[24px] font-semibold">
+                      <h4 className="text-[24px] font-semibold">
                         {serviceContent?.title}
-                      </h1>
+                      </h4>
 
                       {serviceContent?.content &&
                         serviceContent?.content?.length > 0 &&
@@ -111,9 +111,9 @@ export default async function SubService({ params }) {
                   ))}
                 {subService?.benefits && (
                   <div className="my-3 p-5">
-                    <h3 className="text-[24px] font-semibold">
+                    <h4 className="text-[24px] font-semibold">
                       Services We Offer
-                    </h3>
+                    </h4>
                     {subService?.benefits &&
                       subService?.benefits?.length > 0 &&
                       subService?.benefits.map((service, i) => (

@@ -15,16 +15,16 @@ const FAQ = ({ name, faqs }) => {
       className={`w-full h-auto md:pb-16 border-b md:grid grid-cols-2 myPadX `}
     >
       <div className={"w-full  "}>
-        <h1
+        <h4
           className={`text-myBlue text-[22px] sm:text-[28px] lg:text-[64px] font-bold`}
         >
           FAQ?
-        </h1>
-        <h1
+        </h4>
+        <h5
           className={`text-myLG text-[22px] sm:text-[28px] lg:text-[38px] font-bold`}
         >
           {name}
-        </h1>
+        </h5>
       </div>
       <div className={"   "}>
         {faqs?.map((faq) => (
@@ -33,12 +33,12 @@ const FAQ = ({ name, faqs }) => {
             key={faq.id}
           >
             <div className="flex justify-between items-start">
-              <h2
+              <h6
                 className="text-[18px] w-11/12 font-semibold my-1"
                 onClick={() => toggleFaq(faq.id)}
               >
                 {faq.qus}
-              </h2>
+              </h6>
               <button
                 className={
                   "w-1/12 flex items-center justify-center cursor-pointer"

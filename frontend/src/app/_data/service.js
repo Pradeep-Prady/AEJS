@@ -732,7 +732,7 @@ export const services = [
       },
 
       {
-        metaTitle: "Bouncer Coimbatore",
+        metaTitle: "Expert Bouncer in Coimbatore: Ensuring Event Safety and Security",
         metaDescription:
           "Ensure event safety with a dedicated Bouncer in Coimbatore. Expert in crowd management and venue security for all occasions.",
         metaKeywords: [

@@ -10,11 +10,11 @@ const ServiceHeading = ({ title, className, tStyle, stStyle, subTitle }) => {
       >
         {title}{" "}
       </h1>
-      <h2
+      <h3
         className={`text-myLG text-[20px] md:text-[28px] lg:text-[36px] font-semibold ${stStyle}`}
       >
         {subTitle}{" "}
-      </h2>
+      </h3>
     </div>
   );
 };

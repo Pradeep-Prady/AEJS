@@ -10,16 +10,16 @@ const ServicesIconCard = ({ service }) => {
   
   return (
     <div className="w-full myPadX py-5">
-      <h2 className="text-[22px] font-semibold text-center my-5 ">
+      <h5 className="text-[22px] font-semibold text-center my-5 ">
         {" "}
         Learn More About Our Services{" "}
-      </h2>
+      </h5>
       <div className="w-full flex flex-col md:flex-row  items-center justify-center gap-10">
         <div
           className={`h-[300px] w-[300px] flex flex-col items-center py-[30px] ${
             service?.name === "Security Services" ? "glass" : " border"
           }  justify-center`}
-        > <div className="h-[150px]  "> 
+        > <div className="h-[150px] flex flex-col items-center justify-center "> 
           <Image
             className={"h-[150px] w-auto "}
             src={Security.src}
@@ -34,7 +34,7 @@ const ServicesIconCard = ({ service }) => {
             service?.name === "Detective Services" ? "glass" : " border"
           }  justify-center`}
         >
-          <div className="h-[150px]"> 
+          <div className="h-[150px] flex flex-col items-center justify-center"> 
 
           <Image
             className={"w-[150px]"}
@@ -50,7 +50,7 @@ const ServicesIconCard = ({ service }) => {
             service?.name === "Manpower Consultancy" ? "glass" : " border"
           } `}
         >
-          <div className="h-[150px]">
+          <div className="h-[150px] flex flex-col items-center justify-center">
                <Image
             className={"w-[150px]  scale-105"}
             src={Manpower.src}
@@ -67,7 +67,7 @@ const ServicesIconCard = ({ service }) => {
             service?.name === "House Cleaning" ? "glass" : " border"
           } `}
         >
-          <div className="h-[150px]">
+          <div className="h-[150px] flex flex-col items-center justify-center">
                <Image
             className={"w-[150px]  scale-105"}
             src={house_cleaning.src}
