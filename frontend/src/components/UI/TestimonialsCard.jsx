@@ -28,9 +28,9 @@ const TestimonialsCard = ({ testimonial }) => {
           />
         </div>
       </div>
-      <h2 className={`text-[20px] text-center font-semibold`}>
+      <h3 className={`text-[20px] text-center font-semibold`}>
         {testimonial.name}{" "}
-      </h2>
+      </h3>
     </div>
   );
 };

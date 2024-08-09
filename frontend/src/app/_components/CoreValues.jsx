@@ -20,7 +20,7 @@ const CoreValues = () => {
       <div className={`w-full flex md:hidden items-center justify-center`}>
         <hr className={`border-2 w-2/12 border-black`} />
         <div className={`flex items-center justify-center`}>
-          <h2 className="p-2 text-[24px] font-semibold">Core Values</h2>
+          <h3 className="p-2 text-[24px] font-semibold">Core Values</h3>
         </div>
         <hr className={`border-2 w-2/12 border-black`} />
       </div>
