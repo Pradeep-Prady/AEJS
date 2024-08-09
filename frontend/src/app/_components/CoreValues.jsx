@@ -31,14 +31,14 @@ const CoreValues = () => {
         {coreValues.slice(0, 3).map((core, index) => (
           <motion.div
             key={core.id}
-            className="bg-[#D0FF55] flex justify-center items-center w-[200px] h-[200px] rotate-45 rounded-md"
+            className="bg-[#D0FF55] flex justify-center items-center w-[250px] h-[250px] rotate-45 rounded-md"
             initial={{ y: 300, opacity: 0 }}
             animate={inView ? { y: 0, opacity: 1, rotate: 45 } : {}}
             exit={{ y: -300, opacity: 0 }}
             transition={{ duration: 1.3, type: "spring" }}
           >
             <div className={`-rotate-45 text-center p-3`}>
-              <h2 className={`font-semibold text-[24px]`}>{core.title}</h2>
+              <h3 className={`font-semibold text-[24px]`}>{core.title}</h3>
               <p>{core.description}</p>
             </div>
           </motion.div>
@@ -49,7 +49,7 @@ const CoreValues = () => {
       <div className={`w-full hidden md:flex items-center justify-center`}>
         <hr className={`border-2 w-3/12 border-black`} />
         <div className={`flex w-2/12 items-center justify-center`}>
-          <h2 className="p-3 text-[24px] font-semibold">Core Values</h2>
+          <h3 className="p-3 text-[24px] font-semibold">Core Values</h3>
         </div>
         <hr className={`border-2 w-3/12 border-black`} />
       </div>
@@ -61,14 +61,14 @@ const CoreValues = () => {
         {coreValues.slice(3, 5).map((core, index) => (
           <motion.div
             key={core.id}
-            className="bg-[#D0FF55] flex justify-center items-center w-[200px] h-[200px] rotate-45 rounded-md"
+            className="bg-[#D0FF55] flex justify-center items-center w-[250px] h-[250px] rotate-45 rounded-md"
             initial={{ y: -300, opacity: 0 }}
             animate={inView ? { y: 0, opacity: 1, rotate: 45 } : {}}
             exit={{ y: 300, opacity: 0 }}
             transition={{ duration: 1.3, type: "spring" }}
           >
             <div className={`-rotate-45 text-center p-3`}>
-              <h2 className={`font-semibold text-[24px]`}>{core.title}</h2>
+              <h4 className={`font-semibold text-[24px]`}>{core.title}</h4>
               <p>{core.description}</p>
             </div>
           </motion.div>
