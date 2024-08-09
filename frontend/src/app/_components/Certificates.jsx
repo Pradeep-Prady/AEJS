@@ -179,11 +179,11 @@ const Certificates = ({ certificate }) => {
       </div>
 
       <div className={"p-2 sm:p-5"}>
-        <h1
+        <h3
           className={`text-myLG text-[22px] sm:text-[28px] lg:text-[38px] font-bold`}
         >
           Why Choose Us?
-        </h1>
+        </h3>
 
         <div>
           <h5 className="text-[18px] w-11/12 font-semibold my-1">
@@ -211,9 +211,9 @@ const Certificates = ({ certificate }) => {
         ))}
 
         <div>
-          <h2 className="text-[16px] mt-3 w-11/12 font-semibold my-1">
+          <h4 className="text-[16px] mt-3 w-11/12 font-semibold my-1">
             {certificatesData[certificate]?.subContent}
-          </h2>
+          </h4>
         </div>
       </div>
     </div>
