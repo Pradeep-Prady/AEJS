@@ -104,7 +104,7 @@ export const services = [
     },
     subMenu: [
       {
-        id: "armed-pso",
+        id: "armed-pso-coimbatore",
         title: "Armed PSO in Coimbatore",
         path: "/security-services/armed-pso-coimbatore",
         image: ArmedPsoImg,
@@ -232,7 +232,7 @@ export const services = [
         ],
       },
       {
-        id: "security-guard",
+        id: "security-guard-coimbatore",
         title: "Security guard services in Coimbatore",
         path: "/security-services/security-guard-coimbatore",
         subTitle: "Security services",
@@ -363,7 +363,7 @@ export const services = [
         ],
       },
       {
-        id: "security-supervisor",
+        id: "security-supervisor-coimbatore",
         title: "Security Supervisor in Coimbatore",
         path: "/security-services/security-supervisor-coimbatore",
         image: SecuritySupervisorImg,
@@ -517,7 +517,7 @@ export const services = [
           "Security Personnel with Guns",
         ],
 
-        id: "gunman",
+        id: "gunman-coimbatore",
         title: "Gunman in Coimbatore",
         path: "/security-services/gunman-coimbatore",
         image: GunmanImg,
@@ -618,7 +618,7 @@ export const services = [
           "Security Services Assistant",
         ],
 
-        id: "aso",
+        id: "aso-coimbatore",
         title: "Assistant Security Officer (ASO) in Coimbatore",
         path: "/security-services/aso-coimbatore",
         image: ASOImg,
@@ -743,7 +743,7 @@ export const services = [
           "Club Security",
         ],
 
-        id: "bouncer",
+        id: "bouncer-coimbatore",
         title: "Bouncer in Coimbatore",
         path: "/security-services/bouncer-coimbatore",
         image: BouncerImg,
@@ -868,7 +868,7 @@ export const services = [
         ],
       },
       {
-        id: "fire-safety-expert",
+        id: "fire-safety-expert-coimbatore",
         title: "Fire Safety Expert Coimbatore",
         path: "/security-services/fire-safety-expert-coimbatore",
         image: FireSafteyExpertImg,
@@ -1002,7 +1002,7 @@ export const services = [
         ],
       },
       {
-        id: "surveillance-room",
+        id: "surveillance-room-coimbatore",
         title: "Surveillance Room",
         path: "/security-services/surveillance-room-coimbatore",
         image: SurvilanceRoomImg,
@@ -1152,7 +1152,7 @@ export const services = [
     },
     subMenu: [
       {
-        id: "detective-agencies-for-cyber-crime",
+        id: "detective-agencies-for-cyber-crime-coimbatore",
         title: "Detective agency for Cyber Crime in Coimbatore",
 
         path: "/detective-services/detective-agencies-for-cyber-crime-coimbatore",
@@ -1268,7 +1268,7 @@ export const services = [
       },
 
       {
-        id: "detective-agencies-for-matrimonial-screening",
+        id: "detective-agencies-for-matrimonial-screening-coimbatore",
         title: "Detective Agency for Matrimonial Screening in Coimbatore",
 
         path: "/detective-services/detective-agencies-for-matrimonial-screening-coimbatore",
@@ -1381,7 +1381,7 @@ export const services = [
       },
 
       {
-        id: "personal-investigation",
+        id: "personal-investigation-coimbatore",
         title: "Personal Investigation by Detectives in Coimbatore",
         path: "/detective-services/personal-investigation-coimbatore",
         image: serviceImage4,
@@ -1497,7 +1497,7 @@ export const services = [
       },
 
       {
-        id: "corporate-investigation",
+        id: "corporate-investigation-coimbatore",
         title: "Corporate Investigation by Detectives in Coimbatore",
         path: "/detective-services/corporate-investigation-coimbatore",
         image: serviceImage4,
@@ -1609,7 +1609,7 @@ export const services = [
       },
 
       {
-        id: "forensic-investigation",
+        id: "forensic-investigation-coimbatore",
         title: "Forensic Investigation by Detectives in Coimbatore",
         path: "/detective-services/forensic-investigation-coimbatore",
         image: serviceImage4,
@@ -1714,7 +1714,7 @@ export const services = [
       },
 
       {
-        id: "cybercrime-investgation",
+        id: "cybercrime-investgation-coimbatore",
         title: "Cybercrime Investigation by Detectives in Coimbatore ",
         path: "/detective-services/cybercrime-investgation-coimbatore",
         image: serviceImage4,
@@ -1866,7 +1866,7 @@ export const services = [
     },
     subMenu: [
       {
-        id: "it-labour",
+        id: "it-labour-coimbatore",
         title: "IT Labour Consultancy Services in Coimbatore",
         path: "/manpower-consultancy/it-labour-coimbatore",
         image: serviceImage4,
@@ -1957,7 +1957,7 @@ export const services = [
         ],
       },
       {
-        id: "skilled-labour",
+        id: "skilled-labour-coimbatore",
         title: "Skilled Labour Consultancy Services Coimbatore",
         path: "/manpower-consultancy/skilled-labour-coimbatore",
         image: serviceImage4,
@@ -2039,7 +2039,7 @@ export const services = [
         ],
       },
       {
-        id: "unskilled-labour",
+        id: "unskilled-labour-coimbatore",
         title: "Unskilled Labour Consultancy Services in Coimbatore",
         path: "/manpower-consultancy/unskilled-labour-coimbatore",
         image: serviceImage4,
@@ -2153,7 +2153,7 @@ export const services = [
     },
     subMenu: [
       {
-        id: "deep-cleaning",
+        id: "deep-cleaning-coimbatore",
         title: "Top-Rated Deep Cleaning Services in Coimbatore",
         path: "/house-cleaning/deep-cleaning-coimbatore",
         image: serviceImage4,
