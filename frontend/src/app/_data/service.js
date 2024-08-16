@@ -106,7 +106,7 @@ export const services = [
       {
         id: "armed-pso",
         title: "Armed PSO in Coimbatore",
-        path: "/security-services/armed-pso",
+        path: "/security-services/armed-pso-coimbatore",
         image: ArmedPsoImg,
         subTitle: "Security services",
         banner: armedpso_banner,
@@ -234,7 +234,7 @@ export const services = [
       {
         id: "security-guard",
         title: "Security guard services in Coimbatore",
-        path: "/security-services/security-guard",
+        path: "/security-services/security-guard-coimbatore",
         subTitle: "Security services",
         banner: armedpso_banner,
 
@@ -365,7 +365,7 @@ export const services = [
       {
         id: "security-supervisor",
         title: "Security Supervisor in Coimbatore",
-        path: "/security-services/security-supervisor",
+        path: "/security-services/security-supervisor-coimbatore",
         image: SecuritySupervisorImg,
         icon: service_security_supervisor,
 
@@ -519,7 +519,7 @@ export const services = [
 
         id: "gunman",
         title: "Gunman in Coimbatore",
-        path: "/security-services/gunman",
+        path: "/security-services/gunman-coimbatore",
         image: GunmanImg,
         icon: service_gunman,
 
@@ -620,7 +620,7 @@ export const services = [
 
         id: "aso",
         title: "Assistant Security Officer (ASO) in Coimbatore",
-        path: "/security-services/aso",
+        path: "/security-services/aso-coimbatore",
         image: ASOImg,
         icon: service_armed_security_officer,
         subTitle: "Security services",
@@ -745,7 +745,7 @@ export const services = [
 
         id: "bouncer",
         title: "Bouncer in Coimbatore",
-        path: "/security-services/bouncer",
+        path: "/security-services/bouncer-coimbatore",
         image: BouncerImg,
         icon: service_bouncer,
         subTitle: "Security services",
@@ -870,7 +870,7 @@ export const services = [
       {
         id: "fire-safety-expert",
         title: "Fire Safety Expert Coimbatore",
-        path: "/security-services/fire-safety-expert",
+        path: "/security-services/fire-safety-expert-coimbatore",
         image: FireSafteyExpertImg,
         icon: service_fire_safety_expert,
         subTitle: "Security services",
@@ -1004,7 +1004,7 @@ export const services = [
       {
         id: "surveillance-room",
         title: "Surveillance Room",
-        path: "/security-services/surveillance-room",
+        path: "/security-services/surveillance-room-coimbatore",
         image: SurvilanceRoomImg,
         icon: service_surveillance_room,
         subTitle: "Security services",
@@ -1155,7 +1155,7 @@ export const services = [
         id: "detective-agencies-for-cyber-crime",
         title: "Detective agency for Cyber Crime in Coimbatore",
 
-        path: "/detective-services/detective-agencies-for-cyber-crime",
+        path: "/detective-services/detective-agencies-for-cyber-crime-coimbatore",
 
         metaTitle: "Detective agency for Cyber Crime Coimbatore",
         metaDescription:
@@ -1271,7 +1271,7 @@ export const services = [
         id: "detective-agencies-for-matrimonial-screening",
         title: "Detective Agency for Matrimonial Screening in Coimbatore",
 
-        path: "/detective-services/detective-agencies-for-matrimonial-screening",
+        path: "/detective-services/detective-agencies-for-matrimonial-screening-coimbatore",
 
         image: serviceImage4,
 
@@ -1383,7 +1383,7 @@ export const services = [
       {
         id: "personal-investigation",
         title: "Personal Investigation by Detectives in Coimbatore",
-        path: "/detective-services/personal-investigation",
+        path: "/detective-services/personal-investigation-coimbatore",
         image: serviceImage4,
 
         subTitle: "Detective Services",
@@ -1499,7 +1499,7 @@ export const services = [
       {
         id: "corporate-investigation",
         title: "Corporate Investigation by Detectives in Coimbatore",
-        path: "/detective-services/corporate-investigation",
+        path: "/detective-services/corporate-investigation-coimbatore",
         image: serviceImage4,
 
         subTitle: "Detective Services",
@@ -1611,7 +1611,7 @@ export const services = [
       {
         id: "forensic-investigation",
         title: "Forensic Investigation by Detectives in Coimbatore",
-        path: "/detective-services/forensic-investigation",
+        path: "/detective-services/forensic-investigation-coimbatore",
         image: serviceImage4,
 
         subTitle: "Detective Services",
@@ -1716,7 +1716,7 @@ export const services = [
       {
         id: "cybercrime-investgation",
         title: "Cybercrime Investigation by Detectives in Coimbatore ",
-        path: "/detective-services/cybercrime-investgation",
+        path: "/detective-services/cybercrime-investgation-coimbatore",
         image: serviceImage4,
 
         subTitle: "Detective Services",
@@ -1868,7 +1868,7 @@ export const services = [
       {
         id: "it-labour",
         title: "IT Labour Consultancy Services in Coimbatore",
-        path: "/manpower-consultancy/it-labour",
+        path: "/manpower-consultancy/it-labour-coimbatore",
         image: serviceImage4,
 
         subTitle: "Manpower Consultancy",
@@ -1959,7 +1959,7 @@ export const services = [
       {
         id: "skilled-labour",
         title: "Skilled Labour Consultancy Services Coimbatore",
-        path: "/manpower-consultancy/skilled-labour",
+        path: "/manpower-consultancy/skilled-labour-coimbatore",
         image: serviceImage4,
 
         subTitle: "Manpower Consultancy",
@@ -2041,7 +2041,7 @@ export const services = [
       {
         id: "unskilled-labour",
         title: "Unskilled Labour Consultancy Services in Coimbatore",
-        path: "/manpower-consultancy/unskilled-labour",
+        path: "/manpower-consultancy/unskilled-labour-coimbatore",
         image: serviceImage4,
 
         subTitle: "Manpower Consultancy",
@@ -2155,7 +2155,7 @@ export const services = [
       {
         id: "deep-cleaning",
         title: "Top-Rated Deep Cleaning Services in Coimbatore",
-        path: "/house-cleaning/deep-cleaning",
+        path: "/house-cleaning/deep-cleaning-coimbatore",
         image: serviceImage4,
 
         subTitle: "Deep Cleaning ",

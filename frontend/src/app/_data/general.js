@@ -61,56 +61,56 @@ export const navBarData = [
       {
         id: "nbd_3_1",
         title: "Armed PSO",
-        path: "/security-services/armed-pso",
+        path: "/security-services/armed-pso-coimbatore",
         icon: service_armed_pso,
         image: ArmedPsoImg,
       },
       {
         id: "nbd_3_2",
         title: "Security Guard",
-        path: "/security-services/security-guard",
+        path: "/security-services/security-guard-coimbatore",
         image: SecurityGuardImg,
         icon: service_security_guard,
       },
       {
         id: "nbd_3_3",
         title: "Security Supervisor",
-        path: "/security-services/security-supervisor",
+        path: "/security-services/security-supervisor-coimbatore",
         icon: service_security_supervisor,
         image: SecuritySupervisorImg,
       },
       {
         id: "nbd_3_4",
         title: "Gunman",
-        path: "/security-services/gunman",
+        path: "/security-services/gunman-coimbatore",
         icon: service_gunman,
         image: GunmanImg,
       },
       {
         id: "nbd_3_5",
         title: "ASO",
-        path: "/security-services/aso",
+        path: "/security-services/aso-coimbatore",
         icon: service_armed_security_officer,
         image: ASOImg,
       },
       {
         id: "nbd_3_6",
         title: "Bouncer",
-        path: "/security-services/bouncer",
+        path: "/security-services/bouncer-coimbatore",
         icon: service_bouncer,
         image: BouncerImg,
       },
       {
         id: "nbd_3_7",
         title: "Fire Safety Expert",
-        path: "/security-services/fire-safety-expert",
+        path: "/security-services/fire-safety-expert-coimbatore",
         icon: service_fire_safety_expert,
         image: FireSafteyExpertImg,
       },
       {
         id: "nbd_3_8",
         title: "Surveillance Room",
-        path: "/security-services/surveillance-room",
+        path: "/security-services/surveillance-room-coimbatore",
         icon: service_surveillance_room,
         image: SurvilanceRoomImg,
       },
@@ -124,7 +124,7 @@ export const navBarData = [
       {
         id: "nbd_4_1",
         title: "Detective agencies for Cyber Crime",
-        path: "/detective-services/detective-agencies-for-cyber-crime",
+        path: "/detective-services/detective-agencies-for-cyber-crime-coimbatore",
         image: serviceImage3,
         icon: detective_agencies_for_cyber_crime,
         description:
@@ -133,7 +133,7 @@ export const navBarData = [
       {
         id: "nbd_4_2",
         title: "Detective agencies for Matrimonial Screening",
-        path: "/detective-services/detective-agencies-for-matrimonial-screening",
+        path: "/detective-services/detective-agencies-for-matrimonial-screening-coimbatore",
         image: serviceImage3,
         icon: detective_agencies_for_matrimonial_screening,
 
@@ -143,7 +143,7 @@ export const navBarData = [
       {
         id: "nbd_4_3",
         title: "Personal Investigation",
-        path: "/detective-services/personal-investigation",
+        path: "/detective-services/personal-investigation-coimbatore",
         image: serviceImage3,
         icon: personal_investigation,
 
@@ -153,7 +153,7 @@ export const navBarData = [
       {
         id: "nbd_4_4",
         title: "Corporate Investigation",
-        path: "/detective-services/corporate-investigation",
+        path: "/detective-services/corporate-investigation-coimbatore",
         image: serviceImage3,
 
         description:
@@ -163,7 +163,7 @@ export const navBarData = [
       {
         id: "nbd_4_5",
         title: "Forensic Investigation",
-        path: "/detective-services/forensic-investigation",
+        path: "/detective-services/forensic-investigation-coimbatore",
         image: serviceImage3,
         icon: forensic_investigation,
 
@@ -173,7 +173,7 @@ export const navBarData = [
       {
         id: "nbd_4_6",
         title: "Cybercrime Investgation",
-        path: "/detective-services/cybercrime-investgation",
+        path: "/detective-services/cybercrime-investgation-coimbatore",
         image: serviceImage3,
         icon: cybercrime_investgation,
 
@@ -190,7 +190,7 @@ export const navBarData = [
       {
         id: "nbd_5_1",
         title: "IT labour",
-        path: "/manpower-consultancy/it-labour",
+        path: "/manpower-consultancy/it-labour-coimbatore",
         icon: it_labour,
         image: serviceImage3,
         description:
@@ -199,7 +199,7 @@ export const navBarData = [
       {
         id: "nbd_5_2",
         title: "Skilled labour",
-        path: "/manpower-consultancy/skilled-labour",
+        path: "/manpower-consultancy/skilled-labour-coimbatore",
         image: serviceImage3,
         icon: skilled_labour,
 
@@ -209,7 +209,7 @@ export const navBarData = [
       {
         id: "nbd_5_3",
         title: "Unskilled labour",
-        path: "/manpower-consultancy/unskilled-labour",
+        path: "/manpower-consultancy/unskilled-labour-coimbatore",
         image: serviceImage3,
         icon: unskilled_labour,
 
@@ -226,7 +226,7 @@ export const navBarData = [
       {
         id: "nbd_6_1",
         title: "Deep Cleaning",
-        path: "/house-cleaning/deep-cleaning",
+        path: "/house-cleaning/deep-cleaning-coimbatore",
         icon: deep_cleaning,
         image: serviceImage3,
         description:

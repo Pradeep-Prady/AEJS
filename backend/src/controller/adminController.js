@@ -8,6 +8,9 @@ import {
 import AppSuccess from "../utils/response-handlers/app-success.js";
 import { getAll as getAllCareers } from "../service/careerService.js";
 import { getAll as getAllContacts } from "../service/contactService.js";
+
+
+
 export const getDashboard = async (req, res, next) => {
   try {
     const careerCount = await getAllCareers();
