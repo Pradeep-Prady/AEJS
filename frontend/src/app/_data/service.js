@@ -73,8 +73,18 @@ export const services = [
     banner: securityBg,
 
     metaTitle: "Premier Security Services in Coimbatore – 24/7 Protection",
-    metaDescription: "",
-    metaKeywords: [""],
+    metaDescription:
+      "Expert security solutions in Coimbatore: Armed PSOs, Security Guards, Supervisors, Gunman, ASOs, Bouncers, Fire Safety, and Surveillance Room Management.",
+    metaKeywords: [
+      "Armed PSO (Personal Security Officer)",
+      "Security Guards",
+      "Security Supervisors",
+      "Gunman",
+      "ASO",
+      "Bouncers",
+      "Fire Safety Services",
+      "Surveillance Room Management",
+    ],
 
     mainContent: {
       title: "Why AEJS for security solutions?",
@@ -113,7 +123,7 @@ export const services = [
 
         metaTitle: "Armed PSO Coimbatore",
         metaDescription:
-          "Secure your peace of mind with our Armed PSO in Coimbatore, providing trusted and experienced personal security services.",
+          "Secure your peace of mind with our Armed PSO in Coimbatore, offering trusted personal protection, VIP security, executive protection, and bodyguard services.",
         metaKeywords: [
           "Armed PSO in Coimbatore",
           "Armed Bodyguard",
@@ -242,7 +252,7 @@ export const services = [
 
         metaTitle: "Security guard services Coimbatore",
         metaDescription:
-          "Professional Security guard services in Coimbatore tailored to safeguard your property with 24/7 reliable protection.",
+          "Professional security guard services in Coimbatore provide 24/7 reliable protection with expert security personnel, property security, and surveillance.",
         metaKeywords: [
           "Security guard services in Coimbatore",
           "Security Solutions",
@@ -371,7 +381,7 @@ export const services = [
 
         metaTitle: "Security Supervisor Coimbatore",
         metaDescription:
-          "Reliable Security supervisor overseeing all aspects of safety and security, tailored to meet your specific protection needs.",
+          "Experienced security supervisor in Coimbatore providing safety oversight, risk assessment, incident management, and security management.",
         metaKeywords: [
           "Security Supervisor",
           "Security Oversight",
@@ -508,7 +518,7 @@ export const services = [
         metaTitle:
           "Top Gunman in Coimbatore: Reliable Armed Security Solutions",
         metaDescription:
-          "Gunman in Coimbatore: Ensuring top-level security and reliable protection for you and your property with professional services.",
+          "Professional gunman in Coimbatore providing armed security, personal protection, VIP security, escort services, and emergency response for your safety.",
         metaKeywords: [
           "Gunman in Coimbatore",
           "Armed Security Guard",
@@ -608,7 +618,7 @@ export const services = [
       {
         metaTitle: "Assistant Security Officer (ASO) Coimbatore",
         metaDescription:
-          "Reliable Assistant Security Officer (ASO) in Coimbatore providing expert oversight to maintain safety and security standards.",
+          "Professional ASO in Coimbatore providing expert assistant security officer services for security coordination, Access Control, and risk assessment.",
         metaKeywords: [
           "Assistant Security Officer (ASO) in Coimbatore",
 
@@ -732,9 +742,10 @@ export const services = [
       },
 
       {
-        metaTitle: "Expert Bouncer in Coimbatore: Ensuring Event Safety and Security",
+        metaTitle:
+          "Expert Bouncer in Coimbatore: Ensuring Event Safety and Security",
         metaDescription:
-          "Ensure event safety with a dedicated Bouncer in Coimbatore. Expert in crowd management and venue security for all occasions.",
+          "Reliable bouncer in Coimbatore for event security, crowd management, personal protection, and venue oversight, ensuring a safe and secure environment.  ",
         metaKeywords: [
           "Bouncer in Coimbatore",
           "Security Personnel",
@@ -878,7 +889,7 @@ export const services = [
 
         metaTitle: "Fire Safety Expert in Coimbatore",
         metaDescription:
-          "Trusted Fire safety expert in Coimbatore with extensive experience in fire risk assessment and safety improvement strategies.",
+           "Fire safety expert in Coimbatore offering risk assessments, safety consultations, fire prevention planning, and emergency response services.",
         metaKeywords: [
           "Fire Risk Assessor",
           "Fire Prevention Specialist",
@@ -1012,7 +1023,7 @@ export const services = [
 
         metaTitle: "Surveillance Room Coimbatore",
         metaDescription:
-          "Customized Surveillance Room solutions for effective surveillance and security, tailored to your specific needs and requirements.",
+          "High-tech surveillance room providing live video monitoring, CCTV setup, camera management, and security analysis for complete protection.",
         metaKeywords: [
           "Surveillance Room",
           "CCTV Room",
@@ -1118,8 +1129,15 @@ export const services = [
 
     metaTitle:
       "Expert Detective Services in Coimbatore – Confidential & Reliable",
-    metaDescription: "",
-    metaKeywords: [""],
+    metaDescription:
+      "Complete investigative solutions in Coimbatore: Corporate, Matrimonial, Forensic Analysis, Personal, and Cybercrime. Accurate and confidential services.",
+    metaKeywords: [
+      "Corporate Investigations",
+      "Matrimonial Investigations",
+      "Forensic Analysis",
+      "Personal Investigations",
+      "Cybercrime Investigations",
+    ],
 
     name: "Detective Services",
     subTitle: "Protecting Your World",
@@ -1159,7 +1177,7 @@ export const services = [
 
         metaTitle: "Detective agency for Cyber Crime Coimbatore",
         metaDescription:
-          "Top-rated Detective agency for Cyber Crime in Coimbatore providing cutting-edge solutions for digital security and cyber investigations.",
+          "Top-rated Detective agency for Cyber Crime in Coimbatore, offering digital security, cyber investigations, fraud detection, and data breach solutions.",
         metaKeywords: [
           "Cyber Intelligence Agency",
           "Cyber Crime Analysis Agency",
@@ -1281,7 +1299,7 @@ export const services = [
 
         metaTitle: "Detective Agency for Matrimonial Screening Coimbatore",
         metaDescription:
-          "Efficient Detective agency for matrimonial screening in Coimbatore offering detailed investigations to ensure a safe and secure match.",
+          "Efficient detective agency for matrimonial screening in Coimbatore providing partner verification, background checks, and relationship assessments.",
         metaKeywords: [
           "Cyber Intelligence Agency",
           "Cyber Crime Analysis Agency",
@@ -1392,7 +1410,7 @@ export const services = [
 
         metaTitle: "Personal Investigation by Detectives Coimbatore",
         metaDescription:
-          "Dedicated Personal Investigation by Detectives in Coimbatore offering expert and discreet services to solve your personal concerns.",
+          "Dedicated personal investigation by detectives in Coimbatore offering expert services, discreet investigations, case resolution, and confidential inquiries.",
         metaKeywords: [
           "Personal Investigation by Detectives in Coimbatore",
           "Personal Detective Services",
@@ -1508,7 +1526,7 @@ export const services = [
 
         metaTitle: "Corporate Investigation by Detectives Coimbatore",
         metaDescription:
-          "Professional Corporate investigation by Detectives in Coimbatore providing reliable and discreet services for your business investigations.",
+          "Professional corporate investigation by detectives in Coimbatore offering reliable, discreet services, fraud detection, and business inquiries.",
         metaKeywords: [
           "Corporate Investigation by Detectives in Coimbatore",
           "Corporate Fraud Investigation",
@@ -1620,7 +1638,7 @@ export const services = [
 
         metaTitle: "Forensic Investigation by Detectives Coimbatore",
         metaDescription:
-          "Accurate Forensic investigation by Detectives in Coimbatore ensuring expert forensic analysis and evidence gathering for all cases.",
+          "Accurate forensic investigation by detectives in Coimbatore, ensuring expert forensic analysis, evidence gathering, and case support for all cases.",
         metaKeywords: [
           "Forensic Investigation by Detectives in Coimbatore",
           "Forensic Investigation Solutions",
@@ -1725,7 +1743,7 @@ export const services = [
 
         metaTitle: "Cybercrime Investigation by Detectives Coimbatore ",
         metaDescription:
-          "Precise Cybercrime investigation by Detectives in Coimbatore offering comprehensive services to handle all your cybercrime concerns.",
+          "Precise cybercrime investigation by detectives in Coimbatore offering digital forensics, fraud detection, and security breach analysis.",
         metaKeywords: [
           "Cybercrime Investigation by Detectives in Coimbatore",
           "Cyber Investigation Experts",
@@ -1832,8 +1850,9 @@ export const services = [
     id: "manpower-consultancy",
 
     metaTitle: "Leading Manpower Consultancy in Coimbatore – Find Top Talent",
-    metaDescription: "",
-    metaKeywords: [""],
+    metaDescription:
+      "Manpower consultancy in Coimbatore specializing in IT Staffing, Skilled Labour, and Unskilled Labour. Reliable and effective staffing solutions.",
+    metaKeywords: ["IT Staffing", "Skilled Labour", "Unskilled Labour"],
 
     name: "Manpower Consultancy",
     subTitle: "Protecting Your World",
@@ -1877,7 +1896,7 @@ export const services = [
 
         metaTitle: "IT Labour Consultancy Services Coimbatore",
         metaDescription:
-          "Trusted IT Labour Consultancy Services in Coimbatore providing specialized support for IT recruitment and workforce management.",
+          "Trusted IT labour consultancy in Coimbatore offering specialized support for IT recruitment, workforce management, and staffing solutions.",
         metaKeywords: [
           "IT Labour Consultancy Services in Coimbatore",
           "IT Job Consultants",
@@ -1968,7 +1987,7 @@ export const services = [
 
         metaTitle: "Skilled Labour Consultancy Services in Coimbatore",
         metaDescription:
-          "Top-rated Skilled Labour Consultancy Services in Coimbatore providing expert recruitment and management solutions for skilled labour.",
+          "Top-rated skilled labour consultancy in Coimbatore providing expert recruitment, labour management, staffing solutions, and workforce planning",
         metaKeywords: ["Skilled Labour Consultancy Services in Coimbatore"],
 
         descriptions: [],
@@ -2050,7 +2069,7 @@ export const services = [
 
         metaTitle: "Unskilled Labour Consultancy Services Coimbatore",
         metaDescription:
-          "Trusted Unskilled Labour Consultancy Services in Coimbatore providing specialized support for sourcing and managing unskilled workforce.",
+          "Trusted unskilled labour consultancy in Coimbatore providing recruitment, workforce management, staffing solutions, and unskilled labour sourcing.",
         metaKeywords: ["Unskilled Labour Consultancy Services in Coimbatore"],
 
         benefits: [
@@ -2119,8 +2138,9 @@ export const services = [
     id: "house-cleaning",
 
     metaTitle: "Reliable House Cleaning in Coimbatore – Fresh & Spotless Homes",
-    metaDescription: "",
-    metaKeywords: [""],
+    metaDescription:
+      "Top-rated deep cleaning services in Coimbatore delivering exceptional results with thorough cleaning, sanitization, disinfection, and environmental health.",
+    metaKeywords: ["Deep Cleaning Services", "Routine Cleaning."],
 
     name: "House Cleaning",
     subTitle: "Protecting Your House",
