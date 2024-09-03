@@ -11,14 +11,14 @@ import service_bouncer from "/public/assets/security services/icons/Bouncer.png"
 
 //
 
-import ArmedPsoImg from "/public/assets/security services/armed-pso/ArmedPso.jpg";
-import SecurityGuardImg from "/public/assets/security services/armed-pso/SecurityGuard.jpg";
-import ASOImg from "/public/assets/security services/armed-pso/ASO.jpg";
-import SecuritySupervisorImg from "/public/assets/security services/armed-pso/SecuritySupervisor.jpg";
-import GunmanImg from "/public/assets/security services/armed-pso/Gunman.jpg";
-import BouncerImg from "/public/assets/security services/armed-pso/Bouncer.jpg";
-import FireSafteyExpertImg from "/public/assets/security services/armed-pso/FireSafteyExpert.jpg";
-import SurvilanceRoomImg from "/public/assets/security services/armed-pso/SurvilanceRoom.jpg";
+import ArmedPsoImg from "/public/assets/security services/armed-pso/ArmedPso.webp";
+import SecurityGuardImg from "/public/assets/security services/armed-pso/SecurityGuard.webp";
+import ASOImg from "/public/assets/security services/armed-pso/ASO.webp";
+import SecuritySupervisorImg from "/public/assets/security services/armed-pso/SecuritySupervisor.webp";
+import GunmanImg from "/public/assets/security services/armed-pso/Gunman.webp";
+import BouncerImg from "/public/assets/security services/armed-pso/Bouncer.webp";
+import FireSafteyExpertImg from "/public/assets/security services/armed-pso/FireSafteyExpert.webp";
+import SurvilanceRoomImg from "/public/assets/security services/armed-pso/SurvilanceRoom.webp";
 
 // Detactive Services Icons
 

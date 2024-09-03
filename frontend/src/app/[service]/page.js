@@ -47,21 +47,17 @@ export default async function Page({ params }) {
 
           <MainContent
             right={true}
-            side={"order-1 md:order-2 "}
+            side={"order-1 md:order-2"}
             contentSide={"order-2 md:order-1"}
             data={service?.mainContent}
           />
           <div className="myPadX my-10 flex flex-col items-center justify-center">
             <div className="text-[34px] font-semibold text-center flex items-center justify-center gap-2">
-              <h3 className="text-primary">You trust, </h3>
-              <h3 className="text-myLG">We care </h3>
+              <h3 className="text-primary">{service?.mainContent?.trust?.title.split(',')[0]} </h3>
+              <h3 className="text-myLG">{service?.mainContent?.trust?.title.split(',')[1]} </h3>
             </div>
             <p className="text-[#414141] w-full md:w-6/12 text-center leading-7 text-[18px] my-2">
-              We offer a comprehensive range of security solutions designed to
-              safeguard your property, assets, and personnel. Our highly trained
-              security professionals and advanced security systems work together
-              to deter crime, maintain a secure environment, and provide you
-              with complete peace of mind.
+              {service?.mainContent?.trust?.description}
             </p>
           </div>
 

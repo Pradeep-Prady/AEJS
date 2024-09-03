@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
 
   return {
     title: subService ? `${subService.metaTitle}` : "SubService Not Found",
-    description:subService?.metaDescription,
+    description: subService?.metaDescription,
     keywords: [subService?.metaKeywords],
   };
 }
@@ -127,6 +127,49 @@ export default async function SubService({ params }) {
                       ))}
                   </div>
                 )}
+
+                {subService?.benefitswithheadings &&
+                  subService?.benefitswithheadings?.map((service, i) => (
+                    <div className="my-3" key={i}>
+                      <h4 className="text-[24px] font-semibold">
+                        {service?.title}
+                      </h4>
+
+                      {service?.contents &&
+                        service?.contents?.length > 0 &&
+                        service?.contents?.map((s, i) => (
+                          <div key={i}>
+                            <div className="text-[18px] flex items-start  my-3 500 tracking-wide">
+                              <FaLongArrowAltRight className="mt-1 w-1/12  text-[20px] text-black" />
+                              <p className="w-11/12 font-semibold">
+                                {s.subTitle}
+                              </p>
+                            </div>
+                            <div className="w-full flex items-center justify-end">
+                              <p className="w-11/12 text-gray-500">
+                                {s.content}
+                              </p>
+                            </div>
+                          </div>
+                        ))}
+                    </div>
+                  ))}
+
+{
+  params.subService === "deep-cleaning-coimbatore" &&
+  <div className="w-full my-5 md:my-10  p-5">
+
+  <p className="">
+
+    
+When it comes to efficient house cleaning services in Coimbatore and professional deep cleaning services Coimbatore, AEJSINFO is the best option. Our qualified team guarantees that your spaces are not only clean but also hygienically cleaning to suit all your cleaning requirements.
+
+
+    </p>
+  </div>
+
+}
+             
 
                 <div className="my-3 p-2 md:p-5 flex items-center justify-center">
                   <a

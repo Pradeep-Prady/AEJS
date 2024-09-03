@@ -33,9 +33,17 @@ export const Footer = () => {
 
           <div className={`flex  w-full gap-5 text-[22px] my-5`}>
             <FaFacebook className="cursor-pointer hover:text-myGreen" />
-            <FaXTwitter className="cursor-pointer hover:text-myGreen" />
-            <BsInstagram className="cursor-pointer hover:text-myGreen" />
-            <FaLinkedin className="cursor-pointer hover:text-myGreen" />
+            <a href="https://x.com/aejsinfo">
+              <FaXTwitter className="cursor-pointer hover:text-myGreen" />
+            </a>
+            <a href="https://www.instagram.com/aejsinfo/">
+              <BsInstagram className="cursor-pointer hover:text-myGreen" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/aejsinfo-security-services-b5714931b">
+              <FaLinkedin className="cursor-pointer hover:text-myGreen" />
+            </a>
+
             <FaYoutube className="cursor-pointer hover:text-myGreen" />
           </div>
         </div>
@@ -71,6 +79,15 @@ export const Footer = () => {
               ))}
 
               {navBarData[3]?.subMenu?.map((item, i) => (
+                <Link
+                  href={item.path}
+                  key={i}
+                  className=" md:text-[16px]  my-1 "
+                >
+                  {item.title}
+                </Link>
+              ))}
+              {navBarData[4]?.subMenu?.map((item, i) => (
                 <Link
                   href={item.path}
                   key={i}
@@ -145,7 +162,8 @@ export const Footer = () => {
                 </div>
 
                 <h6 className="  w-10/12 md:text-[16px]   ">
-                  No 97 , 5 th Street Extn , Gandhipuram , Coimbatore - 641012
+                  No 97 , 5 th Street Extension , Gandhipuram , Coimbatore -
+                  641012
                 </h6>
               </div>
             </div>

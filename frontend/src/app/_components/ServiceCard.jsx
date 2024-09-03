@@ -1,9 +1,8 @@
 import logo from "/public/assets/security services/Logo.png";
 import Image from "next/image";
 import Link from "next/link";
- 
-const ServiceCard = ({ subItem, className, size  }) => {
 
+const ServiceCard = ({ subItem, className, size }) => {
   return (
     <Link
       href={subItem?.path}
@@ -16,13 +15,20 @@ const ServiceCard = ({ subItem, className, size  }) => {
         style={{ backgroundImage: `url(${subItem.image.src})` }}
       >
         <div className="w-full flex">
-        <div className="bg-white w-[55px] p-1 h-[55px] rounded-md flex items-center justify-center">
-
-          <Image className="h-full w-auto" width={50} height={50} src={subItem?.icon ?? logo} alt={"service"} />
+          <div className="bg-white w-[55px] p-1 h-[55px] rounded-md flex items-center justify-center">
+            <Image
+              className="h-full w-auto"
+              width={50}
+              height={50}
+              src={subItem?.icon ?? logo}
+              alt={subItem?.title}
+            />
+          </div>
         </div>
-        </div>
 
-        <h3 className="text-myLG text-[20px] font-semibold pt-2">{subItem.title} </h3>
+        <h3 className="text-myLG text-[20px] font-semibold pt-2">
+          {subItem.title}{" "}
+        </h3>
       </div>
     </Link>
   );

@@ -20,14 +20,14 @@ import service_bouncer from "/public/assets/security services/icons/Bouncer.png"
 
 //
 
-import ArmedPsoImg from "/public/assets/security services/armed-pso/ArmedPso.jpg";
-import SecurityGuardImg from "/public/assets/security services/armed-pso/SecurityGuard.jpg";
-import ASOImg from "/public/assets/security services/armed-pso/ASO.jpg";
-import SecuritySupervisorImg from "/public/assets/security services/armed-pso/SecuritySupervisor.jpg";
-import GunmanImg from "/public/assets/security services/armed-pso/Gunman.jpg";
-import BouncerImg from "/public/assets/security services/armed-pso/Bouncer.jpg";
-import FireSafteyExpertImg from "/public/assets/security services/armed-pso/FireSafteyExpert.jpg";
-import SurvilanceRoomImg from "/public/assets/security services/armed-pso/SurvilanceRoom.jpg";
+import ArmedPsoImg from "/public/assets/security services/armed-pso/ArmedPso.webp";
+import SecurityGuardImg from "/public/assets/security services/armed-pso/SecurityGuard.webp";
+import ASOImg from "/public/assets/security services/armed-pso/ASO.webp";
+import SecuritySupervisorImg from "/public/assets/security services/armed-pso/SecuritySupervisor.webp";
+import GunmanImg from "/public/assets/security services/armed-pso/Gunman.webp";
+import BouncerImg from "/public/assets/security services/armed-pso/Bouncer.webp";
+import FireSafteyExpertImg from "/public/assets/security services/armed-pso/FireSafteyExpert.webp";
+import SurvilanceRoomImg from "/public/assets/security services/armed-pso/SurvilanceRoom.webp";
 
 // Detactive Services Icons
 
@@ -93,24 +93,60 @@ export const services = [
         "Our team of highly trained security professionals works tirelessly to safeguard your assets and personnel. We offer a range of services, including",
       datas: [
         {
-          title: "On-site Security Guards",
-          description: "Deter crime and maintain a visible presence.",
+          title: "Armed PSO (Personal Security Officer)",
+          description:
+            "For those who need more protection, hire our armed PSOs for the ultimate security protection for high-profile individuals.",
         },
         {
-          title: "Security Consulting",
+          title: "Security Guards",
           description:
-            "Develop customized security plans to address your specific needs.",
+            "Hire well-trained security personnel who will prevent theft, protect your property, and act as a symbol of security at your premises.",
         },
         {
-          title: "Advanced Security Systems",
+          title: "Security Supervisors",
           description:
-            " Install and monitor intrusion detection, access control, and video surveillance systems.",
+            "Effective and effective security management with our professional supervisors responsible for security personnel and the daily undertaking of security functions.",
+        },
+        {
+          title: "Gunman",
+          description:
+            "provide your security team with a professional gunman in case of threats to guarantee the security of the organization.",
+        },
+        {
+          title: "ASO",
+          description:
+            "Boost your security with our ASOs, to offer armed protection and security escorts for the threatened areas and secure locations.",
+        },
+        {
+          title: "Bouncers",
+          description:
+            "Security services for events and places where our professional bouncers will ensure compliance with rules and non-violent behavior.",
+        },
+        {
+          title: "Fire Safety Services",
+          description:
+            "Fire safety solutions which included risk assessment, fire protection, prevention and planning for emergency response are available for your property.",
+        },
+        {
+          title: "Surveillance Room Management",
+          description:
+            "Stay vigilant on security activities from security operations center, so as to observe the occurrences and respond promptly to any event.",
+        },
+        {
+          title: "Cybersecurity Solutions",
+          description: "Protect your data and networks from cyber threats.",
         },
         {
           title: "Cybersecurity Solutions",
           description: "Protect your data and networks from cyber threats.",
         },
       ],
+
+      trust: {
+        title: "You Trust, We Protect",
+        description:
+          "Our services include security solutions that cover all areas of security to meet the security needs of your property, your assets and people. Our staff has thus employed the best technology and professional knowledge to deliver a reliable protection plan to your business.",
+      },
     },
     subMenu: [
       {
@@ -157,7 +193,7 @@ export const services = [
             title: "VIP Security Guard: Discreet and Reliable",
             content: [
               "These are the aspects of being an Armed PSO and one adds the aspect of a VIP security guard. Such individuals need very close and sure security to protect them so that they are not interfered with in carrying out their day-to-day activities. ",
-              ". In Coimbatore, an Armed PSO makes sure that the VIP is protected from risks that are posed by families and members of the public including the selfie-happy paparazzi, over-enthusiastic fans, as well as other undesirable characters. ",
+              "In Coimbatore, an Armed PSO makes sure that the VIP is protected from risks that are posed by families and members of the public including the selfie-happy paparazzi, over-enthusiastic fans, as well as other undesirable characters. ",
               "These security personnel are confidential and watchful, waiting for the time to act to protect the clients. ",
             ],
           },
@@ -167,7 +203,7 @@ export const services = [
             content: [
               "An Armed PSO in Coimbatore can work for private citizens and companies and is a personal protection officer. This includes risk identification, evaluation of possible routes of travel, and execution of emergency procedures.",
               "As opposed to Bodyguards, personal protection officers consult with their clients to figure out activities and dangers on the part of the clients that could require security. ",
-              ". In this case, based on a situation that involves the client going to a formal occasion such as a corporate occasion, the personal protection officer oversees the strict security of the client at a go. ",
+              "In this case, based on a situation that involves the client going to a formal occasion such as a corporate occasion, the personal protection officer oversees the strict security of the client at a go. ",
             ],
           },
           {
@@ -181,7 +217,7 @@ export const services = [
             title: "Technology and Modern Security Practices",
             content: [
               "Modern technology along with the best security practices is being adopted by the Armed PSOs in Coimbatore. This entails the use of spying equipment, communication amenities, and safe means of transport.",
-              ". Armed PSOs can keep constant communication with their clients and assistance groups and also provide the most recent information as a result of incorporating technology in security measures.",
+              "Armed PSOs can keep constant communication with their clients and assistance groups and also provide the most recent information as a result of incorporating technology in security measures.",
               "This technological advantage means that they are in a position to close rank and organize a defensive strategy against any threats within a short time.",
             ],
           },
@@ -325,14 +361,7 @@ export const services = [
               "The security workers are educated in some areas such as dealing with aggressors, disaster response, and interpersonal skills with customers. This all-compassing training prepares them for anything no matter how complex it may be.",
             ],
           },
-          // {
-          //   title: " ",
-          //   content: [" ", " "],
-          // },
-          // {
-          //   title: " ",
-          //   content: [" ", " "],
-          // },
+          
         ],
 
         descriptionOne:
@@ -656,7 +685,7 @@ export const services = [
             title: "Responsibilities of an Assistant Safety Officer",
             content: [
               "An Assistant Security Officer(ASO) in Coimbatore also discharges responsibilities that are similar to that of an Assistant Safety Officer. Some of the duties include daily safety inspections, adherence to country safety laws, and management of calamity response.",
-              ". It is under the responsibility of the ASO to look for new safety risks and prevent them from occurring. This position plays a huge role in ensuring the security of all stakeholders in Coimbatore other needed",
+              "It is under the responsibility of the ASO to look for new safety risks and prevent them from occurring. This position plays a huge role in ensuring the security of all stakeholders in Coimbatore other needed",
             ],
           },
           {
@@ -664,7 +693,7 @@ export const services = [
             content: [
               "Besides their direct functions, an Assistant Security Officer (ASO) in Coimbatore performs some tasks that are almost similar to an Assistant Security Supervisor.",
               "This involves supervising the security officers, rostering and even conducting security training. On this aspect, the ASO makes certain that the security staff is adequately equipped and ready to contain multiple security events.",
-              ". In addition to supporting the security team's work, the ASO enhances the overall level of responsibility and security readiness within the organization. ",
+              "In addition to supporting the security team's work, the ASO enhances the overall level of responsibility and security readiness within the organization. ",
             ],
           },
           {
@@ -824,7 +853,7 @@ export const services = [
             title: "Conclusion: The Value of Bouncers in Coimbatore",
             content: [
               "In Coimbatore the position of bouncer cannot be eliminated due to the restraining of violent activities against customers or customer's activities against themselves are restricted while they enjoy in the social establishments. ",
-              ". In that case, if a person is to work as a security personnel, a security officer, event security personnel, club security personnel or popularly known as bouncers - they are all responsible for providing optimum security and creating or maintaining a good atmosphere. ",
+              "In that case, if a person is to work as a security personnel, a security officer, event security personnel, club security personnel or popularly known as bouncers - they are all responsible for providing optimum security and creating or maintaining a good atmosphere. ",
               "Due to their training, skills, and professional conduct, they are handy assets to any organization.",
               "Using professional bouncers, venues, and event organizers in Coimbatore can ensure a good environment for the guests who are out to have fun..",
             ],
@@ -889,7 +918,7 @@ export const services = [
 
         metaTitle: "Fire Safety Expert in Coimbatore",
         metaDescription:
-           "Fire safety expert in Coimbatore offering risk assessments, safety consultations, fire prevention planning, and emergency response services.",
+          "Fire safety expert in Coimbatore offering risk assessments, safety consultations, fire prevention planning, and emergency response services.",
         metaKeywords: [
           "Fire Risk Assessor",
           "Fire Prevention Specialist",
@@ -928,7 +957,7 @@ export const services = [
             title: "Fire Safety Inspector: Ensuring Compliance",
             content: [
               "An important role for a Fire Safety Expert in Coimbatore is acting as a Fire Safety Inspector. In the case of violation of the above-mentioned standards, periodic inspections are carried out to confirm that buildings comply with the set fire safety laws.",
-              ". The Fire Safety Inspector checks such features as fire exits, emergency lighting or lighting that goes out automatically when the fire alarm is activated, and fire doors. ",
+              "The Fire Safety Inspector checks such features as fire exits, emergency lighting or lighting that goes out automatically when the fire alarm is activated, and fire doors. ",
               "Inspection also includes the assessment of the condition and proper working of firefighting tools and equipment. ",
               "These continuous measures, in one way or the other, assist in keeping the safety mantra throughout the correspondence. ",
             ],
@@ -938,7 +967,7 @@ export const services = [
               "Fire Safety Regulations Expert: Navigating Legal Requirements",
             content: [
               "Due to the variety of procedures that are connected with fire safety regulations, consultation with the Fire Safety Regulations Expert should be involved. ",
-              ". A Fire Safety Expert employed in Coimbatore should have adequate knowledge about the existing fire safety codes and standards provided in the country as well as in that region.",
+              "A Fire Safety Expert employed in Coimbatore should have adequate knowledge about the existing fire safety codes and standards provided in the country as well as in that region.",
               "This knowledge ensures that they can consult property owners and managers on the ways of observing these regulations. ",
               "Regardless of whether the work is performed on a new building or an already constructed building, Fire Safety Regulations Expert guarantees that fire protection complies with the legal framework to exclude fines and other legal incidents. ",
             ],
@@ -1146,27 +1175,40 @@ export const services = [
       title: "Why AEJS for security solutions?",
       subTitle: "Our Security Solutions",
       content:
-        "Our team of highly trained security professionals works tirelessly to safeguard your assets and personnel. We offer a range of services, including",
+        "The top-notch staff of investigators working for us have the goal of providing comprehensive and accurate investigative information. We offer a range of detective services, We offer a range of detective services, including",
       datas: [
         {
-          title: "On-site Security Guards",
-          description: "Deter crime and maintain a visible presence.",
-        },
-        {
-          title: "Security Consulting",
+          title: "Corporate Investigations",
           description:
-            "Develop customized security plans to address your specific needs.",
+            "Carry out extended probes on fraud, corporate malpractice, and any other corporate irregularities.",
         },
         {
-          title: "Advanced Security Systems",
+          title: "Matrimonial Investigations",
           description:
-            " Install and monitor intrusion detection, access control, and video surveillance systems.",
+            "Conduct undercover investigations to confirm such allegations and uphold interpersonal relationships.",
         },
         {
-          title: "Cybersecurity Solutions",
-          description: "Protect your data and networks from cyber threats.",
+          title: "Forensic Analysis",
+          description:
+            "Employ the use of forensic methods to obtain a good result from the investigation process.",
+        },
+        {
+          title: "Personal Investigations",
+          description:
+            "Investigate personal issues with targeted reviews that are Best for you.",
+        },
+        {
+          title: "Cybercrime Investigations",
+          description:
+            " Research on threat in the digital world and hacking to ensure security of the online resources and data.",
         },
       ],
+
+      trust: {
+        title: "You Trust, We Investigate",
+        description:
+          "Our detective services are professional and cover all aspects to meet your investigation demands and get to the truth. With the help of our highly skilled investigators, your case will be solved with the efficient use of the latest technologies, as well as accurate and detailed findings and recommendations will be provided. Whether you require corporate investigations, forensic, or personal searches, our personnel are committed to provide a comprehensive and accurate report to give you the guarantee you require.",
+      },
     },
     subMenu: [
       {
@@ -1225,7 +1267,7 @@ export const services = [
             title: "Cyber Surveillance Solutions",
             content: [
               "A significant service that is central to the services being provided by AEJSINFO includes cyber surveillance thus Acts as a detective agency for cyber crimes in Coimbatore. ",
-              ". AEJSINFO offers an extensive range of services in the sphere of cyber security for the control over virtual spaces. This entails surveillance of the network activities in order to discern or recognize strange or unlawful infringement or even likely threats, during their advancement. ",
+              "AEJSINFO offers an extensive range of services in the sphere of cyber security for the control over virtual spaces. This entails surveillance of the network activities in order to discern or recognize strange or unlawful infringement or even likely threats, during their advancement. ",
               "The cyber surveillance service offered by AEJSINFO is to prevent the clients from experiencing the cyber attack in the first place and maintain the protection. ",
             ],
           },
@@ -1343,7 +1385,7 @@ export const services = [
             content: [
               "AEJSINFO makes use of matrimonial fraud detection, partners verification, relationship scrutinization and risk appraisal to provide an all-inclusive strategy to matrimonial screening in Coimbatore.",
               "Through these services, therefore, a comprehensive screening of partners is done so that nothing in the process of matrimonial is overlooked. ",
-              ". Due to our combined strategy, clients gain an adequate amount of knowledge to make proper and sound choices for themselves about the future. ",
+              "Due to our combined strategy, clients gain an adequate amount of knowledge to make proper and sound choices for themselves about the future. ",
               "Experience in matrimonial fraud detection, partner verification, relationship screening, and matrimonial risk assessment make AEJSINFO the top detective agency for matrimonial screening in Coimbatore.",
             ],
           },
@@ -1541,7 +1583,7 @@ export const services = [
             title: "Corporate Fraud Investigation",
             content: [
               "In terms of AEJSINFO’s specialist area of operation, it offers blood business corporate fraud investigation. I have a group of professional detectives who can effectively investigate any fraudulent activities in organizations. ",
-              ". For various frauds including financial fraud, embezzlement, or any other fraudulent activities, a systematic and amalgamated strategy is put into practice. ",
+              "For various frauds including financial fraud, embezzlement, or any other fraudulent activities, a systematic and amalgamated strategy is put into practice. ",
               "Our detectives employ the most effective methods to analyze the case and give comprehensive reports to ensure that the company will not face the same problem in the future.",
             ],
           },
@@ -1566,7 +1608,7 @@ export const services = [
             content: [
               "Detective services we offer are aimed at solving concrete investigative problems of the business sphere. This involves developing solutions based on clients’ individual needs regarding identifying cases of fraud, evaluating the organizational security level, and checking compliance. ",
               "Because of the nature of operations and versatility, AEJSINFO is quick to respond to threats and vulnerabilities facing your business. ",
-              ". Thus, modifying our detective solutions to fit your organization needs, we guarantee that you will get precise and efficient assistance in investigations.",
+              "Thus, modifying our detective solutions to fit your organization needs, we guarantee that you will get precise and efficient assistance in investigations.",
             ],
           },
           {
@@ -1660,7 +1702,7 @@ export const services = [
             title: "Forensic Crime Investigation",
             content: [
               "Specialized forensic crime investigation services shall be useful in solving other criminal cases in the most effective and efficient way. It contributes significantly in the investigation and analysis of criminal details through the use of superior methods of analysis in crime scenes, collection of evidence and suspects. ",
-              ". Most of our detectives have the efficiency of handling the efficient scientific investigation of physical evidences, like fingerprints, DNA, and any sort of digital products, without leaving any detail unnoticed. ",
+              "Most of our detectives have the efficiency of handling the efficient scientific investigation of physical evidences, like fingerprints, DNA, and any sort of digital products, without leaving any detail unnoticed. ",
               "This approach of gathering information is beneficial in constructing an elaborate case and supporting the police organizations to effectively solve crimes.",
             ],
           },
@@ -1768,7 +1810,7 @@ export const services = [
               "Computer and digital crime scene investigation is therefore the proactively identifying the methods used in the commission of these offenses and developing ways of preventing them.",
               "This includes the cases of hacking, instances of identity fraud, and any other instances of fraud that are witnessed in the internet. ",
               "AEJSINFO employs new techniques of searching for information with the help of technology, computers, smart phones, and sites of social and net working. ",
-              ". It also showed how efforts to maintain even stances on both sides of a trial preserve the pieces of evidence and working to come up with the right research to support the arguments’ right help in solving such cases and assist in legal procedures.",
+              "It also showed how efforts to maintain even stances on both sides of a trial preserve the pieces of evidence and working to come up with the right research to support the arguments’ right help in solving such cases and assist in legal procedures.",
             ],
           },
           {
@@ -1782,7 +1824,7 @@ export const services = [
             title: "Internet Crime Solutions",
             content: [
               "AEJSINFO meets the requirements for necessary Internet crimes services since it offers solutions to various forms of cybercrimes. The services that we offer basically consist of investigating phishing and any other unlawful performance that is inflicted on the internet, cyber stalking among others that can be done on cyberspace.",
-              ". Some of the technical tactics sometimes deployed in investigations include looking for perpetrators and stolen goods or substances with a view of building up legal charges. ",
+              "Some of the technical tactics sometimes deployed in investigations include looking for perpetrators and stolen goods or substances with a view of building up legal charges. ",
               "Therefore, as seen in identifying and solving clients’ needs in relation to Internet crime, these proposed solutions are complex and elaborate.",
             ],
           },
@@ -1861,28 +1903,36 @@ export const services = [
       title: "Why AEJS for security solutions?",
       subTitle: "Our Security Solutions",
       content:
-        "Our team of highly trained security professionals works tirelessly to safeguard your assets and personnel. We offer a range of services, including",
+        "We promise to assist you in finding the most qualified candidates that fit your needs to be a part of your team and help achieve your organization's goals.",
       datas: [
         {
-          title: "On-site Security Guards",
-          description: "Deter crime and maintain a visible presence.",
+          title: "IT Staffing",
+          description:
+            "Sourcing and placing talented IT professionals to steer your technological initiatives and processes.",
         },
         {
-          title: "Security Consulting",
+          title: "Skilled Labour",
           description:
-            "Develop customized security plans to address your specific needs.",
+            "Find, approach, and attract employees who are well-equipped for the job and particularly complex areas.",
         },
         {
-          title: "Advanced Security Systems",
+          title: "Unskilled Labour",
           description:
-            " Install and monitor intrusion detection, access control, and video surveillance systems.",
+            "Ensure that the sources can produce dependable and competent employees for averaging and low-skill work.",
         },
         {
           title: "Cybersecurity Solutions",
           description: "Protect your data and networks from cyber threats.",
         },
       ],
+
+      trust: {
+        title: "You Trust, We Deliver",
+        description:
+          "We provide manpower consultancy services as per the company’s requirement for staffing. They are always on the look-out for professionals across IT, skilled and unskilled workers for companies and organizations. By using our diverse and strong network of connections in the employment sector we provide the candidates of your choice . You can, therefore, rely on us to provide prompt and efficient staffing solutions to meet your business needs.",
+      },
     },
+
     subMenu: [
       {
         id: "it-labour-coimbatore",
@@ -2139,8 +2189,12 @@ export const services = [
 
     metaTitle: "Reliable House Cleaning in Coimbatore – Fresh & Spotless Homes",
     metaDescription:
-      "Top-rated deep cleaning services in Coimbatore delivering exceptional results with thorough cleaning, sanitization, disinfection, and environmental health.",
-    metaKeywords: ["Deep Cleaning Services", "Routine Cleaning."],
+      "AEJSINFO offers expert house cleaning services in Coimbatore with thorough deep cleaning, sanitization services, and specialized cleaning solutions.",
+    metaKeywords: [
+      "House cleaning services in Coimbatore",
+      "Cleaning services in Coimbatore",
+      "Deep cleaning services Coimbatore",
+    ],
 
     name: "House Cleaning",
     subTitle: "Protecting Your House",
@@ -2149,32 +2203,30 @@ export const services = [
       title: "Why AEJS for security solutions?",
       subTitle: "Our Security Solutions",
       content:
-        "Our team of highly trained security professionals works tirelessly to safeguard your assets and personnel. We offer a range of services, including",
+        "Deep Cleaning Services: Deep cleaning gives that new feel to your house and ensures that every corner is well-cleaned.",
       datas: [
         {
-          title: "On-site Security Guards",
-          description: "Deter crime and maintain a visible presence.",
-        },
-        {
-          title: "Security Consulting",
+          title: "Routine Cleaning",
           description:
-            "Develop customized security plans to address your specific needs.",
+            "Keep your home clean and tidy always by developing cleaning schedules that will suit your house.",
         },
         {
-          title: "Advanced Security Systems",
+          title: "Our promise is simple",
           description:
-            " Install and monitor intrusion detection, access control, and video surveillance systems.",
-        },
-        {
-          title: "Cybersecurity Solutions",
-          description: "Protect your data and networks from cyber threats.",
+            "to make your home sparkling clean and presentable to enable you to have the best looking house. You can count on us for that special cleaning you’ve been holding off for. Clean your house, office, or business premises with ease.",
         },
       ],
+
+      trust: {
+        title: "You Trust, We Clean",
+        description:
+          "We provide a complete package of house cleaning services that help to clean the house thoroughly. Hire our special and professional staff that provides professional work with high quality products in order to make your house look perfect once again.",
+      },
     },
     subMenu: [
       {
         id: "deep-cleaning-coimbatore",
-        title: "Top-Rated Deep Cleaning Services in Coimbatore",
+        title: "Deep Cleaning Services in Coimbatore",
         path: "/house-cleaning/deep-cleaning-coimbatore",
         image: serviceImage4,
 
@@ -2182,7 +2234,7 @@ export const services = [
         banner: armedpso_banner,
         icon: deep_cleaning,
 
-        metaTitle: "Top-Rated Deep Cleaning Services Coimbatore",
+        metaTitle: "Deep Cleaning Services Coimbatore",
         metaDescription:
           "Top-Rated Deep Cleaning Services in Coimbatore delivering exceptional cleaning results for a healthier and cleaner environment.",
         metaKeywords: [
@@ -2192,31 +2244,176 @@ export const services = [
         ],
         descriptions: [
           {
-            title: "Best Home Cleaning Services",
+            title: "House cleaning services in Coimbatore",
             content: [
-              "At AEJSINFO Best Home Cleaning Services is what we offer for the people who reside in Coimbatore. Our cleaning solutions encompass all the rooms of your house including the kitchen, bathroom, the living areas and bedrooms.",
-              "Our cleaners use quality cleaning products and efficient equipments to make sure that the cleaning is thorough and long lasting so as do away with dust, dirt and allergens where ever they are. The cleaning at Comfort is done by a team of professionally trained personnel, always keen to details.",
-              "We are fully aware that every home is different; therefore we give you the services that you need. No matter whether you require a one off Sanitising and disinfecting service or a routine cleaning service, AEJSINFO is your best bet.",
+              "House cleaning services in Coimbatore are important for ensuring cleanliness and hygiene of homes. Whether your residential area or apartment needs interior cleaning, routine maintenance, kitchen sanitation, or bathroom cleaning, professional house cleaning services in Coimbatore ensure that your space is spotless and welcoming. ",
+              "This guarantees that your house will be well cleaned given the fact that thorough cleaning is well done by professionals and general cleaning is part of the cleaning prowess of experts. Mainly due to the fact that people nowadays barely have any time to do time-consuming tasks such as detailed cleaning.",
+              "That’s why professional house cleaning services in Coimbatore get you the best solutions that address your cleaning requirements. The services provided by house cleaning services in Coimbatore including the use of environmentally friendly cleaning products and careful approach to every detail guarantee the highest quality of the cleaning.",
             ],
           },
 
           {
-            title: "Residential Deep Cleaning",
+            title: "Cleaning services in Coimbatore ",
             content: [
-              "Our Residential Deep Cleaning services are not like those ordinary cleaning procedures that are carried out in homes. The most important thing that we pay attention to is the narrow spaces where no one usually cleans, for instance under furniture, behind the various appliances, and even corners. Our deep cleaning",
-              "Kitchen Deep Cleaning: We clean and sanitize countertops, cabinets, appliances, and floors, ensuring your kitchen is free from grease and grime.",
-              "Bathroom Deep Cleaning: We scrub and disinfect all surfaces, including tiles, sinks, toilets, and showers, to eliminate mold, mildew, and bacteria.",
-              "Living Areas and Bedrooms: We dust and vacuum all surfaces, including carpets, curtains, and upholstery, to remove allergens and improve air quality.",
-              "Windows and Doors: We clean and polish windows and doors, leaving them sparkling and streak-free.",
-              "Residential Deep Cleaning services to improve the sanitation of homes. When you decide to use the services of AEJSINFO, you shall be assured of a clean living environment rid off bacteria and other diseases causing organisms.",
+              "Cleaning services in Coimbatore are very essential in providing cleanliness within homes, offices, industries, and corporate sectors. These professional cleaning services in Coimbatore provide all your cleaning needs in house cleaning services in Coimbatore starting from the daily cleaning services to the specialized cleaning services. ",
+              "Whether it is about cleaning houses, cleaning corporate offices or cleaning commercial spaces, cleaning services in Coimbatore provides excellent services. These services are very important in a city where due to several commitments people rarely have time for proper cleaning. ",
+              "Cleaning services in Coimbatore offer quality cleaning services as per the client’s requirements and using the best technique available to clean every area of the residential parts, industrial segments, and corporate offices. ",
+              "Reliable cleaning services should be attained in Coimbatore for highest cleanliness standards to be achieved to enhance cleanliness environment. AEJSINFO provides quality cleaning services that provide results with perfect home cleaning by providing pristine living solutions.",
             ],
           },
           {
-            title: "Customized Deep Cleaning Plans",
+            title: "Deep cleaning services Coimbatore",
             content: [
-              "In this regard, AEJSINFO has a wide range of deep cleaning services that cater to the needs of the clients as per their requirements. People comprehend that each home is unique, as well as cleaning needs may vary drastically from one house to another.",
-              "We then dictate the cleaning plan with you depending on your time frame and costs that you are willing to incur.",
-              "Cleaning is one of those chores that are central to our lives and we can help you with the following regardless of the type of cleaning you need; one off cleaning before a special occasion, after a renovation process or ongoing cleaning jobs.",
+              "Deep cleaning services Coimbatore are essential for maintaining a spotless and hygienic environment across various types of properties. Whether you need residential deep cleaning, commercial deep cleaning, or industrial deep cleaning, deep cleaning services Coimbatore offer specialized solutions to tackle every cleaning challenge. ",
+              "These services cover a range of tasks, from thorough kitchen cleaning and bathroom sanitation to detailed carpet cleaning and upholstery care. In a city, where keeping up with cleanliness can be difficult, deep cleaning services Coimbatore provide an effective solution to ensure every corner is meticulously cleaned. ",
+              "With advanced cleaning techniques and eco-friendly products, deep cleaning services Coimbatore guarantee a high standard of cleanliness for homes, offices, and industrial facilities. Choose AEJSINFO for your deep cleaning needs in Coimbatore and experience unparalleled results and a perfectly pristine environment",
+            ],
+          },
+        ],
+        benefitswithheadings: [
+          {
+            title: "Residential Cleaning",
+            contents: [
+              {
+                subTitle: "Kitchen Cleaning",
+                content:
+                  "Wiping all the walls, countertop, cabinets, appliances and other surface areas in the kitchen, for instance washing and cleaning stoves, ovens and refrigerators.",
+              },
+              {
+                subTitle: "Bathroom Cleaning",
+                content:
+                  "Mopping of tiles, scrubbing of grout and cleaners of fixtures like showers and Bathtubs",
+              },
+              {
+                subTitle: "Curtain Cleaning",
+                content:
+                  "Washing or steaming of curtains and drapes including washing of upholstered furniture covers.",
+              },
+              {
+                subTitle: "Sink Sanitization",
+                content:
+                  "Sanitizing of kitchen and bathroom sinks including thorough washing.",
+              },
+              {
+                subTitle: "Floor Cleaning",
+                content:
+                  "Cleaning the general floor areas by vacuuming, mopping as well as washing the general floors.",
+              },
+              {
+                subTitle: "Upholstery Cleaning",
+                content:
+                  "Sanitizing, especially cleaning and removing odor from the sofa, chairs and other fabric materials.",
+              },
+              {
+                subTitle: "Dusting",
+                content:
+                  "Stove and oven surfaces should be dusted with great concern to even the remotely hard to reach areas such as ceilings, fans and lights.",
+              },
+              {
+                subTitle: "Window Cleaning",
+                content:
+                  "Cleaning of windows and glasses mostly with thorough work in order not to produce any streak.",
+              },
+            ],
+          },
+          {
+            title: "Commercial Cleaning",
+            contents: [
+              {
+                subTitle: "Office Spaces",
+                content:
+                  "Cleaning of desks and other working stations, and equipment found in the office.",
+              },
+              {
+                subTitle: "Floor Care",
+                content:
+                  "Additional cleaning services for different types of floor covering, carpet cleaning and floor care.",
+              },
+              {
+                subTitle: "Restroom Sanitation",
+                content:
+                  "Proper washing and sanitation of business establishments’ restrooms.",
+              },
+              {
+                subTitle: "Window Washing",
+                content:
+                  "Expert shades cleaning of windows and other glass structures with no spots on the surface.",
+              },
+            ],
+          },
+          {
+            title: "Industrial  Cleaning",
+            contents: [
+              {
+                subTitle: "Machinery Cleaning",
+                content:
+                  "Removal of contaminants from production line and tools, gear, instrument, surface, and more.",
+              },
+              {
+                subTitle: "Surface Sanitization",
+                content:
+                  "Disinfecting areas which are frequently touched and cleaning workstation and desks.",
+              },
+              {
+                subTitle: "Floor Care",
+                content:
+                  "Some of the specific services include; Removal of grease and scrubbing, pressure washing on industrial floors.",
+              },
+              {
+                subTitle: "Ventilation Systems",
+                content:
+                  "Part of HVAC systems including air vents, ducts, and exhaust systems are cleaned in a bid to enhance the quality of air in a given building.",
+              },
+              {
+                subTitle: "Waste Management",
+                content:
+                  "Proper storage of waste and more especially the disposal of hazardous waste.",
+              },
+            ],
+          },
+          {
+            title: "Corporate Office Cleaning",
+            contents: [
+              {
+                subTitle: "Reception Areas",
+                content:
+                  "General cleaning of entrance halls and reception areas.",
+              },
+              {
+                subTitle: "Conference Rooms",
+                content:
+                  "Wiping of table daily, and chair table and cleaning of electronic equipment.",
+              },
+              {
+                subTitle: "High-Touch Surfaces",
+                content:
+                  "Sanitizing frequently touched objects or services such as doorknobs, handles, elevators, and shared equipment in the office for better hygiene standards.",
+              },
+              {
+                subTitle: "Air Vent Cleaning",
+                content:
+                  "General cleaning of air vents, duct systems, and the surrounding environments to enhance the quality of air in those structures.",
+              },
+              {
+                subTitle: "Floor Cleaning",
+                content:
+                  "Cleaning the general floor areas by vacuuming, mopping as well as washing the general floors.",
+              },
+              {
+                subTitle: "Upholstery Cleaning",
+                content:
+                  "Sanitizing, especially cleaning and removing odor from the sofa, chairs and other fabric materials.",
+              },
+              {
+                subTitle: "Dusting",
+                content:
+                  "Stove and oven surfaces should be dusted with great concern to even the remotely hard to reach areas such as ceilings, fans and lights.",
+              },
+              {
+                subTitle: "Window Cleaning",
+                content:
+                  "Cleaning of windows and glasses mostly with thorough work in order not to produce any streak.",
+              },
             ],
           },
         ],
@@ -2255,6 +2452,16 @@ export const services = [
             id: "cfd_5",
             qus: "How do I schedule a deep house cleaning service with AEJS INFO?",
             ans: "You can book your deep house cleaning service by contacting AEJS INFO via this phone number or email address with your details, and then we can schedule a convenient time for your cleaning appointment.",
+          },
+          {
+            id: "cfd_6",
+            qus: "How does AEJSINFO ensure the best results for cheap bathroom and kitchen cleaning?",
+            ans: "AEJSINFO utilizes efficiency of cleaning staff, proper cleaning products, and cleaning procedures to offer high quality services in cleaning of both bathrooms and kitchens.",
+          },
+          {
+            id: "cfd_7",
+            qus: "What makes AEJSINFO one of the best house cleaning services in Coimbatore?",
+            ans: "AEJSINFO is one of the best house cleaning services in Coimbatore, known for its excellent reputation, extensive experience, and high-quality service. AEJSINFO ensures reliability and excellence.",
           },
         ],
       },
