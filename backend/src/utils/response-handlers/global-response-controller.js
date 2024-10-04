@@ -1,4 +1,6 @@
 const sendResponse = (data, res) => {
+
+  
   res.status(data.statusCode).json({
     statusCode:data.statusCode,
     status: data.status,

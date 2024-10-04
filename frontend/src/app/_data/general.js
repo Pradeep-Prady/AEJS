@@ -275,7 +275,7 @@ export const mainContentData = [
       "We Provide Security, Detective, and Manpower services in Coimbatore",
     subTitle: "Peace of mind. Guaranteed.",
     content:
-      "AEJSINFO stands as a one-stop shop for all your needs in Coimbatore since the company was established to provide various services that cater to all the client's needs. The services offered range from the provision of reliable and comprehensive security solutions to investigation services, or manpower consulting services.",
+      "AEJS INFO stands as a one-stop shop for all your needs in Coimbatore since the company was established to provide various services that cater to all the client's needs. The services offered range from the provision of reliable and comprehensive security solutions to investigation services, or manpower consulting services.",
     datas: [
       {
         title: "Security Solutions ",
@@ -300,7 +300,7 @@ export const mainContentData = [
     title: "Who We Are?",
     subTitle: "Your Trusted Partner for Security, Investigations, and People..",
     content:
-      "AEJSINFO is one of the most reputable security companies situated in Coimbatore for the last 15 years that provides a full range of services to satisfy all your security requirements. Being consistent with quality standards and ensuring customer satisfaction has made us the most sought-after organization by clients in different fields.",
+      "AEJS INFO is one of the most reputable security companies situated in Coimbatore for the last 15 years that provides a full range of services to satisfy all your security requirements. Being consistent with quality standards and ensuring customer satisfaction has made us the most sought-after organization by clients in different fields.",
     datas: [
       {
         title: "Security Solutions",
@@ -330,7 +330,7 @@ export const certificatesData = [
   {
     id: "cd_1",
     mainContent:
-      "There should be no doubt that by selecting AEJSINFO, one selects a company with a well-founded reputation. Here's why we're the preferred security service provider in Coimbatore",
+      "There should be no doubt that by selecting AEJS INFO, one selects a company with a well-founded reputation. Here's why we're the preferred security services in Coimbatore",
     contents: [
       {
         title: "Experienced Team",
@@ -354,12 +354,12 @@ export const certificatesData = [
       },
     ],
     subContent:
-      "When a client turns to AEJSINFO for security, what he or she receives is not a service, but assurance. Choose our services to protect your best assets, with the knowledge and passion that can only come from would-be professionals with a string of years in practicing and excellence oriented. ",
+      "When a client turns to AEJS INFO for security, what he or she receives is not a service, but assurance. Choose our services to protect your best assets, with the knowledge and passion that can only come from would-be professionals with a string of years in practicing and excellence oriented. ",
   },
   {
     id: "cd_2",
     mainContent:
-      "There should be no doubt that by selecting AEJSINFO, one selects a company with a well-founded reputation. Here's why we're the preferred security service provider in Coimbatore",
+      "There should be no doubt that by selecting AEJS INFO, one selects a company with a well-founded reputation. Here's why we're the preferred security service provider in Coimbatore",
     contents: [
       {
         title: "Experienced Team",
@@ -383,7 +383,7 @@ export const certificatesData = [
       },
     ],
     subContent:
-      "When a client turns to AEJSINFO for security, what he or she receives is not a service, but assurance. Choose our services to protect your best assets, with the knowledge and passion that can only come from would-be professionals with a string of years in practicing and excellence oriented. ",
+      "When a client turns to AEJS INFO for security, what he or she receives is not a service, but assurance. Choose our services to protect your best assets, with the knowledge and passion that can only come from would-be professionals with a string of years in practicing and excellence oriented. ",
   },
 ];
 

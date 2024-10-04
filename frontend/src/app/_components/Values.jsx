@@ -7,7 +7,7 @@ const Values = () => {
       image:
         "https://www.dilate.com.au/wp-content/uploads/2023/12/bespoke-comprehensive-digital-strategies.svg",
       content:
-        "It is important to note that in AEJSINFO, we uphold the attribute of corporate integrity high when working. As such, the quality policy fully supports and acts on each of the following cardinal principles; The members of our team remain committed to professionalism because we want our clients to be able to turn to us for reliable and uncomplicated service.",
+        "It is important to note that in AEJSINFO, we uphold the attribute of corporate integrity high when working. As such, the quality policy fully supports and acts on each of the following cardinal principles; The members of our team remain committed to professionalism because we want our clients to be able to turn to us for reliable and uncomplicated service, including our comprehensive security services in Coimbatore. Your trust is our priority, and we strive to meet your needs with the highest standards.",
     },
     {
       name: "Striving for Excellence ",
@@ -21,7 +21,7 @@ const Values = () => {
       image:
         "https://www.dilate.com.au/wp-content/uploads/2023/12/in-house-creative-production.svg",
       content:
-        "It goes without saying that in the modern world, the idea of leadership implies the use of state-of-art technologies and ideas. At AEJSINFO, our priority is to use the latest security systems and solutions in the line of our services hence availing security services in the market with the highest level of protection.",
+        "It goes without saying that in the modern world, the idea of leadership implies the use of state-of-the-art technologies and ideas. At AEJS INFO, our priority is to use the latest security systems and solutions in our services, thereby providing security services in Coimbatore with the highest level of protection.",
     },
   ];
   return (

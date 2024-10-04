@@ -27,7 +27,7 @@ const Navbar = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
-        className="hidden bg-white sticky z-50 top-0  lg:flex justify-between items-center myPadX py-5 h-[13%]"
+        className="hidden bg-white sticky z-50 top-0 lg:flex justify-between items-center myPadX py-5 h-[13%]"
       >
         <Link href="/">
           <Image
@@ -35,7 +35,6 @@ const Navbar = () => {
             alt="logo"
             width={200}
             height={150}
-            // fill
             className="h-[50px] scale-[3] md:scale-[3] relative"
           />
         </Link>
@@ -48,35 +47,39 @@ const Navbar = () => {
               className="relative flex items-center"
             >
               {item.id === "nbd_7" ? (
-                <p className="font-semibold  ">{item.title}</p>
+                <p className="font-semibold">{item.title}</p>
               ) : (
                 <Link href={item.path}>
-                  <p className="font-semibold  ">{item.title}</p>
+                  <p className="font-semibold">{item.title}</p>
                 </Link>
               )}
-
               {item.subMenu && (
                 <IoIosArrowDown className="text-xl mt-1 cursor-pointer" />
               )}
               {hovered === item.subMenu && item.subMenu && (
-                <div className="absolute top-full w-[200px] p-2 bg-white shadow-lg z-40">
+                <ul className="absolute top-full w-[200px] p-2 bg-white shadow-lg z-40">
                   {item.subMenu.map((sub) => (
-                    <Link key={sub.id} href={sub.path}>
-                      <p className="p-2 text-base hover:bg-gray-200">
-                        {sub.title}
-                      </p>
-                    </Link>
+                    <li key={sub.id}>
+                      <Link href={sub.path}>
+                        <p className="p-2 text-base hover:bg-gray-200">
+                          {sub.title}
+                        </p>
+                      </Link>
+                    </li>
                   ))}
-                </div>
+                </ul>
               )}
             </li>
           ))}
-
-          <a href="tel:9944580798">
-            <div className="bg-myBlue w-[40px h-[40px rounded-3xl px-4 py-2 flex items-center justify-center">
-              <p className="text-[14px] sm:text-[16px] text-white">Call Now </p>
-            </div>
-          </a>
+          <li>
+            <a href="tel:9944580798">
+              <div className="bg-myBlue  h-[40px] rounded-3xl px-4 py-2 flex items-center justify-center">
+                <p className="text-[14px] sm:text-[16px] text-white">
+                  Call Now
+                </p>
+              </div>
+            </a>
+          </li>
         </ul>
       </motion.nav>
 
@@ -89,23 +92,22 @@ const Navbar = () => {
           width={200}
           height={300}
         />
-
-        <div className=" flex items-center gap-3">
+        <div className="flex items-center gap-3">
           <a href="tel:9944580798">
-            <div className="bg-myBlue  rounded-3xl p-2 flex items-center justify-center">
+            <div className="bg-myBlue rounded-3xl p-2 flex items-center justify-center">
               <BiSolidPhoneCall className="text-[20px] text-white" />
-              {/* <p className="text-[14px] sm:text-[16px] text-white">Call Now </p> */}
             </div>
           </a>
           <HiMiniBars3BottomRight
-            className=" text-xl sm:text-4xl cursor-pointer"
+            className="text-xl sm:text-4xl cursor-pointer"
             onClick={handleMobileClick}
           />
         </div>
       </nav>
+
       {openNav && (
-        <div className="fixed w-full h-screen  left-0 top-0 bottom-0 overflow-y-scroll scroll-none bg-white z-40 py-4 px-5  md:px-10">
-          <div className="flex justify-between items-center ">
+        <div className="fixed w-full h-screen left-0 top-0 bottom-0 overflow-y-scroll scroll-none bg-white z-40 py-4 px-5 md:px-10">
+          <div className="flex justify-between items-center">
             <Image
               className="w-[120px] sm:w-[200px] height-[150px] lg:height-[300px]"
               src={logo}
@@ -118,53 +120,47 @@ const Navbar = () => {
               onClick={handleMobileClick}
             />
           </div>
-          <div className="flex flex-col items-center gap-5 p-5">
+          <ul className="flex flex-col items-center gap-5 p-5">
             {navBarData?.map((item) => (
-              <div key={item.id} className="relative w-full ">
-                <>
-                  <div key={item.id} className="relative w-full flex">
-                    {item.id === "nbd_7" ? (
-                      <p className="font-semibold  ">{item.title}</p>
-                    ) : (
-                      <Link href={item.path}>
-                        <p className="font-semibold  ">{item.title}</p>
-                      </Link>
-                    )}
-
-                    {item.subMenu && (
-                      <IoIosArrowDown
-                        className="text-2xl mt-1 cursor-pointer"
-                        onClick={() => handleMobileHover(item.subMenu)}
-                      />
-                    )}
-                  </div>
-
-                  {mobileHovered === item.subMenu && (
-                    <div className="mt-2 p-2   ">
-                      {item.subMenu.map((sub) => (
-                        <Link
-                          key={sub.id}
-                          href={sub.path}
-                          onClick={handleMobileClick}
-                        >
-                          <p className="p-2  hover:bg-gray-200">{sub.title}</p>
-                        </Link>
-                      ))}
-                    </div>
+              <li key={item.id} className="relative w-full">
+                <div className="relative w-full flex">
+                  {item.id === "nbd_7" ? (
+                    <p className="font-semibold">{item.title}</p>
+                  ) : (
+                    <Link href={item.path}>
+                      <p className="font-semibold">{item.title}</p>
+                    </Link>
                   )}
-                </>
-              </div>
+                  {item.subMenu && (
+                    <IoIosArrowDown
+                      className="text-2xl mt-1 cursor-pointer"
+                      onClick={() => handleMobileHover(item.subMenu)}
+                    />
+                  )}
+                </div>
+                {mobileHovered === item.subMenu && (
+                  <ul className="mt-2 p-2">
+                    {item.subMenu.map((sub) => (
+                      <li key={sub.id}>
+                        <Link href={sub.path} onClick={handleMobileClick}>
+                          <p className="p-2 hover:bg-gray-200">{sub.title}</p>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
             ))}
-            <div className="relative w-full flex items-start justify-start">
+            <li className="relative w-full flex items-start justify-start">
               <a href="tel:9944580798">
-                <div className="bg-myBlue  rounded-md px-7 py-2 flex items-center justify-center">
+                <div className="bg-myBlue rounded-md px-7 py-2 flex items-center justify-center">
                   <p className="text-[14px] sm:text-[16px] text-white">
-                    Call Now{" "}
+                    Call Now
                   </p>
                 </div>
               </a>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       )}
     </>

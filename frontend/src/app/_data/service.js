@@ -66,16 +66,17 @@ import SecuritySupervisorimage4 from "/public/assets/security services/security-
 export const services = [
   {
     id: "security-services",
-    name: "Security Services",
+    name: "Security Services in Coimbatore",
     subTitle: "Protecting Your World",
     contentTitle: "",
 
     banner: securityBg,
 
-    metaTitle: "Premier Security Services in Coimbatore – 24/7 Protection",
+    metaTitle: "Security Services - Expert Security for Every Need",
     metaDescription:
-      "Expert security solutions in Coimbatore: Armed PSOs, Security Guards, Supervisors, Gunman, ASOs, Bouncers, Fire Safety, and Surveillance Room Management.",
+      "Expert security Services in Coimbatore: Armed PSOs, Security Guards, Supervisors, Gunman, ASOs, Bouncers, Fire Safety, and Surveillance Room Management.",
     metaKeywords: [
+      "Security Services",
       "Armed PSO (Personal Security Officer)",
       "Security Guards",
       "Security Supervisors",
@@ -87,8 +88,8 @@ export const services = [
     ],
 
     mainContent: {
-      title: "Why AEJS for security solutions?",
-      subTitle: "Our Security Solutions",
+      title: "Why AEJS for Security Services?",
+      subTitle: "Our Security Services",
       content:
         "Our team of highly trained security professionals works tirelessly to safeguard your assets and personnel. We offer a range of services, including",
       datas: [
@@ -100,7 +101,7 @@ export const services = [
         {
           title: "Security Guards",
           description:
-            "Hire well-trained security personnel who will prevent theft, protect your property, and act as a symbol of security at your premises.",
+            "Hire well-trained security personnel who will prevent theft, protect your property, and act as a symbol of security at your premises. Our security services ensure the highest level of protection for your business.",
         },
         {
           title: "Security Supervisors",
@@ -130,24 +131,48 @@ export const services = [
         {
           title: "Surveillance Room Management",
           description:
-            "Stay vigilant on security activities from security operations center, so as to observe the occurrences and respond promptly to any event.",
-        },
-        {
-          title: "Cybersecurity Solutions",
-          description: "Protect your data and networks from cyber threats.",
-        },
-        {
-          title: "Cybersecurity Solutions",
-          description: "Protect your data and networks from cyber threats.",
+            ": Stay vigilant on security activities from the security operations center, ensuring our security services observe occurrences and respond promptly to any event.",
         },
       ],
 
       trust: {
         title: "You Trust, We Protect",
         description:
-          "Our services include security solutions that cover all areas of security to meet the security needs of your property, your assets and people. Our staff has thus employed the best technology and professional knowledge to deliver a reliable protection plan to your business.",
+          "Our services include security services that cover all areas of security to meet the security needs of your property, your assets and people. Our staff has thus employed the best technology and professional knowledge to deliver a reliable protection plan to your business.",
       },
     },
+
+    faqDatas: [
+      {
+        id: "cfd_1",
+        qus: "Do security jobs at AEJS INFO have 8-hour duty shifts?",
+        ans: "Yes, we offer 8-hour duty shifts for our security personnel.",
+      },
+      {
+        id: "cfd_2",
+
+        qus: "Are there high salary security jobs available?",
+        ans: "Yes, we provide competitive salaries for our security positions.",
+      },
+      {
+        id: "cfd_3",
+
+        qus: "Why is AEJS INFO considered one of the best security services in Coimbatore?",
+        ans: "We are known for our highly trained staff and excellent security solutions tailored to our clients' needs.",
+      },
+      {
+        id: "cfd_4",
+
+        qus: "How can I apply for a security job with AEJS INFO?",
+        ans: "You can apply through our website or contact us directly for more information.",
+      },
+      {
+        id: "cfd_5",
+        qus: "What qualifications do I need for high salary security jobs?",
+        ans: "Relevant experience and training are preferred. Additional security certifications can be a plus.",
+      },
+    ],
+
     subMenu: [
       {
         id: "armed-pso-coimbatore",
@@ -286,7 +311,7 @@ export const services = [
 
         contentTitle: "",
 
-        metaTitle: "Security guard services Coimbatore",
+        metaTitle: "Security guard services in Coimbatore",
         metaDescription:
           "Professional security guard services in Coimbatore provide 24/7 reliable protection with expert security personnel, property security, and surveillance.",
         metaKeywords: [
@@ -307,14 +332,14 @@ export const services = [
           {
             title: "Comprehensive security guard services in Coimbatore",
             content: [
-              "Talking about security guard services in Coimbatore, AEJSINFO company is among the leaders of the market. As for the kinds of security solutions we have, it is worth noting that our offer is versatile.",
+              "Talking about security guard services in Coimbatore, AEJS INFO company is among the leaders of the market. As for the kinds of security solutions we have, it is worth noting that our offer is versatile.",
               "Starting from the protection of the residents to the commercials and the industries, we offer the best security services. In the subtopics below, we look at the parts of our security solutions and ways that they can advance the customer.",
             ],
           },
           {
             title: "Security Solutions Tailored to Your Needs",
             content: [
-              "Of course, at AEJSINFO, each client has a destination of safety, but the levels of safety differ. Security solutions offered by Prism are aimed at targeting and solving certain problems and risks.",
+              "Of course, at AEJS INFO, each client has a destination of safety, but the levels of safety differ. Security solutions offered by Prism are aimed at targeting and solving certain problems and risks.",
               "This also applies to areas such as manned security, daily security management, security guards at night, corporate body guards, key holding services, etc. The objective of this paper is to offer a full scale of peace of mind protection.",
             ],
           },
@@ -323,6 +348,7 @@ export const services = [
             content: [
               "The fact of the matter is that security measures are the key to providing the protection needed in today's environment. Our team of professional staff specializes in security management, or more specifically, the management of your security system.",
               "Before, during, and after the deployment and installation of security systems, we make certain that all are properly put in and are fully functional. We take measures to reduce emerging threats, and thus, prevent risks from becoming an issue later on.",
+              "This includes our comprehensive security guard services in Coimbatore, tailored to meet your specific needs.",
             ],
           },
           {
@@ -336,13 +362,13 @@ export const services = [
             title: "Unmatched Protection Services",
             content: [
               "Protection services can be considered the main cornerstone of the company. Members of the security team are well-trained to offer different kinds of security services in the best manner.",
-              "Whether it is providing security at an entrance, moving around the compound, or handling an emergency our team is committed to providing security. We provide you with protection services that are efficient and flexible to whatever your requirements may be.",
+              "Whether it is providing security at an entrance, moving around the compound, or handling an emergency our team is committed to providing security. Our security guard services in Coimbatore are both efficient and flexible, tailored to meet your unique requirements, guaranteeing safety and peace of mind in every situation.",
             ],
           },
           {
             title: "Advanced surveillance services",
             content: [
-              "Surveillance of the environment can be defined as one of the most significant aspects of using security systems of the modern level. Our surveillance measures at AEJSINFO involve using of modern technologies for surveillance of your premises 24/7.",
+              "Surveillance of the environment can be defined as one of the most significant aspects of using security systems of the modern level. Our surveillance measures at AEJS INFO involve using of modern technologies for surveillance of your premises 24/7.",
               "Our high-end surveillance services include; CCTV installation, remote monitoring, and alerting. These systems are employed to monitor and prevent probable threats to security to give an added security bonus.",
             ],
           },
@@ -357,11 +383,11 @@ export const services = [
           {
             title: "Skilled security personnel",
             content: [
-              "At AEJSINFO it is our conviction that the calibre of our security personnel makes us unique. A lot of resources are devoted to training and upgrading skills among employees because human resources is key in any organization.",
+              "At AEJS INFO it is our conviction that the calibre of our security personnel makes us unique. A lot of resources are devoted to training and upgrading skills among employees because human resources is key in any organization.",
               "The security workers are educated in some areas such as dealing with aggressors, disaster response, and interpersonal skills with customers. This all-compassing training prepares them for anything no matter how complex it may be.",
+              "This commitment ensures the excellence of our security guard services in Coimbatore, tailored to meet diverse client need.",
             ],
           },
-          
         ],
 
         descriptionOne:
@@ -428,7 +454,7 @@ export const services = [
             title:
               "Security Supervisor in Coimbatore: Core Duties and Responsibilities",
             content: [
-              "In AEJSINFO Coimbatore, the security supervisor is in charge of protection and provision of security solutions to several residential, commercial, industrial, and other security related environments. ",
+              "In AEJS INFO Coimbatore, the security supervisor is in charge of protection and provision of security solutions to several residential, commercial, industrial, and other security related environments. ",
               "Our security supervisors have adequate skill set and knowledge to manage the security operations to guarantee that existing security procedures are well adhered to and well managed. Our security supervisors in Coimbatore are well-aware of every detail, thus determined to deliver you the best security services.",
             ],
           },
@@ -473,6 +499,7 @@ export const services = [
               "These are security systems that help in monitoring and securing the place through the use of surveillance cameras on the doors, access control systems to grant access to people who are allowed and alarm systems.",
               "Hence, through application of technology, security supervisors can easily track any security issues and prevent them from escalating in case they are present. ",
               "It is quite clear that this proactive mode of security management increases the overall safety and security of the environment.",
+              "Interaction with security coordinators, and security chiefs, helps the security supervisor in Coimbatore establish that all security concepts elaborate complex solutions.",
             ],
           },
           {
@@ -490,9 +517,9 @@ export const services = [
             content: [
               "Security supervisor is an important part of any environment safety and protection and this case, the security supervisor in Coimbatore. Security supervisors need to be on top of things and act as working supervisors, interact with security personnel, and are held accountable for supervising security and guaranteeing it at all times. ",
               "Interaction with security coordinators, and security chiefs, helps the security supervisor in Coimbatore establish that all security concepts elaborate complex solutions. ",
-              "The security supervisors of AEJSINFO are highly committed to providing the best security services to the public by integrating high technology to security and creating high security values of the company’s institutions. ",
+              "The security supervisors of AEJS INFO are highly committed to providing the best security services to the public by integrating high technology to security and creating high security values of the company’s institutions. ",
               "If you decide to turn to our services, you will be confident that your security requirements will be addressed by knowledgeable employees.",
-              "So if you are in need of efficient security supervision services, feel free to contact AEJSINFO. We have expert security supervisors provided in Coimbatore to help you arrange your organization’s security. It is with great pleasure that we present to you AEJSINFO as your Security partner.",
+              "So if you are in need of efficient security supervision services, feel free to contact AEJS INFO. We have expert security supervisors provided in Coimbatore to help you arrange your organization’s security. It is with great pleasure that we present to you AEJS INFO as your Security partner.",
             ],
           },
         ],
@@ -569,22 +596,22 @@ export const services = [
           {
             title: "Armed Security Guard for Ultimate Protection",
             content: [
-              "If matters of security of one's compound are important, an armed security guard is your best bet. In Coimbatore, our trained gunmen who are always armed undergo compulsory training to be in a position to handle all security risks.",
-              "They are not only guards but those who watch and protect constantly and make sure you are safe all along. ",
+              "If matters of security of one's compound are important, an armed security guard is your best bet. In Coimbatore, our trained gunman who are always armed undergo compulsory training to be in a position to handle all security risks.",
+              "With our gunman in Coimbatore, you can rest assured that your property and loved ones are under the best protection possible. ",
             ],
           },
           {
             title: "Licensed Gunman: Trustworthy and Reliable",
             content: [
               "In particular, it is necessary to hire a licensed gunman, in order not to face problems connected with involving a person with legal restrictions in Coimbatore.",
-              "Our licensed gunmen have been through the most rigorous background checks and adhere to the law to latter thus are professional and trustworthy. They can manage various security issues and situations, making them very useful in the security team..",
+              "Our licensed gunman have been through the most rigorous background checks and adhere to the law to latter thus are professional and trustworthy. They can manage various security issues and situations, making them very useful in the security team..",
             ],
           },
           {
             title: "Firearm Security for Enhanced Safety",
             content: [
               "Guns are one of those commodities that must be effectively secured and protecting this kind of asset serves as one of the major elements of our offered services. ",
-              "The gunmen who guard our establishment in Coimbatore are well-trained in terms of handling firearms and ensure that these are in the best condition to meet any occurrence of security threat.",
+              "The gunman in Coimbatore are well-trained in terms of handling firearms and ensure that these are in the best condition to meet any occurrence of security threat.",
               "This is especially true because their presence alone will oftentimes be enough to discourage any potential threats, while their knowledge will guarantee that any threats met will be dealt with in the shortest time possible. ",
             ],
           },
@@ -592,7 +619,7 @@ export const services = [
             title: "Security Personnel with Guns: Comprehensive Protection",
             content: [
               "The use of security guards with the carrying of guns on your property offers a complete solution to a myriad of insecurities. ",
-              "The gunmen we employ for the security services in Coimbatore are well-trained in different security measures such as; access control, surveillance, and management of any incidences. ",
+              "The gunman in Coimbatore are well-trained in different security measures such as; access control, surveillance, and management of any incidences. ",
               "They always consult with you in the provision of a security plan whose details match your requirements. ",
             ],
           },
@@ -600,7 +627,8 @@ export const services = [
             title: "Why Choose Our Gunman Services in Coimbatore?",
             content: [
               "Choosing our gunman services in Coimbatore means you are opting for the highest standards of security. ",
-              "We have professional employees working in our team and they take responsibility to ensure clients safety. Our gunmen are highly trained and can easily protect a house, a business, or even a party if needed. ",
+              "We have professional employees working in our team and they take responsibility to ensure clients safety. Our gunman are highly trained and can easily protect a house, a business, or even a party if needed. ",
+              "Whether it's for residential or commercial purposes, our gunman in Coimbatore is equipped to handle any security challenge effectively. ",
             ],
           },
         ],
@@ -634,7 +662,7 @@ export const services = [
           },
           {
             id: "cfd_5",
-            qus: "Are there job opportunities for Gunmen with AEJS INFO in Coimbatore?",
+            qus: "Are there job opportunities for gunman with AEJS INFO in Coimbatore?",
             ans: "We are open for everyone interested and the applicants are welcome to contact us via phone or use the internet resources on the official website of the company.",
           },
           {
@@ -709,7 +737,7 @@ export const services = [
             content: [
               "The ASO performs a crucial function of working hand in hand with other security deems in Coimbatore in a bid to improve all the strategies of security depreciation in the organization.",
               "The ASO assists in the execution of security initiatives and policies because he/she reports directly to the Deputy Security Officer and other managers of the institution. ",
-              "This integration helps to confirm compliance of all the security measures with the organization's objectives, concerning the threats. On this note therefore it will be relatively important for the ASO to be in a position to coordinate with even higher AS officials in regards to safety and protection of the area. ",
+              "This integration helps to confirm compliance of all the security measures with the organization's objectives, concerning the threats. ",
             ],
           },
           {
@@ -718,7 +746,6 @@ export const services = [
             content: [
               "Having an ASO in Coimbatore helps to supplement the security staff while at the same time improving the organization's capacity in case of calamities and any other threats. ",
               "In this respect, the ASO has multi-tasking functions, which guarantees that all levels of security, right from the planning phase to the practical application, can be performed effectively. ",
-              "With these changes in security threats still on the rise, the position of Assistant Security Officer (ASO) in Coimbatore must remain relevant in the protection of human and material assets. ",
             ],
           },
         ],
@@ -811,7 +838,6 @@ export const services = [
           {
             title: "Private Security: Personalized Protection",
             content: [
-              "Besides guarding public places, a bouncer in Coimbatore can also work as security personnel in other facilities. ",
               "Private security can be characterized by the protection of individual people or certain events planned for a specific person. ",
               "This could include the protection of private functions, business meetings and persons of influence. Security personnel involved with private security firms are very conversant with risks and make sure their employer is secure regardless of any circumstances. ",
             ],
@@ -835,7 +861,6 @@ export const services = [
           {
             title: "Training and Skills Required for a Bouncer in Coimbatore",
             content: [
-              "One has to go through lots of practice if he or she wants to become a good bouncer in Coimbatore. This includes physical training in the eventuality that force may be needed, as well as communication training when diffusing the situations. ",
               "There are also organizational legal factors that bouncers need to stay informed about to prevent both themselves and the patrons from violating the law. ",
               "Besides, English and other languages help in communication, and first aid and emergency skills are practical when it comes to diseases. ",
             ],
@@ -909,7 +934,7 @@ export const services = [
       },
       {
         id: "fire-safety-expert-coimbatore",
-        title: "Fire Safety Expert Coimbatore",
+        title: "Fire Safety Expert in Coimbatore",
         path: "/security-services/fire-safety-expert-coimbatore",
         image: FireSafteyExpertImg,
         icon: service_fire_safety_expert,
@@ -1079,7 +1104,7 @@ export const services = [
           {
             title: "Enhancing Security with a Video Surveillance Room",
             content: [
-              "A video surveillance room goes a notch higher in functionality beyond that of a CCTV room. It uses high-end video analytical software with a view of identifying any suspicious movements taking place and notify the security personnel.",
+              "Goes a notch higher in functionality beyond that of a CCTV room. It uses high-end video analytical software with a view of identifying any suspicious movements taking place and notify the security personnel.",
               "Motions and faces are detected, plates are read, and the functions are all included in the surveillance system.",
             ],
           },
@@ -1093,7 +1118,6 @@ export const services = [
           {
             title: "Integrated Solutions for Comprehensive Security",
             content: [
-              "The new surveillance room dissolves the characteristics of the CCTV room, video surveillance room, and security control room into one security solution. ",
               "This level of security integration guarantees that no loophole is left unguarded in the ever-volatile security field, right from the monitoring and handling of emerging security threats to documental records and evaluations. ",
               "The surveillance room equipment, security technologies and systems give a sound and effective security network",
             ],
@@ -1101,7 +1125,6 @@ export const services = [
           {
             title: "The Backbone of Secure Environments",
             content: [
-              "Therefore it will be apparent, that a surveillance room is the powerhouse of any secure environment as it serves as the central coordinating point for security.",
               "Whether it is the CCTV room that records every moment, the video surveillance room that analyses the activities, or the security control room that monitors responses of the security - each one is extremely essential for security. ",
               "This paper has clearly illustrated the importance of implementing a surveillance room of high quality and effectiveness in organizations to improve the protection of the organization's assets and people's safety. ",
             ],
@@ -1156,11 +1179,11 @@ export const services = [
   {
     id: "detective-services",
 
-    metaTitle:
-      "Expert Detective Services in Coimbatore – Confidential & Reliable",
+    metaTitle: "Detective Services in Coimbatore - Bringing Truth to Light",
     metaDescription:
-      "Complete investigative solutions in Coimbatore: Corporate, Matrimonial, Forensic Analysis, Personal, and Cybercrime. Accurate and confidential services.",
+      "Detective Services in Coimbatore: Corporate, Matrimonial, Forensic Analysis, Personal, and Cybercrime. Accurate and confidential services.",
     metaKeywords: [
+      "Detective Services in Coimbatore ",
       "Corporate Investigations",
       "Matrimonial Investigations",
       "Forensic Analysis",
@@ -1168,14 +1191,40 @@ export const services = [
       "Cybercrime Investigations",
     ],
 
-    name: "Detective Services",
+    faqDatas: [
+      {
+        id: "cfd_1",
+        qus: "What makes AEJS INFO the best detective agency in Coimbatore?",
+        ans: "AEJS INFO is recognized as a top detective agency in Coimbatore due to our experienced investigators, comprehensive investigative services, and a proven track record of successful case resolutions.",
+      },
+      {
+        id: "cfd_2",
+
+        qus: "What types of detective services does AEJS INFO offer?",
+        ans: "We provide a range of detective services, including corporate investigations, matrimonial inquiries, surveillance, and background checks, tailored to meet the specific needs of our clients.",
+      },
+      {
+        id: "cfd_3",
+
+        qus: "How can a marriage detective agency in Coimbatore help me?",
+        ans: "We can help by conducting background checks and verifying partner information to ensure peace of mind.",
+      },
+      {
+        id: "cfd_4",
+
+        qus: "What is the process for hiring a detective from AEJS INFO?",
+        ans: "To hire a detective, simply contact us through our website or phone. We'll discuss your requirements and assign a qualified investigator to handle your case efficiently and discreetly.",
+      },
+    ],
+
+    name: "Detective Services in Coimbatore",
     subTitle: "Protecting Your World",
     banner: securityBg,
     mainContent: {
-      title: "Why AEJS for security solutions?",
-      subTitle: "Our Security Solutions",
+      title: "Why AEJS for Detective Services?",
+      subTitle: "Our Detective Services",
       content:
-        "The top-notch staff of investigators working for us have the goal of providing comprehensive and accurate investigative information. We offer a range of detective services, We offer a range of detective services, including",
+        "The top-notch staff of investigators working for us have the goal of providing comprehensive and accurate investigative information. We offer a range of detective services in Coimbatore, including",
       datas: [
         {
           title: "Corporate Investigations",
@@ -1202,12 +1251,17 @@ export const services = [
           description:
             " Research on threat in the digital world and hacking to ensure security of the online resources and data.",
         },
+        {
+          title: "Cybersecurity Solutions",
+          description:
+            "Protect your data and networks from cyber threats with our comprehensive detective services, ensuring thorough investigation and prevention of potential risks. Our detective services in Coimbatore are designed to safeguard your digital assets with the utmost precision and reliability.",
+        },
       ],
 
       trust: {
         title: "You Trust, We Investigate",
         description:
-          "Our detective services are professional and cover all aspects to meet your investigation demands and get to the truth. With the help of our highly skilled investigators, your case will be solved with the efficient use of the latest technologies, as well as accurate and detailed findings and recommendations will be provided. Whether you require corporate investigations, forensic, or personal searches, our personnel are committed to provide a comprehensive and accurate report to give you the guarantee you require.",
+          "Our detective services in coimbatore are professional and cover all aspects to meet your investigation demands and get to the truth. With the help of our highly skilled investigators, your case will be solved with the efficient use of the latest technologies, as well as accurate and detailed findings and recommendations will be provided. Whether you require corporate investigations, forensic, or personal searches, our personnel are committed to provide a comprehensive and accurate report to give you the guarantee you require.",
       },
     },
     subMenu: [
@@ -1236,49 +1290,49 @@ export const services = [
             title: "Detective Agency for Cyber Crime in Coimbatore",
             content: [
               "Thus, it has become vital for businesses and people to combat cybercrime in the modern context of the world interconnected through the internet. ",
-              "AEJSINFO is quite an experienced detective agency for cyber crime in Coimbatore that aims to provide a number of unique services to deal with different kinds of cyber hazards and be as prepared as possible. ",
+              "AEJS INFO is quite an experienced detective agency for cyber crime in Coimbatore that aims to provide a number of unique services to deal with different kinds of cyber hazards and be as prepared as possible. ",
             ],
           },
           {
             title: "Cyber Intelligence Agency",
             content: [
-              "Currently AEJSINFO is one of the best detective agencies for cyber crime in Coimbatore and functions as a cyber intelligence bureau. This involves collecting information that pertain to threats in the cyber space and criminal instances. ",
-              "In this perspective, AEJSINFO gets quite helpful through its cyber intelligence services in understanding the ways and means of cyber criminals.",
-              "Thus, relying on the identification of new threats and their analysis, AEJSINFO assists clients in enhancing their protection systems and planning for potential cyber attacks. ",
+              "Currently AEJS INFO is one of the best detective agencies for cyber crime in Coimbatore and functions as a cyber intelligence bureau. This involves collecting information that pertain to threats in the cyber space and criminal instances. ",
+              "In this perspective, AEJS INFO gets quite helpful through its cyber intelligence services in understanding the ways and means of cyber criminals.",
+              "Thus, relying on the identification of new threats and their analysis, AEJS INFO assists clients in enhancing their protection systems and planning for potential cyber attacks. ",
             ],
           },
           {
             title: "Cyber Crime Analysis Agency",
             content: [
-              "AEJSINFO is highly recognized as one of the cyber crime analysis agency, with a specialized function in providing elaborate analysis of cyber crime related occurrences. This service encompasses research on data breach, hacking and any other cyber attack. ",
-              "Experts from AEJSINFO analyze the obtained data using special programs and methodologies aimed at determining the source of the attack and the extent of damage to the systems. ",
+              "AEJS INFO is highly recognized as one of the cyber crime analysis agency, with a specialized function in providing elaborate analysis of cyber crime related occurrences. This service encompasses research on data breach, hacking and any other cyber attack. ",
+              "Experts from AEJS INFO analyze the obtained data using special programs and methodologies aimed at determining the source of the attack and the extent of damage to the systems. ",
               "Their comprehensive character also contributes to the identification of the degree of the crime and how to avoid similar cases in the future. ",
             ],
           },
           {
             title: "Online Fraud Investigation Agency",
             content: [
-              "Reporting online frauds is one of the core areas of services offered by the AEJSINFO; as a detective agency dealing in cyber crimes in Coimbatore.",
-              "AEJSINFO is an online fraud investigation agency that deals with the task of identifying frauds that take place in the cyber space. This entails conducting research on other cybercrimes such as phishing conspiracy, identity theft, and financial fraud. ",
-              "Thanks to effective use of modern investigation methods and tools, AEJSINFO finds and calls the culprit to account thus minimizing the clients' risk of further additional losses and restoring the stolen assets.",
+              "Reporting online frauds is one of the core areas of services offered by AEJS INFO, a detective agency for Cyber Crime in Coimbatore. ",
+              "AEJS INFO is an online fraud investigation agency that deals with the task of identifying frauds that take place in the cyber space. This entails conducting research on other cybercrimes such as phishing conspiracy, identity theft, and financial fraud. ",
+              "Thanks to effective use of modern investigation methods and tools, AEJS INFO finds and calls the culprit to account thus minimizing the clients' risk of further additional losses and restoring the stolen assets.",
             ],
           },
           {
             title: "Cyber Surveillance Solutions",
             content: [
-              "A significant service that is central to the services being provided by AEJSINFO includes cyber surveillance thus Acts as a detective agency for cyber crimes in Coimbatore. ",
-              "AEJSINFO offers an extensive range of services in the sphere of cyber security for the control over virtual spaces. This entails surveillance of the network activities in order to discern or recognize strange or unlawful infringement or even likely threats, during their advancement. ",
-              "The cyber surveillance service offered by AEJSINFO is to prevent the clients from experiencing the cyber attack in the first place and maintain the protection. ",
+              "A significant service that is central to the services being provided by AEJS INFO includes cyber surveillance thus Acts as a detective agency for cyber crimes in Coimbatore. ",
+              "AEJS INFO offers an extensive range of services in the sphere of cyber security for the control over virtual spaces. This entails surveillance of the network activities in order to discern or recognize strange or unlawful infringement or even likely threats, during their advancement. ",
+              "The cyber surveillance service offered by AEJS INFO is to prevent the clients from experiencing the cyber attack in the first place and maintain the protection. ",
             ],
           },
           {
             title: "Holistic Cyber Crime Solutions",
             content: [
               "Their services include anti cyber crime consultancy, cyber intelligence, crime analysis, fraud investigation and surveillance in order to provide a comprehensive solution to any cyber crime related issues. ",
-              "With a view of assembling these services, AEJSINFO offers a complete defense as well as realistic approaches for appearing problems which localized the needs of their client in Coimbatore. ",
+              "With a view of assembling these services, AEJS INFO offers a complete defense as well as realistic approaches for appearing problems which localized the needs of their client in Coimbatore. ",
               "Thus, this strategy covers all the aspects of cyber security protection, including prevention, identification, investigation, and subsequent action. ",
-              "AEJSINFO as being a detective agency for cyber crime in Coimbatore primarily aims at providing specialized and confidential services that enable the clients overcome various challenges in the digital front. ",
-              "As a result of the grouping position, enhanced technology in cyber intelligence, crime analysis, fraud investigation, and surveillance, AEJSINFO of the U.S. is a leading member in cyberspace crime prevention and solutions",
+              "AEJS INFO as being a detective agency for cyber crime in Coimbatore primarily aims at providing specialized and confidential services that enable the clients overcome various challenges in the digital front. ",
+              "As a result of the grouping position, enhanced technology in cyber intelligence, crime analysis, fraud investigation, and surveillance, AEJS INFO of the U.S. is a leading member in cyberspace crime prevention and solutions",
             ],
           },
         ],
@@ -1353,23 +1407,24 @@ export const services = [
           {
             title: "Matrimonial Fraud Detection",
             content: [
-              "AEJSINFO is special in detecting the matrimonial fraud which is an important service provided by our detective agency for matrimonial Screening in Coimbatore. ",
-              "My team and I utilize the best techniques in the attempts to find and reveal frauds, lies, and other scams. The type of frauds that AEJSINFO exposes its clients to is avoided thus enabling the clients make proper matrimonial decisions based on accurate data.",
+              "AEJS INFO is special in detecting the matrimonial fraud which is an important service provided by our detective agency for matrimonial Screening in Coimbatore. ",
+              "My team and I utilize the best techniques in the attempts to find and reveal frauds, lies, and other scams. The type of frauds that AEJS INFO exposes its clients to is avoided thus enabling the clients make proper matrimonial decisions based on accurate data.",
             ],
           },
           {
             title: "Partner Verification Agency",
             content: [
-              "Therefore, AEJSINFO as the partner verification agency in Coimbatore has the primary goal of verifying details given by prospective partners. They include background checks that go further to establish the clients' personal, professional, and genealogical details. ",
-              "This approach is quite comprehensive and assists in verifying the credibility of the information as well as identifying errors or issues with credibility. The verification process of the partners is well laid down in AEJSINFO to help the clients enable them make right decision on their matrimonial life. ",
+              "Therefore, AEJS INFO as the partner verification agency in Coimbatore has the primary goal of verifying details given by prospective partners. They include background checks that go further to establish the clients' personal, professional, and genealogical details. ",
+              "This approach is quite comprehensive and assists in verifying the credibility of the information as well as identifying errors or issues with credibility. The verification process of the partners is well laid down in AEJS INFO to help the clients enable them make right decision on their matrimonial life. ",
             ],
           },
           {
             title: "Relationship Screening Agency",
             content: [
-              "AEJSINFO works as a vibrant relation checking agency in Coimbatore that carries out detailed checks regarding compatibility and relevance of various business partners.",
-              "Our relationship screening services are the assessment of personal values and compatibility; family values and compatibility; and/or lifestyle compatibility. ",
-              "Thus, by pointing to probably problematic issues and evaluating the overall balance of the relationship, AEJSINFO facilitates the comprehension of the potential and functionality of the relationships. This form of evaluation guarantees that the clients are ready to embrace a successful marital experience. ",
+              "AEJS INFO works as a vibrant relation checking agency in Coimbatore that carries out detailed checks regarding compatibility and relevance of various business partners. ",
+              "Our relationship screening services are the assessment of personal values and compatibility; family values and compatibility; and/or lifestyle compatibility.",
+              "Thus, by pointing to probably problematic issues and evaluating the overall balance of the relationship. ",
+              "AEJS INFO, a trusted Detective agency for matrimonial screening in Coimbatore, helps clients understand the potential and functionality of their relationships. This form of evaluation ensures that clients are prepared for a successful marital experience.",
             ],
           },
           {
@@ -1377,16 +1432,16 @@ export const services = [
             content: [
               "The Coimbatore based detective agency feels that the marital risk assessment services form a core part of the services of the detective agency meant for matrimonial scrutiny. ",
               "This service entails evaluation of risks that may be present in a marriage, including financial and past records among other characteristics.",
-              "Risk assessment is a comprehensive plan that outlines potential challenges that may affect the functions of a certain business, and this is provided by AEJSINFO to enable the clients to prevent risks that may affect their company.",
+              "Risk assessment is a comprehensive plan that outlines potential challenges that may affect the functions of a certain business, and this is provided by AEJS INFO to enable the clients to prevent risks that may affect their company.",
             ],
           },
           {
             title: "Holistic Matrimonial Services",
             content: [
-              "AEJSINFO makes use of matrimonial fraud detection, partners verification, relationship scrutinization and risk appraisal to provide an all-inclusive strategy to matrimonial screening in Coimbatore.",
+              "AEJS INFO makes use of matrimonial fraud detection, partners verification, relationship scrutinization and risk appraisal to provide an all-inclusive strategy to matrimonial screening in Coimbatore.",
               "Through these services, therefore, a comprehensive screening of partners is done so that nothing in the process of matrimonial is overlooked. ",
               "Due to our combined strategy, clients gain an adequate amount of knowledge to make proper and sound choices for themselves about the future. ",
-              "Experience in matrimonial fraud detection, partner verification, relationship screening, and matrimonial risk assessment make AEJSINFO the top detective agency for matrimonial screening in Coimbatore.",
+              "Experience in matrimonial fraud detection, partner verification, relationship screening, and matrimonial risk assessment make AEJS INFO the top detective agency for matrimonial screening in Coimbatore.",
             ],
           },
         ],
@@ -1466,7 +1521,7 @@ export const services = [
           {
             title: "Personal Detective Services",
             content: [
-              "Of all the players in the personal detective industry in Coimbatore, AEJSINFO appears to be one of the most prominent. The detectives at our agency are highly trained to deal with such cases while observing the highest standards of discretion. ",
+              "Of all the players in the personal detective industry in Coimbatore, AEJS INFO appears to be one of the most prominent. The detectives at our agency are highly trained to deal with such cases while observing the highest standards of discretion. ",
               "In fact, any service with our personal detective varies depending on the clients' needs whether it is to confirm information, finding the background information about the individual to investigating. ",
               "On this note, we emphasize the accuracy and timeliness of the results which will enable you to receive pertinent information required for decision-making process ",
             ],
@@ -1474,16 +1529,16 @@ export const services = [
           {
             title: "Personal Surveillance by Detectives",
             content: [
-              "Stake-out by detectives is a component of the services we offer and is a core service delivery of our company. AEJSINFO provides specific tracking services mostly in surveillance to track people without their knowledge.",
+              "Stake-out by detectives is a component of the services we offer and is a core service delivery of our company. AEJS INFO provides specific tracking services mostly in surveillance to track people without their knowledge.",
               "This service is especially insightful in instances of suspected spouse's cheating, when a person feels unsafe setting, or observing another's activity. ",
               "The detectives we hire are very professional and apply sophisticated methods of surveillance and inform the clients on the events in progress and after a thorough investigation. ",
-              "This way, clients are able to be well informed on the occurrence and can adequately respond to it on the basis of the aftermaths that have been observed ",
+              "As a result, our clients, through personal investigation by detectives in Coimbatore, are well-informed about occurrences and can respond appropriately based on the findings observed.",
             ],
           },
           {
             title: "Personal Detective Work",
             content: [
-              "In the case of AEJSINFO, general detecting implies a wide variety of investigative services based on an individual’s needs. Ranging from thorough investigations to tackling high profile cases, then our detectives are capable of dealing with different personal investigations. ",
+              "In the case of AEJS INFO, general detecting implies a wide variety of investigative services based on an individual’s needs. Ranging from thorough investigations to tackling high profile cases, then our detectives are capable of dealing with different personal investigations. ",
               "The first aspect of our strategy entails comprehensiveness regarding the case management, gathering evidence, as well as the ability to analyze the case firmly grounded on success as well as client’s anonymity and precision.",
               "If you are experiencing problems in your personal life such as family and companionship issues, abandoned or lost individuals, etc our private detective services are aimed to deliver you the information and assistance you need ",
             ],
@@ -1491,7 +1546,7 @@ export const services = [
           {
             title: "Individual Privacy Investigation",
             content: [
-              "Private investigating services is one of the services that AEJSINFO provides for people who have fears of a break in of their privacy . ",
+              "Private investigating services is one of the services that AEJS INFO provides for people who have fears of a break in of their privacy . ",
               "They are exceptional in detecting and handling matters to do with invasion of privacy in the broad sense of the term and this includes the domain of cyber privacy and unauthorized spying. ",
               "Thus, through intensive investigating, you are safe and your privacy is well guaranteed. These services are mean to achieve the clients’ goals to fix privacy issues in a proper, effective manner.",
             ],
@@ -1499,10 +1554,10 @@ export const services = [
           {
             title: "Comprehensive Personal Investigation Services",
             content: [
-              "The personal investigation by detectives in Coimbatore offered by AEJSINFO encompasses personal detective services, personal surveillance by detectives, personal detective work, and private individuality investigation. ",
+              "The personal investigation by detectives in Coimbatore offered by AEJS INFO encompasses personal detective services, personal surveillance by detectives, personal detective work, and private individuality investigation. ",
               "It means that one will get all the aspects of personal investigations addressed hence offering a very comprehensive solution to the clients.",
               "Members of the research team will ensure that the end results offered to the clients are accurate and produced with the highest level of discretion and courtesy. ",
-              "Being experts in personal investigation conducing to integrity and professionalism, aspirit AEJSINFO is a professional detective agency offering personal investigation services by private detectives in Coimbatore.",
+              "Being experts in personal investigation conducing to integrity and professionalism, aspirit AEJS INFO is a professional detective agency offering personal investigation services by private detectives in Coimbatore.",
               "Such a wide range of services means that the company can handle any personal investigation needs with accuracy and delicacy. ",
             ],
           },
@@ -1582,7 +1637,7 @@ export const services = [
           {
             title: "Corporate Fraud Investigation",
             content: [
-              "In terms of AEJSINFO’s specialist area of operation, it offers blood business corporate fraud investigation. I have a group of professional detectives who can effectively investigate any fraudulent activities in organizations. ",
+              "In terms of AEJS INFO’s specialist area of operation, it offers blood business corporate fraud investigation. I have a group of professional detectives who can effectively investigate any fraudulent activities in organizations. ",
               "For various frauds including financial fraud, embezzlement, or any other fraudulent activities, a systematic and amalgamated strategy is put into practice. ",
               "Our detectives employ the most effective methods to analyze the case and give comprehensive reports to ensure that the company will not face the same problem in the future.",
             ],
@@ -1592,13 +1647,13 @@ export const services = [
             content: [
               "Hence, the investigative services we offer are flexible to suit the various needs of the business organizations in Coimbatore. They are including background check services, invest and research services, risk check and evaluation services among others. ",
               "Thus, we provide the client with in-depth analysis and facilitate the proper assessment of threats that might be associated with certain business lines and guarantee their strict scrutinization.",
-              "Criminal investigations for business purposes are focused to provide ally knowledge and improve overall security in the companies..",
+              "Our corporate investigation by detectives in Coimbatore is designed to offer valuable insights and improve overall security for companies.",
             ],
           },
           {
             title: "Professional Corporate Investigations",
             content: [
-              "AEJSINFO provides corporate investigations to businesses and corporations to serve various purposes related to business. In client internal issues to external threats, our detectives engage in the analysis and solution-providing to many corporate concerns. ",
+              "AEJS INFO provides corporate investigations to businesses and corporations to serve various purposes related to business. In client internal issues to external threats, our detectives engage in the analysis and solution-providing to many corporate concerns. ",
               "Some of the services provided include dealing with cases of employees’ misconduct, corporate espionage, and compliance matters.",
               "Our devoted corporate investigation, in terms of confidentiality and meticulousness of our employed officers, specialize in safeguarding the reputation of your company.",
             ],
@@ -1607,14 +1662,14 @@ export const services = [
             title: "Detective Solutions for Business",
             content: [
               "Detective services we offer are aimed at solving concrete investigative problems of the business sphere. This involves developing solutions based on clients’ individual needs regarding identifying cases of fraud, evaluating the organizational security level, and checking compliance. ",
-              "Because of the nature of operations and versatility, AEJSINFO is quick to respond to threats and vulnerabilities facing your business. ",
+              "Because of the nature of operations and versatility, AEJS INFO is quick to respond to threats and vulnerabilities facing your business. ",
               "Thus, modifying our detective solutions to fit your organization needs, we guarantee that you will get precise and efficient assistance in investigations.",
             ],
           },
           {
             title: "Comprehensive Corporate Investigation Services",
             content: [
-              "AEJSINFO acts as a single source for corporate investigation by detectives in Coimbatore. Our range of services are Corporate fraud investigation, Business investigative services, Professional corporate investigations and Detective solutions for business as we offer a solution to all corporate security and integrity issues. ",
+              "AEJS INFO acts as a single source for corporate investigation by detectives in Coimbatore. Our range of services are Corporate fraud investigation, Business investigative services, Professional corporate investigations and Detective solutions for business as we offer a solution to all corporate security and integrity issues. ",
               "As the seasoned professionals with spirit of commitment to the excellence and secrecy of corporate world, we assist the companies to operate in the business environment efficiently.",
             ],
           },
@@ -1692,7 +1747,7 @@ export const services = [
           {
             title: "Forensic Investigation Solutions",
             content: [
-              "The software that is used in forensic by AEJSINFO has the ability to meet with different criterion of each case or offer the best services in investigation.",
+              "The software that is used in forensic by AEJS INFO has the ability to meet with different criterion of each case or offer the best services in investigation.",
               "Criminal investigation is carried out by the professional team of detectives; the agency offered modern instruments and techniques for forensic tests. ",
               "Some of these solutions involve investigations at the crime scenes and on the forensic data and use of the available technologies in legal procedures.",
               "This approach enables it for all aspersions in the forensic investigation to be examined; hence, arriving at accurate results for the criminal as well as the civil lawsuit.",
@@ -1703,13 +1758,13 @@ export const services = [
             content: [
               "Specialized forensic crime investigation services shall be useful in solving other criminal cases in the most effective and efficient way. It contributes significantly in the investigation and analysis of criminal details through the use of superior methods of analysis in crime scenes, collection of evidence and suspects. ",
               "Most of our detectives have the efficiency of handling the efficient scientific investigation of physical evidences, like fingerprints, DNA, and any sort of digital products, without leaving any detail unnoticed. ",
-              "This approach of gathering information is beneficial in constructing an elaborate case and supporting the police organizations to effectively solve crimes.",
+              "This approach of gathering information is beneficial in constructing an elaborate case and supporting the police organizations to effectively solve crimes. Our forensic investigation by detectives in Coimbatore offers a vital resource for ensuring justice is served.",
             ],
           },
           {
             title: "Forensic Evidence Collection",
             content: [
-              "Collection of forensic evidence is one of the crucial service components of any forensic company. AEJSINFO mainly focuses on the proper gathering and documentation of evidence from the scene of the incidence.",
+              "Collection of forensic evidence is one of the crucial service components of any forensic company. AEJS INFO mainly focuses on the proper gathering and documentation of evidence from the scene of the incidence.",
               "Detectives are well trained on how to handle the evidence in a way that does not tamper with any of them and keep it in the right condition for analysis. ",
               "Relative to the collection of physical evidence to the digital data, the mode of evidence collection and storage cannot be compromised in a way that may ug granny affect the outcome of the case being investigated.",
             ],
@@ -1717,8 +1772,8 @@ export const services = [
           {
             title: "Comprehensive Forensic Investigation Services",
             content: [
-              "AEJSINFO’s expertise in forensic investigation by detectives in Coimbatore includes forensic investigation solutions, forensic crime investigation, forensic research and investigation, and forensic evidence collection.",
-              "Our comprehensive approach ensures that all aspects of forensic investigation are addressed, providing reliable and actionable results for solving criminal cases. With a commitment to precision and professionalism, AEJSINFO is dedicated to delivering exceptional forensic services.",
+              "AEJS INFO’s expertise in forensic investigation by detectives in Coimbatore includes forensic investigation solutions, forensic crime investigation, forensic research and investigation, and forensic evidence collection.",
+              "Our comprehensive approach ensures that all aspects of forensic investigation are addressed, providing reliable and actionable results for solving criminal cases. With a commitment to precision and professionalism, AEJS INFO is dedicated to delivering exceptional forensic services.",
             ],
           },
         ],
@@ -1799,7 +1854,7 @@ export const services = [
           {
             title: "Cyber Investigation Experts",
             content: [
-              "AEJSINFO has highly professional employees, which are specialists in the sphere of cybercrime investigation and can solve different digital security questions. ",
+              "AEJS INFO has highly professional employees, which are specialists in the sphere of cybercrime investigation and can solve different digital security questions. ",
               "Our specialists are aware of how to apply adequate technologies and methods for the analysis of cyber threats. They are effective in dealing with computer related crimes, apprehending criminals, and appreciating the sensitivity of cybertargets. ",
               "This way, we scrutinize all elements of the investigation with regard to cybercrime to the smallest extent to ensure stringent thoroughness and reliable outcomes",
             ],
@@ -1809,21 +1864,21 @@ export const services = [
             content: [
               "Computer and digital crime scene investigation is therefore the proactively identifying the methods used in the commission of these offenses and developing ways of preventing them.",
               "This includes the cases of hacking, instances of identity fraud, and any other instances of fraud that are witnessed in the internet. ",
-              "AEJSINFO employs new techniques of searching for information with the help of technology, computers, smart phones, and sites of social and net working. ",
+              "AEJS INFO employs new techniques of searching for information with the help of technology, computers, smart phones, and sites of social and net working. Our cybercrime investigation by detectives in Coimbatore is crucial for addressing these digital threats effectively. ",
               "It also showed how efforts to maintain even stances on both sides of a trial preserve the pieces of evidence and working to come up with the right research to support the arguments’ right help in solving such cases and assist in legal procedures.",
             ],
           },
           {
             title: "Online Threat Analysis",
             content: [
-              "Threat intelligence is an effective approach to managing threats on the internet and possible cyber threats. Thus, AEJSINFO can perform deeper analyses to reveal threats directed at a person or an organization.",
+              "Threat intelligence is an effective approach to managing threats on the internet and possible cyber threats. Thus, AEJS INFO can perform deeper analyses to reveal threats directed at a person or an organization.",
               "Our specialists assess the threats in the following types: virus, phishing, unauthorized access. In this way, we show these threats that can potentially put the organization at risk and offer solutions on how to improve the protection of data and avoid future violations.",
             ],
           },
           {
             title: "Internet Crime Solutions",
             content: [
-              "AEJSINFO meets the requirements for necessary Internet crimes services since it offers solutions to various forms of cybercrimes. The services that we offer basically consist of investigating phishing and any other unlawful performance that is inflicted on the internet, cyber stalking among others that can be done on cyberspace.",
+              "AEJS INFO meets the requirements for necessary Internet crimes services since it offers solutions to various forms of cybercrimes. The services that we offer basically consist of investigating phishing and any other unlawful performance that is inflicted on the internet, cyber stalking among others that can be done on cyberspace.",
               "Some of the technical tactics sometimes deployed in investigations include looking for perpetrators and stolen goods or substances with a view of building up legal charges. ",
               "Therefore, as seen in identifying and solving clients’ needs in relation to Internet crime, these proposed solutions are complex and elaborate.",
             ],
@@ -1831,7 +1886,7 @@ export const services = [
           {
             title: "Comprehensive Cybercrime Investigation Services",
             content: [
-              "Therefore, the techniques applied in cybercrime investigation by detectives in Coimbatore at AEJSINFO include, cybercrime investigation, consultation with cyber investigation specialist, digital crime investigation, internet threat analysis, and the provision of the better internet crime solutions.",
+              "Therefore, the techniques applied in cybercrime investigation by detectives in Coimbatore at AEJS INFO include, cybercrime investigation, consultation with cyber investigation specialist, digital crime investigation, internet threat analysis, and the provision of the better internet crime solutions.",
               "Correct compliance with the modern technological approaches and methods ensures providing the high quality of investigative solutions to challenge the cyber threat. ",
               "Whether it is one-time situations or risks/concerns that are systematic in nature, our committed people work hard to deliver the best in investigative services",
             ],
@@ -1891,19 +1946,49 @@ export const services = [
   {
     id: "manpower-consultancy",
 
-    metaTitle: "Leading Manpower Consultancy in Coimbatore – Find Top Talent",
+    metaTitle: "Manpower Consultancy in Coimbatore - Finding the Right Talent",
     metaDescription:
       "Manpower consultancy in Coimbatore specializing in IT Staffing, Skilled Labour, and Unskilled Labour. Reliable and effective staffing solutions.",
-    metaKeywords: ["IT Staffing", "Skilled Labour", "Unskilled Labour"],
+    metaKeywords: [
+      "Manpower Consultancy in Coimbatore",
+      "IT Staffing",
+      "Skilled Labour",
+      "Unskilled Labour",
+    ],
 
-    name: "Manpower Consultancy",
+    faqDatas: [
+      {
+        id: "cfd_1",
+        qus: "What manpower consultancy services does AEJS INFO offer in Coimbatore?",
+        ans: "AEJS INFO provides a variety of manpower consultancy services, including recruitment for skilled and unskilled labor, staffing solutions, and workforce management tailored to various industries.",
+      },
+      {
+        id: "cfd_2",
+
+        qus: "Do you specialize in hotel manpower in Coimbatore?",
+        ans: "Yes, we specialize in hotel manpower services, offering qualified staff for various roles such as front desk, housekeeping, and food service to meet the unique needs of the hospitality industry.",
+      },
+      {
+        id: "cfd_3",
+
+        qus: "How does AEJS INFO ensure the quality of its manpower?",
+        ans: "We conduct thorough background checks, skill assessments, and interviews to ensure that we provide only the most qualified candidates to our clients.",
+      },
+      {
+        id: "cfd_4",
+
+        qus: "What industries do you provide manpower consultancy for?",
+        ans: "We provide manpower consultancy services across various industries, including hospitality, construction, retail, healthcare, and more, ensuring a diverse range of staffing solutions.",
+      },
+    ],
+    name: "Manpower Consultancy Services in Coimbatore",
     subTitle: "Protecting Your World",
     banner: securityBg,
     mainContent: {
-      title: "Why AEJS for security solutions?",
-      subTitle: "Our Security Solutions",
+      title: "Why AEJS for Manpower Consultancy Services?",
+      subTitle: "Our Manpower Consultancy Services",
       content:
-        "We promise to assist you in finding the most qualified candidates that fit your needs to be a part of your team and help achieve your organization's goals.",
+        "we promise to assist you in finding the most qualified candidates through our manpower consultancy services in Coimbatore that fit your needs to be a part of your team and help achieve your organization's goals.",
       datas: [
         {
           title: "IT Staffing",
@@ -1929,7 +2014,7 @@ export const services = [
       trust: {
         title: "You Trust, We Deliver",
         description:
-          "We provide manpower consultancy services as per the company’s requirement for staffing. They are always on the look-out for professionals across IT, skilled and unskilled workers for companies and organizations. By using our diverse and strong network of connections in the employment sector we provide the candidates of your choice . You can, therefore, rely on us to provide prompt and efficient staffing solutions to meet your business needs.",
+          "We provide manpower consultancy services in Coimbatore as per the company’s requirement for staffing. They are always on the look-out for professionals across IT, skilled and unskilled workers for companies and organizations. By using our diverse and strong network of connections in the employment sector we provide the candidates of your choice . You can, therefore, rely on us to provide prompt and efficient staffing solutions to meet your business needs.",
       },
     },
 
@@ -1960,20 +2045,20 @@ export const services = [
             content: [
               "The primary focus of our organization is on the consultancy services which can be provided only by an expert IT Job Consultant. Such personnel have comprehensive knowledge of the IT market and skills to determine general and special demands for positions. ",
               "The agencies also have a lot of interaction with both the clients and the candidates with a view of facilitating the matching process. ",
-              "Apart from the professional competencies, it is important to match the consultant to the organization and its people, which is why our consultants are attentive to details of the organizational culture.",
+              "Apart from the professional competencies, it is important to match the consultant to the organization and its people, which is why our consultants are attentive to details of the organizational culture. Through our IT Labour consultancy services in Coimbatore, we ensure a tailored approach that meets the unique needs of each organization.",
             ],
           },
           {
             title: "Comprehensive IT Employment Services",
             content: [
-              "At AEJSINFO, We provide IT Employment Services which help companies in Coimbatore to find the right Talent for their organization. We do the recruiting and even the shortlisting of candidates and right from the interviewing to the actual placing of the candidates.",
+              "At AEJS INFO, We provide IT Employment Services which help companies in Coimbatore to find the right Talent for their organization. We do the recruiting and even the shortlisting of candidates and right from the interviewing to the actual placing of the candidates.",
               "This structural integration creates a complete solution that makes sure that clients only get the best of the IT talent pool. The efficiency of the recruitment process is that we employ cutting edge equipment and strategies for the selection of the best candidates.",
             ],
           },
           {
             title: "Tailored IT Labour Consultancy Services",
             content: [
-              "AEJSINFO provides the best and specific IT Labour Consultancy Services in Coimbatore for every client because we believe in their requirements. ",
+              "AEJS INFO provides the best and specific IT Labour Consultancy Services in Coimbatore for every client because we believe in their requirements. ",
               "Of course, each company is unique, and it means that it requires specific services, which is why our approach is rather flexible. ",
               "Whether your requirement is for short-term project based employees or short-time/medium or even permanent employees, our consultancy services guarantee that the right talent is identified and placed. Indeed, the aim of our company is to assist firms in achieving their goals by providing them with the best IT talent.",
             ],
@@ -2187,23 +2272,48 @@ export const services = [
   {
     id: "house-cleaning",
 
-    metaTitle: "Reliable House Cleaning in Coimbatore – Fresh & Spotless Homes",
-    metaDescription:
-      "AEJSINFO offers expert house cleaning services in Coimbatore with thorough deep cleaning, sanitization services, and specialized cleaning solutions.",
+    metaTitle: "House Cleaning Services in Coimbatore - Freshen Up Your Space",
+    metaDescription: "",
     metaKeywords: [
       "House cleaning services in Coimbatore",
       "Cleaning services in Coimbatore",
       "Deep cleaning services Coimbatore",
     ],
 
-    name: "House Cleaning",
+    faqDatas: [
+      {
+        id: "cfd_1",
+        qus: "What makes AEJS INFO the best house cleaning service in Coimbatore?",
+        ans: "AEJS INFO is recognized for its professional staff, thorough cleaning methods, and customer satisfaction, ensuring a spotless home every time.",
+      },
+      {
+        id: "cfd_2",
+
+        qus: "What is the cost of house cleaning services at AEJS INFO?",
+        ans: "The cost of house cleaning services varies based on the size of the home and the specific cleaning tasks required. Contact us for a personalized quote.",
+      },
+      {
+        id: "cfd_3",
+
+        qus: "Do you offer cheap house cleaning services without compromising quality?",
+        ans: "Yes, we offer affordable house cleaning options designed to fit various budgets while maintaining high-quality service standards.",
+      },
+      {
+        id: "cfd_4",
+
+        qus: "Are kitchen and bathroom cleaning services included in your house cleaning packages?",
+        ans: "Yes, our house cleaning services include comprehensive kitchen and bathroom cleaning, ensuring these areas are thoroughly sanitized and sparkling clean.",
+      },
+    ],
+
+    name: "House Cleaning Services in Coimbatore",
     subTitle: "Protecting Your House",
     banner: securityBg,
     mainContent: {
-      title: "Why AEJS for security solutions?",
-      subTitle: "Our Security Solutions",
+      title: "Why AEJS for House Cleaning Services?",
+      subTitle: "Our House Cleaning Services",
       content:
-        "Deep Cleaning Services: Deep cleaning gives that new feel to your house and ensures that every corner is well-cleaned.",
+        "Deep Cleaning Services: Deep cleaning gives that new feel to your house and ensures that every corner is well-cleaned. Our house cleaning services in Coimbatore services offer thorough cleaning solutions tailored to your specific needs.",
       datas: [
         {
           title: "Routine Cleaning",
@@ -2220,7 +2330,7 @@ export const services = [
       trust: {
         title: "You Trust, We Clean",
         description:
-          "We provide a complete package of house cleaning services that help to clean the house thoroughly. Hire our special and professional staff that provides professional work with high quality products in order to make your house look perfect once again.",
+          "We provide a complete package of house cleaning services in Coimbatore that help to clean your home thoroughly. Hire our special and professional staff, who deliver high-quality work using the best products to make your house look perfect once again.",
       },
     },
     subMenu: [
@@ -2236,11 +2346,12 @@ export const services = [
 
         metaTitle: "Deep Cleaning Services Coimbatore",
         metaDescription:
-          "Top-Rated Deep Cleaning Services in Coimbatore delivering exceptional cleaning results for a healthier and cleaner environment.",
+          "Deep Cleaning Services in Coimbatore - Top-rated service delivering exceptional cleaning results for a healthier and cleaner environment.",
         metaKeywords: [
-          "Best Home Cleaning Services",
-          "Top-Rated Deep Cleaning Services in Coimbatore",
-          "Residential Deep Cleaning",
+          "Deep Cleaning Services in Coimbatore",
+          "House cleaning services in Coimbatore",
+          "Cleaning services in Coimbatore",
+          "Deep cleaning services Coimbatore",
         ],
         descriptions: [
           {
@@ -2248,7 +2359,7 @@ export const services = [
             content: [
               "House cleaning services in Coimbatore are important for ensuring cleanliness and hygiene of homes. Whether your residential area or apartment needs interior cleaning, routine maintenance, kitchen sanitation, or bathroom cleaning, professional house cleaning services in Coimbatore ensure that your space is spotless and welcoming. ",
               "This guarantees that your house will be well cleaned given the fact that thorough cleaning is well done by professionals and general cleaning is part of the cleaning prowess of experts. Mainly due to the fact that people nowadays barely have any time to do time-consuming tasks such as detailed cleaning.",
-              "That’s why professional house cleaning services in Coimbatore get you the best solutions that address your cleaning requirements. The services provided by house cleaning services in Coimbatore including the use of environmentally friendly cleaning products and careful approach to every detail guarantee the highest quality of the cleaning.",
+              "The services provided by house cleaning services in Coimbatore, including a deep cleaning services in Coimbatore, utilize environmentally friendly cleaning products and a meticulous approach to every detail, ensuring the highest quality of cleaning.",
             ],
           },
 
@@ -2258,7 +2369,7 @@ export const services = [
               "Cleaning services in Coimbatore are very essential in providing cleanliness within homes, offices, industries, and corporate sectors. These professional cleaning services in Coimbatore provide all your cleaning needs in house cleaning services in Coimbatore starting from the daily cleaning services to the specialized cleaning services. ",
               "Whether it is about cleaning houses, cleaning corporate offices or cleaning commercial spaces, cleaning services in Coimbatore provides excellent services. These services are very important in a city where due to several commitments people rarely have time for proper cleaning. ",
               "Cleaning services in Coimbatore offer quality cleaning services as per the client’s requirements and using the best technique available to clean every area of the residential parts, industrial segments, and corporate offices. ",
-              "Reliable cleaning services should be attained in Coimbatore for highest cleanliness standards to be achieved to enhance cleanliness environment. AEJSINFO provides quality cleaning services that provide results with perfect home cleaning by providing pristine living solutions.",
+              "Reliable cleaning services should be attained in Coimbatore for highest cleanliness standards to be achieved to enhance cleanliness environment. AEJS INFO provides quality cleaning services that provide results with perfect home cleaning by providing pristine living solutions.",
             ],
           },
           {
@@ -2266,7 +2377,7 @@ export const services = [
             content: [
               "Deep cleaning services Coimbatore are essential for maintaining a spotless and hygienic environment across various types of properties. Whether you need residential deep cleaning, commercial deep cleaning, or industrial deep cleaning, deep cleaning services Coimbatore offer specialized solutions to tackle every cleaning challenge. ",
               "These services cover a range of tasks, from thorough kitchen cleaning and bathroom sanitation to detailed carpet cleaning and upholstery care. In a city, where keeping up with cleanliness can be difficult, deep cleaning services Coimbatore provide an effective solution to ensure every corner is meticulously cleaned. ",
-              "With advanced cleaning techniques and eco-friendly products, deep cleaning services Coimbatore guarantee a high standard of cleanliness for homes, offices, and industrial facilities. Choose AEJSINFO for your deep cleaning needs in Coimbatore and experience unparalleled results and a perfectly pristine environment",
+              "With advanced cleaning techniques and eco-friendly products, deep cleaning services Coimbatore guarantee a high standard of cleanliness for homes, offices, and industrial facilities. Choose AEJS INFO for your deep cleaning services in Coimbatore and experience unparalleled results in a perfectly pristine environment.",
             ],
           },
         ],
@@ -2455,13 +2566,13 @@ export const services = [
           },
           {
             id: "cfd_6",
-            qus: "How does AEJSINFO ensure the best results for cheap bathroom and kitchen cleaning?",
-            ans: "AEJSINFO utilizes efficiency of cleaning staff, proper cleaning products, and cleaning procedures to offer high quality services in cleaning of both bathrooms and kitchens.",
+            qus: "How does AEJS INFO ensure the best results for cheap bathroom and kitchen cleaning?",
+            ans: "AEJS INFO utilizes efficiency of cleaning staff, proper cleaning products, and cleaning procedures to offer high quality services in cleaning of both bathrooms and kitchens.",
           },
           {
             id: "cfd_7",
-            qus: "What makes AEJSINFO one of the best house cleaning services in Coimbatore?",
-            ans: "AEJSINFO is one of the best house cleaning services in Coimbatore, known for its excellent reputation, extensive experience, and high-quality service. AEJSINFO ensures reliability and excellence.",
+            qus: "What makes AEJS INFO one of the best house cleaning services in Coimbatore?",
+            ans: "AEJS INFO is one of the best house cleaning services in Coimbatore, known for its excellent reputation, extensive experience, and high-quality service. AEJS INFO ensures reliability and excellence.",
           },
         ],
       },

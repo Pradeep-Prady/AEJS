@@ -21,7 +21,7 @@ const ServiceCard = ({ subItem, className, size }) => {
               width={50}
               height={50}
               src={subItem?.icon ?? logo}
-              alt={subItem?.title}
+              alt={`${subItem?.title}Image`}
             />
           </div>
         </div>

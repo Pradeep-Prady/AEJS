@@ -155,21 +155,39 @@ export default async function SubService({ params }) {
                     </div>
                   ))}
 
-{
-  params.subService === "deep-cleaning-coimbatore" &&
-  <div className="w-full my-5 md:my-10  p-5">
+                {params.subService === "deep-cleaning-coimbatore" && (
+                  <div className="w-full my-5 md:my-10  p-5">
+                    <p className="">
+                      When it comes to efficient house cleaning services in
+                      Coimbatore and professional deep cleaning services
+                      Coimbatore, AEJSINFO is the best option. Our qualified
+                      team guarantees that your spaces are not only clean but
+                      also hygienically cleaning to suit all your cleaning
+                      requirements.
+                    </p>
+                  </div>
+                )}
 
-  <p className="">
+                {params.subService === "skilled-labour-coimbatore" && (
+                  <div className="w-full my-5 md:my-10  p-5">
+                    <p className="">
+                      To support this industry, we offer skilled labour
+                      consultancy services Coimbatore, ensuring that the
+                      right professionals are matched with the specific needs of
+                      each project.
+                    </p>
+                  </div>
+                )}
 
-    
-When it comes to efficient house cleaning services in Coimbatore and professional deep cleaning services Coimbatore, AEJSINFO is the best option. Our qualified team guarantees that your spaces are not only clean but also hygienically cleaning to suit all your cleaning requirements.
-
-
-    </p>
-  </div>
-
-}
-             
+                {params.subService === "unskilled-labour-coimbatore" && (
+                  <div className="w-full my-5 md:my-10  p-5">
+                    <p className="">
+                      We provide comprehensive unskilled labour consultancy
+                      services Coimbatore to help businesses find reliable
+                      and dedicated workers for various tasks.
+                    </p>
+                  </div>
+                )}
 
                 <div className="my-3 p-2 md:p-5 flex items-center justify-center">
                   <a

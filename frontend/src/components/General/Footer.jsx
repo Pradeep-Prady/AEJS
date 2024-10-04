@@ -24,27 +24,65 @@ export const Footer = () => {
             src={logo}
           />
           <p className=" leading-7 ">
-            AEJSINFO stands as a one-stop for all your needs in Coimbatore since
-            the company was established to provide various services that cater
-            to all the client's needs. The services offered range from the
-            provision of reliable and comprehensive security solutions to
-            investigation services, or manpower consulting services.
+            AEJSINFO stands as a one-stop shop for all your needs in Coimbatore
+            since the company was established to provide various services that
+            cater to all the client's needs. The services offered range from the
+            provision of reliable and comprehensive security services in
+            Coimbatore to investigation services and manpower consulting
+            services.
           </p>
 
-          <div className={`flex  w-full gap-5 text-[22px] my-5`}>
-            <FaFacebook className="cursor-pointer hover:text-myGreen" />
-            <a href="https://x.com/aejsinfo">
-              <FaXTwitter className="cursor-pointer hover:text-myGreen" />
-            </a>
-            <a href="https://www.instagram.com/aejsinfo/">
-              <BsInstagram className="cursor-pointer hover:text-myGreen" />
-            </a>
-
-            <a href="https://www.linkedin.com/in/aejsinfo-security-services-b5714931b">
-              <FaLinkedin className="cursor-pointer hover:text-myGreen" />
-            </a>
-
-            <FaYoutube className="cursor-pointer hover:text-myGreen" />
+          <div className="flex w-full gap-5 text-[22px] my-5">
+            <Link
+              href="https://www.facebook.com/aejsinfo"
+              aria-label="Visit our Facebook page"
+            >
+              <FaFacebook
+                className="cursor-pointer hover:text-myGreen"
+                aria-hidden="true"
+              />
+              <span className="sr-only">Facebook</span>
+            </Link>
+            <Link
+              href="https://x.com/aejsinfo"
+              aria-label="Visit our Twitter page"
+            >
+              <FaXTwitter
+                className="cursor-pointer hover:text-myGreen"
+                aria-hidden="true"
+              />
+              <span className="sr-only">Twitter</span>
+            </Link>
+            <Link
+              href="https://www.instagram.com/aejsinfo/"
+              aria-label="Visit our Instagram profile"
+            >
+              <BsInstagram
+                className="cursor-pointer hover:text-myGreen"
+                aria-hidden="true"
+              />
+              <span className="sr-only">Instagram</span>
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/aejsinfo-security-services-b5714931b"
+              aria-label="Visit our LinkedIn profile"
+            >
+              <FaLinkedin
+                className="cursor-pointer hover:text-myGreen"
+                aria-hidden="true"
+              />
+              <span className="sr-only">LinkedIn</span>
+            </Link>
+            <Link
+              href="https://www.youtube.com/channel/aejsinfo"
+              aria-label="Visit our YouTube channel"
+            >
+              <FaYoutube
+                className="cursor-pointer hover:text-myGreen"
+                aria-hidden="true"
+              />
+              <span className="sr-only">YouTube</span>
+            </Link>
           </div>
         </div>
         <div className="flex w-full lg:w-[40%]   flex-col items-start justify-start relative h-full ">
@@ -137,8 +175,8 @@ export const Footer = () => {
                 </div>
 
                 <div className="w-10/12 flex items-start flex-col gap-2">
-                  <h6 className="  w-9/12 md:text-[16px]  ">+91 9944580798</h6>
-                  <h6 className=" w-9/12  md:text-[16px]  ">+91 9500475798</h6>
+                  <p className="  w-9/12 md:text-[16px]  ">+91 9944580798</p>
+                  <p className=" w-9/12  md:text-[16px]  ">+91 9500475798</p>
                 </div>
               </div>
 
@@ -150,7 +188,7 @@ export const Footer = () => {
                 </div>
 
                 <h6 className="  w-10/12 md:text-[16px]  ">
-                  aejsinfo@gmail.com
+                  aejsinfoservices@gmail.com
                 </h6>
               </div>
 
@@ -162,8 +200,9 @@ export const Footer = () => {
                 </div>
 
                 <h6 className="  w-10/12 md:text-[16px]   ">
-                  No 97 , 5 th Street Extension , Gandhipuram , Coimbatore -
-                  641012
+                  AEJS INFO SERVICES PVT LTD, 97, DAS Complex, 5th Street
+                  Extension, 100 feet road, Behind Kalyan Jewellers, Coimbatore
+                  - 641 012
                 </h6>
               </div>
             </div>

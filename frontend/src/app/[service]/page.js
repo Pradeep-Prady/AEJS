@@ -12,22 +12,20 @@ import NeedHelp from "@/components/UI/NeedHelp";
 import MainNavbar from "@/components/General/MainNavbar";
 import NotFound from "@/components/UI/NotFound";
 import React from "react";
+import FAQ from "@/components/General/FAQ";
 
 export async function generateMetadata({ params }) {
   const service = services.find((s) => s.id === params.service);
 
   return {
     title: service?.metaTitle,
-    description: service
-      ? `Details about ${service.name}`
-      : "Service details not found",
-    keywords: "keyword1, kkeuy2",
+    description: service?.metaDescription,
+    keywords: [service?.metaKeywords],
   };
 }
 
 export default async function Page({ params }) {
   const service = services.find((s) => s.id === params.service);
-
   if (!service) return <NotFound />;
 
   return (
@@ -53,8 +51,12 @@ export default async function Page({ params }) {
           />
           <div className="myPadX my-10 flex flex-col items-center justify-center">
             <div className="text-[34px] font-semibold text-center flex items-center justify-center gap-2">
-              <h3 className="text-primary">{service?.mainContent?.trust?.title.split(',')[0]} </h3>
-              <h3 className="text-myLG">{service?.mainContent?.trust?.title.split(',')[1]} </h3>
+              <h3 className="text-primary">
+                {service?.mainContent?.trust?.title.split(",")[0]}{" "}
+              </h3>
+              <h3 className="text-myLG">
+                {service?.mainContent?.trust?.title.split(",")[1]}{" "}
+              </h3>
             </div>
             <p className="text-[#414141] w-full md:w-6/12 text-center leading-7 text-[18px] my-2">
               {service?.mainContent?.trust?.description}
@@ -80,6 +82,9 @@ export default async function Page({ params }) {
             ))}
           </div>
           <NeedHelp />
+
+          <FAQ name={service?.name} faqs={service?.faqDatas} />
+
           <ServicesIconCard service={service} />
 
           <Solutions

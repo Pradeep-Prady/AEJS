@@ -186,9 +186,9 @@ const Certificates = ({ certificate }) => {
         </h3>
 
         <div>
-          <h5 className="text-[18px] w-11/12 font-semibold my-1">
+          <p className="text-[18px] w-11/12 font-semibold my-1">
             {certificatesData[certificate]?.mainContent}
-          </h5>
+          </p>
         </div>
 
         {certificatesData[certificate]?.contents?.map((cert, index) => (

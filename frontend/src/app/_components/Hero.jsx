@@ -1,5 +1,5 @@
 import React from "react";
-import heroBanner from "/public/assets/home/hero-banner.png";
+import heroBanner from "/public/assets/home/hero-banner.webp";
 import ScrollDownButton from "@/components/UI/ScrollDownButton";
 import ButtonWithArrow from "@/components/UI/ButtonWithArrow";
 
@@ -15,7 +15,8 @@ export const Hero = () => {
           Truth uncovered. Security delivered.
         </h1>
         <h2 className="text-[15px] md:text-[20px] font-semibold text-center my-7">
-          When security feels uncertain, trust us to bring peace of mind.
+          When security feels uncertain, trust us to bring peace of mind with
+          our expert security services in Coimbatore.
         </h2>
         <ButtonWithArrow
           link="/contact-us"
